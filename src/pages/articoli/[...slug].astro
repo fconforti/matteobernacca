@@ -45,15 +45,16 @@ const jsonLd = {
   <article class="article">
     <header>
       <a class="back" href={href('/articoli/')}>← Articoli</a>
-      <h1>{title}</h1>
-      <p class="lead">{description}</p>
-      <div class="meta">
-        <span>di <a href={href('/chi-sono/')}>{site.name}</a>, osteopata</span>
-        <span class="dot">·</span>
+      <div class="meta meta-top">
         <FormattedDate date={pubDate} />
         {updatedDate && <><span class="dot">·</span><span>aggiornato il <FormattedDate date={updatedDate} /></span></>}
         <span class="dot">·</span>
         <span>{minutes}</span>
+      </div>
+      <h1>{title}</h1>
+      <p class="lead">{description}</p>
+      <div class="meta">
+        <span>di <a href={href('/chi-sono/')}>{site.name}</a>, osteopata in {site.area}</span>
       </div>
     </header>
     <div class="content">

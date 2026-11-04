@@ -8,14 +8,14 @@ import { site, href } from '../site';
 
 const posts = (await getCollection('articoli', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 6);
+  .slice(0, 8);
 ---
 
 <Base>
   <section class="hero">
     <div>
-      <span class="eyebrow">Trattamenti osteopatici</span>
-      <h1>Osteopata a {site.contact.city}, <em>in {site.area}</em></h1>
+      <span class="eyebrow">Osteopata a {site.contact.city} · {site.area}</span>
+      <h1>Un osteopata in Versilia, per chi ci vive <em>e per chi è in vacanza</em></h1>
       <p class="lead">{`Sono Matteo Bernacca, osteopata. Ricevo a ${site.contact.city} e seguo persone di ${site.towns.slice(1, 4).join(', ')} e di tutta la Versilia, oltre a chi è qui in vacanza e cerca un percorso breve.`}</p>
       <div class="actions">
         <a class="btn" href={href('/chi-sono/#contatti')}>Prenota una prima visita</a>
