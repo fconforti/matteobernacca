@@ -3,6 +3,7 @@ title: "Che cos'è l'osteopatia, spiegata con parole semplici"
 description: "L'osteopatia spiegata a chi non la conosce: cosa fa l'osteopata, su cosa lavora, per quali problemi ha senso e cosa aspettarsi dalla prima seduta."
 pubDate: 2026-09-15
 tags: [basi]
+related: [come-funziona-una-seduta-dall-osteopata, osteopata-fisioterapista-chiropratico-differenze]
 ---
 
 Quando dico che sono osteopata, la domanda che mi fanno più spesso è: «Quindi sei una specie di fisioterapista?». No, sono due professioni diverse, anche se spesso lavorano insieme. In questo articolo spiego che cosa fa l'osteopata.

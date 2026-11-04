@@ -3,6 +3,7 @@ title: "Quante sedute servono dall'osteopata? Come si costruisce un percorso"
 description: "Una, tre, dieci? Quante sedute osteopatiche servono davvero, a che distanza, e come capire se il percorso sta funzionando."
 pubDate: 2026-10-20
 tags: [basi, percorso]
+related: [come-funziona-una-seduta-dall-osteopata, osteopata-in-vacanza-in-versilia]
 ---
 
 È una delle domande più frequenti alla fine della prima visita. La risposta dipende da diversi fattori, ma si possono dare dei numeri indicativi.

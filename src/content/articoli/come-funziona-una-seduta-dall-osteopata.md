@@ -3,6 +3,7 @@ title: "Come funziona una seduta dall'osteopata: cosa aspettarsi la prima volta"
 description: "Dal colloquio al trattamento: cosa succede davvero durante una prima visita osteopatica, quanto dura, cosa portare e come ci si sente dopo."
 pubDate: 2026-09-22
 tags: [basi, prima-visita]
+related: [quante-sedute-servono-dall-osteopata, che-cos-e-l-osteopatia]
 ---
 
 Molte persone rimandano la prima visita dall'osteopata perché non sanno cosa aspettarsi. Fa male? Devo spogliarmi? Quanto dura? Qui racconto, passo per passo, come si svolge una seduta nel mio studio a Pietrasanta. Altri osteopati possono lavorare in modo un po' diverso, ma la struttura è più o meno questa ovunque.

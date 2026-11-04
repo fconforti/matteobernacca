@@ -5,11 +5,12 @@ import FormattedDate from './FormattedDate.astro';
 
 interface Props {
   posts: CollectionEntry<'articoli'>[];
+  columns?: 2 | 4;
 }
-const { posts } = Astro.props;
+const { posts, columns = 4 } = Astro.props;
 ---
 
-<ul class="cards">
+<ul class:list={['cards', { 'cards-2': columns === 2 }]}>
   {posts.map((post) => (
     <li class="card">
       <a href={href(`/articoli/${post.id}/`)}>

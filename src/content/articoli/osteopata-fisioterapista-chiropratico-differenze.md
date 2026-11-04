@@ -3,6 +3,7 @@ title: "Osteopata, fisioterapista o chiropratico? Le differenze spiegate semplic
 description: "Tre professioni che si confondono spesso. Cosa fa ciascuna, quando ha senso scegliere l'una o l'altra e perché a volte lavorano insieme."
 pubDate: 2026-09-29
 tags: [basi]
+related: [che-cos-e-l-osteopatia, quando-andare-dall-osteopata-e-quando-no]
 ---
 
 «Ho mal di schiena: vado dall'osteopata, dal fisioterapista o dal chiropratico?» È una domanda che sento ogni settimana, e la confusione è comprensibile: tutte e tre le figure lavorano con le mani su muscoli e articolazioni. Ma partono da idee diverse e, nella pratica, fanno cose diverse.
