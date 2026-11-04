@@ -18,5 +18,5 @@ npm run build    # output in dist/
 - **Contatti, orari, indirizzo, città servite**: `src/site.ts` (i contatti attuali sono segnaposto).
 - **Foto**: metti `public/matteo.jpg` e segui il commento in `src/components/Photo.astro`.
 - **Testo "Chi sono"**: `src/pages/chi-sono.astro`.
-- **Articoli**: un file Markdown in `src/content/blog/`, con frontmatter `title`, `description`, `pubDate`, `tags`; `draft: true` lo nasconde. Il nome del file è lo slug dell'URL.
+- **Articoli**: un file Markdown in `src/content/articoli/`, con frontmatter `title`, `description`, `pubDate`, `tags`; `draft: true` lo nasconde. Il nome del file è lo slug dell'URL.
 - **Dominio personalizzato**: in `astro.config.mjs` imposta `site` al dominio, togli `base`, aggiungi `public/CNAME` e aggiorna `public/robots.txt`.

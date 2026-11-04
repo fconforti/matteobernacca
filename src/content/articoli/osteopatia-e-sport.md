@@ -11,9 +11,9 @@ La Versilia è un posto dove ci si muove: si corre sul lungomare da Viareggio a 
 
 Non è l'infortunio grave: per quello ci sono il medico e il fisioterapista. È il **fastidio che torna**: il ginocchio che inizia a tirare dopo dieci chilometri, la spalla che a fine allenamento di nuoto brucia, la schiena che si blocca ogni due mesi in bici, il gomito del padel.
 
-Il copione è sempre lo stesso: fermo una settimana, passa, riprendo, torna. E ogni volta un po' prima.
+Spesso succede così: ci si ferma una settimana, il dolore passa, si riprende ad allenarsi e dopo un po' torna.
 
-Quando un dolore torna sempre nello stesso punto, di solito è perché quel punto **sta lavorando al posto di un altro**. Non è il ginocchio il problema; è l'anca che non ruota abbastanza, o il piede che non si appoggia bene, e il ginocchio, in mezzo, paga il conto.
+Quando un dolore torna sempre nello stesso punto, di solito è perché quel punto **sta lavorando al posto di un altro**. Non è il ginocchio il problema; è l'anca che non ruota abbastanza, o il piede che non si appoggia bene, e il ginocchio si sovraccarica.
 
 ## Cosa fa l'osteopata per chi fa sport
 
@@ -37,12 +37,12 @@ Quando un dolore torna sempre nello stesso punto, di solito è perché quel punt
 
 **Surf e sup.** Lombare e collo per il paddling, spalle per la remata. Chi lo fa solo d'estate arriva al primo giorno senza preparazione: le prime sedute servono a sbloccare quello che si è irrigidito.
 
-## Una storia
+## Un esempio
 
-Un runner di Lido di Camaiore, 42 anni, preparava la maratona. Da due mesi dolore al ginocchio destro oltre i 12 km. Esami puliti. Nella valutazione l'anca destra ruotava molto meno della sinistra, e stava su una gamba sola molto peggio a destra. Tre sedute sull'anca e sul bacino, un paio di esercizi di stabilità, e il ginocchio ha smesso di farsi sentire. Ha corso la maratona.
+Un runner di Lido di Camaiore, 42 anni, preparava la maratona. Da due mesi dolore al ginocchio destro oltre i 12 km. Esami puliti. Nella valutazione l'anca destra ruotava molto meno della sinistra, e stava su una gamba sola molto peggio a destra. Tre sedute sull'anca e sul bacino, un paio di esercizi di stabilità, e il ginocchio ha smesso di farsi sentire. A ottobre ha corso la maratona senza problemi.
 
 ## Prevenzione: ha senso?
 
 Per chi si allena regolarmente, sì. Un controllo ogni due o tre mesi, prima che qualcosa faccia male, permette di trovare le rigidità che si stanno accumulando e di sistemarle in una seduta invece che in cinque. Non è obbligatorio e non lo propongo a tutti, ma per chi ha carichi importanti è un buon investimento.
 
-Ricevo a Pietrasanta, in Versilia. Se il tuo corpo si lamenta ogni volta che fai quello che ti piace, [scrivimi](../../chi-sono/): troviamo il perché.
+Ricevo a Pietrasanta, in Versilia. Se hai un fastidio che torna durante lo sport, [scrivimi](../../chi-sono/) e fissiamo una valutazione.

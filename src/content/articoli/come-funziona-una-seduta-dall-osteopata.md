@@ -24,7 +24,7 @@ La seduta inizia parlando. Ti chiedo:
 - se hai avuto altri problemi in passato, anche lontani: una distorsione da ragazzo, un intervento, una gravidanza;
 - che lavoro fai, che sport pratichi, come dormi.
 
-Questa parte sembra una chiacchierata, ma è la base di tutto. Un esempio: un signore di Camaiore venne da me per un dolore al ginocchio sinistro. Durante il colloquio mi disse che da vent'anni, quando guida, tiene il piede sinistro appoggiato in un modo strano «perché così sto più comodo». Quel dettaglio, buttato lì per caso, spiegava molto più della risonanza.
+Da queste risposte parte tutto il resto. Un esempio: un signore di Camaiore venne da me per un dolore al ginocchio sinistro. Durante il colloquio mi disse che da vent'anni, quando guida, tiene il piede sinistro appoggiato in un modo strano «perché così sto più comodo». Quel dettaglio è stato utile quanto la risonanza per capire il problema.
 
 ## 2. La valutazione (10-15 minuti)
 
@@ -41,19 +41,19 @@ Qui dipende tutto da cosa ho trovato e da chi sei. Le tecniche che uso più spes
 - **Mobilizzazioni articolari**: muovo lentamente un'articolazione nelle direzioni in cui è rigida, per restituirle ampiezza.
 - **Tecniche sui tessuti molli**: pressioni e allungamenti su muscoli e fasce, un po' simili a un massaggio ma mirati.
 - **Tecniche di manipolazione**: movimenti rapidi e precisi, quelli che a volte producono il classico «crack». Le uso solo quando servono e solo se sei d'accordo. Molte persone non le ricevono mai.
-- **Tecniche delicate**: pressioni leggere, tenute per qualche decina di secondi, che lavorano sul sistema nervoso e sulla tensione generale. Dall'esterno sembra che non stia facendo nulla, ma funzionano.
+- **Tecniche delicate**: pressioni leggere, tenute per qualche decina di secondi, che lavorano sul sistema nervoso e sulla tensione generale. Dall'esterno possono sembrare poca cosa, ma hanno un effetto preciso.
 
 Regola fissa: nessuna tecnica deve fare male. Un po' di fastidio può capitare quando si lavora su una zona molto tesa, ma se senti dolore vero me lo dici e cambiamo approccio.
 
 ## 4. Le conclusioni (5 minuti)
 
-Ti spiego cosa ho trovato, in parole normali. Ti dico se ha senso continuare, quante sedute servono indicativamente e a che distanza. A volte ti do uno o due esercizi semplici da fare a casa, o un consiglio su come sistemare la postazione di lavoro. A volte ti dico che, secondo me, prima devi vedere un medico o fare un esame: succede, e preferisco dirtelo subito.
+Ti spiego cosa ho trovato, in parole normali. Ti dico se ha senso continuare, quante sedute servono indicativamente e a che distanza. A volte ti do uno o due esercizi semplici da fare a casa, o un consiglio su come sistemare la postazione di lavoro. A volte ti dico che, secondo me, prima devi vedere un medico o fare un esame: può capitare, e in quel caso te lo dico subito.
 
 ## Come ci si sente dopo
 
 Dipende. Molte persone escono più leggere e con più movimento. Altre, nelle 24-48 ore successive, sentono una stanchezza diffusa o un indolenzimento simile a quello dopo una sessione di ginnastica: è normale e passa da solo. Bevi acqua, muoviti con calma, non fare sforzi intensi lo stesso giorno.
 
-Se qualcosa ti preoccupa, chiamami: preferisco una telefonata in più che un dubbio in meno.
+Se qualcosa ti preoccupa, chiamami.
 
 ## Quanto dura, in tutto
 

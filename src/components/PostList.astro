@@ -1,22 +1,27 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { href } from '../site';
+import { readingTime } from '../reading-time';
 import FormattedDate from './FormattedDate.astro';
 
 interface Props {
-  posts: CollectionEntry<'blog'>[];
-  heading?: 'h2' | 'h3';
+  posts: CollectionEntry<'articoli'>[];
 }
-const { posts, heading = 'h2' } = Astro.props;
-const Heading = heading;
+const { posts } = Astro.props;
 ---
 
-<ul class="post-list">
+<ul class="cards">
   {posts.map((post) => (
-    <li>
-      <Heading><a href={href(`/blog/${post.id}/`)}>{post.data.title}</a></Heading>
-      <p>{post.data.description}</p>
-      <div class="meta"><FormattedDate date={post.data.pubDate} /></div>
+    <li class="card">
+      <a href={href(`/articoli/${post.id}/`)}>
+        <h3 class="title">{post.data.title}</h3>
+        <p class="desc">{post.data.description}</p>
+        <div class="meta">
+          <FormattedDate date={post.data.pubDate} />
+          <span class="dot">·</span>
+          <span>{readingTime(post.body)}</span>
+        </div>
+      </a>
     </li>
   ))}
 </ul>

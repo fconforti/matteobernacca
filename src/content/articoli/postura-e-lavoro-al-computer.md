@@ -5,17 +5,15 @@ pubDate: 2026-11-01
 tags: [postura, lavoro]
 ---
 
-Una buona parte delle persone che entrano nel mio studio lavora seduta: uffici, smart working, partite IVA al tavolo della cucina. I sintomi sono sempre gli stessi: collo rigido, spalle contratte, schiena bassa che tira a fine giornata, a volte formicolio alle mani. E tutti arrivano con lo stesso senso di colpa: «ho una brutta postura».
+Una buona parte delle persone che entrano nel mio studio lavora seduta: uffici, smart working, partite IVA al tavolo della cucina. I sintomi sono sempre gli stessi: collo rigido, spalle contratte, schiena bassa che tira a fine giornata, a volte formicolio alle mani. E molti arrivano convinti di avere «una brutta postura».
 
-Vorrei togliere subito quel senso di colpa.
-
-## La verità sulla postura
+## Esiste una postura corretta?
 
 Non esiste la postura perfetta. Esiste la postura **tenuta troppo a lungo**. Puoi stare seduto nel modo più corretto del mondo: se non ti muovi per tre ore, i muscoli si stancano, le articolazioni si irrigidiscono e qualcosa inizia a dolere.
 
 Il corpo è fatto per cambiare posizione in continuazione. Il problema del lavoro al computer non è *come* stai seduto, ma che stai seduto *sempre nello stesso modo*.
 
-Questo cambia completamente l'approccio: non devi trovare la posizione giusta, devi trovare il modo di cambiarla spesso.
+Quindi, più che cercare la posizione giusta, conviene cambiarla spesso.
 
 ## Perché fa male proprio lì
 
@@ -31,9 +29,9 @@ Questo cambia completamente l'approccio: non devi trovare la posizione giusta, d
 
 Il trattamento lavora sulle zone che si sono irrigidite: la parte alta della schiena (che nei lavoratori seduti è quasi sempre bloccata), il collo, le spalle, il bacino, il diaframma. L'obiettivo è ridare al corpo il movimento che le ore di sedia gli hanno tolto, in modo che la giornata lavorativa pesi su un sistema più libero.
 
-Ma devo essere onesto: se tratto la tua schiena e tu torni alla stessa postazione per otto ore al giorno, il beneficio dura pochi giorni. Per questo nella prima seduta dedico sempre del tempo a come è fatta la tua postazione. Spesso bastano due modifiche per cambiare la situazione.
+Va detto però che, se tratto la tua schiena e tu torni alla stessa postazione per otto ore al giorno, il beneficio dura pochi giorni. Per questo nella prima seduta dedico sempre del tempo a come è fatta la tua postazione. Spesso bastano due modifiche per cambiare la situazione.
 
-## La postazione: cinque cose che contano davvero
+## Come sistemare la postazione
 
 1. **Lo schermo all'altezza degli occhi.** Se usi un portatile, serve un supporto (va bene anche una pila di libri) e una tastiera e un mouse esterni. Questa è la modifica più importante di tutte.
 2. **I gomiti a 90 gradi**, appoggiati o vicini al corpo. Se la scrivania è alta, alza la sedia e metti qualcosa sotto i piedi.
@@ -41,19 +39,17 @@ Ma devo essere onesto: se tratto la tua schiena e tu torni alla stessa postazion
 4. **Il telefono non tra orecchio e spalla.** Auricolari o vivavoce.
 5. **Luce e vista.** Se strizzi gli occhi per leggere, allunghi il collo in avanti. Aumenta il carattere, controlla la vista.
 
-## E poi: muoviti
+## Muoversi durante la giornata
 
 Più delle regole sulla postazione, conta questo:
 
 - **Alzati ogni 30-40 minuti**, anche solo per un minuto. Metti un timer. Vai a prendere l'acqua, guarda fuori dalla finestra.
 - **Cambia posizione** anche da seduto: appoggiati indietro, piegati in avanti, accavalla, scavalla.
 - **Due minuti di mobilità** un paio di volte al giorno: cerchi con le spalle, rotazioni del busto, qualche piegamento in avanti.
-- **Cammina** almeno mezz'ora al giorno. In Versilia abbiamo il lungomare e la pineta, non ci sono scuse.
+- **Cammina** almeno mezz'ora al giorno. In Versilia il lungomare e la pineta sono comodi per farlo.
 
 ## Un esempio
 
 Un'avvocata di Pietrasanta, 38 anni, smart working da tre anni al tavolo della cucina con il portatile. Collo, spalle e mal di testa quotidiano. Parte alta della schiena completamente bloccata. Tre sedute, un supporto per il portatile da venti euro, una tastiera esterna e un timer sul telefono ogni quaranta minuti. Dopo un mese: «Non mi ricordo l'ultimo mal di testa».
 
-Niente di magico. Un corpo sbloccato più una giornata che non lo blocca di nuovo.
-
-Se il tuo lavoro ti sta costando la schiena, [contattami](../../chi-sono/): ricevo a Pietrasanta e seguo persone da tutta la Versilia.
+Se vuoi fissare una visita, [qui trovi i contatti](../../chi-sono/): ricevo a Pietrasanta e seguo persone da tutta la Versilia.

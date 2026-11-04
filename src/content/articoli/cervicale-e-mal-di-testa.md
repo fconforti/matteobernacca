@@ -11,7 +11,7 @@ tags: [cervicale, mal-di-testa]
 
 ## Perché il collo e la testa sono collegati
 
-Il collo sostiene la testa, che pesa tra i quattro e i cinque chili. Quando la testa è allineata sopra le spalle, i muscoli del collo fanno poca fatica. Quando è spostata in avanti, come succede guardando uno schermo, il carico sui muscoli della nuca aumenta molto. Fai la prova: tieni un sacchetto da cinque chili vicino al corpo, poi allunga il braccio. È la stessa differenza.
+Il collo sostiene la testa, che pesa tra i quattro e i cinque chili. Quando la testa è allineata sopra le spalle, i muscoli del collo fanno poca fatica. Quando è spostata in avanti, come succede guardando uno schermo, il carico sui muscoli della nuca aumenta molto. È come tenere un sacchetto da cinque chili vicino al corpo oppure a braccio teso: il peso è lo stesso, ma la fatica è molto diversa.
 
 I muscoli della nuca, tenuti in tensione per ore, iniziano a dolere. E quel dolore, per come sono fatti i nervi di quella zona, viene spesso sentito **dietro la testa, sopra l'occhio, alla tempia**. È il cosiddetto mal di testa cervicogenico o tensivo: parte dal collo, ma lo senti alla testa.
 
@@ -40,7 +40,7 @@ Il trattamento lavora sul collo, certo, ma soprattutto su quello che lo costring
 
 ## Cosa puoi fare tu
 
-- **Alza lo schermo** all'altezza degli occhi. Se usi un portatile, un supporto e una tastiera esterna cambiano tutto.
+- **Alza lo schermo** all'altezza degli occhi. Se usi un portatile, un supporto e una tastiera esterna fanno una grande differenza.
 - **Telefono all'altezza del viso**, non in grembo.
 - **Ogni ora, trenta secondi**: gira lentamente la testa a destra e a sinistra, poi su e giù, poi fai qualche cerchio con le spalle.
 - **Respira con la pancia** qualche volta al giorno: inspira e lascia che si gonfi l'addome, non le spalle.
@@ -48,6 +48,6 @@ Il trattamento lavora sul collo, certo, ma soprattutto su quello che lo costring
 
 ## Quando fare attenzione
 
-Se il mal di testa è il «peggiore della tua vita», è arrivato all'improvviso come un colpo, si accompagna a febbre, confusione, vomito, disturbi della vista o della parola: pronto soccorso, non osteopata. Sono casi rari, ma vanno detti.
+Se il mal di testa è il «peggiore della tua vita», è arrivato all'improvviso come un colpo, si accompagna a febbre, confusione, vomito, disturbi della vista o della parola: pronto soccorso, non osteopata. Sono casi rari.
 
-Per tutto il resto, se il tuo collo è stanco di reggere la testa da solo, [contattami](../../chi-sono/): ricevo a Pietrasanta, in Versilia.
+Per tutto il resto, se vuoi una valutazione, [qui trovi i contatti](../../chi-sono/): ricevo a Pietrasanta, in Versilia.

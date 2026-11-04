@@ -11,7 +11,7 @@ Negli ultimi anni ho organizzato per queste persone percorsi brevi e concentrati
 
 ## Perché la vacanza è un buon momento
 
-Sembra strano, ma è così, per tre motivi.
+I motivi sono tre.
 
 **Hai tempo.** A casa, tra lavoro e famiglia, trovare tre sedute in due settimane è difficile. In vacanza è facile.
 
@@ -44,12 +44,10 @@ Non ha senso, invece, se il problema richiede un lavoro lungo e continuativo o s
 
 Una coppia di Milano, in affitto a Marina di Pietrasanta per tre settimane. Lui, 50 anni, dolore lombare da un anno, «ci convivo». Lei, 48, mal di testa da collo quasi ogni sera. Due sedute ciascuno la prima e la seconda settimana, una terza prima di partire. Lui ha ripreso a dormire supino senza svegliarsi; lei ha avuto, nelle ultime dieci sere, due mal di testa invece di dieci. Sono tornati a casa con tre esercizi a testa e un consiglio sul cuscino. L'estate dopo sono ripassati per un controllo.
 
-Niente miracoli: lavoro normale, fatto nel momento giusto.
-
 ## Dove ricevo
 
 Lo studio è a **Pietrasanta**, a pochi minuti da Forte dei Marmi, Marina di Pietrasanta, Lido di Camaiore e Camaiore, e a un quarto d'ora da Viareggio. È comodo anche per chi sta a Seravezza, Massarosa o sulle colline.
 
 Nei mesi estivi tengo qualche posto libero ogni settimana per chi è in vacanza, ma conviene scrivere con qualche giorno di anticipo. Un messaggio WhatsApp basta: mi dici quanto stai, qual è il problema e troviamo il modo migliore di usare il tempo che hai.
 
-[Qui trovi i contatti](../../chi-sono/). Buona vacanza, e buona schiena.
+[Qui trovi i contatti](../../chi-sono/).

@@ -7,7 +7,7 @@ tags: [basi]
 
 «Ho mal di schiena: vado dall'osteopata, dal fisioterapista o dal chiropratico?» È una domanda che sento ogni settimana, e la confusione è comprensibile: tutte e tre le figure lavorano con le mani su muscoli e articolazioni. Ma partono da idee diverse e, nella pratica, fanno cose diverse.
 
-Provo a spiegarlo senza tecnicismi e senza tirare acqua al mio mulino.
+Qui spiego in breve che cosa fa ciascuna.
 
 ## Il fisioterapista
 
@@ -15,7 +15,7 @@ Il fisioterapista è un professionista sanitario laureato che si occupa di **ria
 
 Usa le mani, ma anche esercizi, macchinari (tecar, laser, ultrasuoni) ed educazione del paziente. Lavora di solito su prescrizione medica e segue protocolli precisi.
 
-**Esempio:** ti sei rotto il polso, hai tenuto il gesso un mese, ora non riesci a girare la mano. Il fisioterapista ti aiuta a recuperare movimento e forza con un programma di esercizi progressivi. Questo è il suo lavoro, e lo fa meglio di chiunque altro.
+**Esempio:** ti sei rotto il polso, hai tenuto il gesso un mese, ora non riesci a girare la mano. Il fisioterapista ti aiuta a recuperare movimento e forza con un programma di esercizi progressivi. È il suo ambito specifico.
 
 ## Il chiropratico
 
@@ -52,10 +52,10 @@ Una regola pratica:
 - **Hai un dolore che va e viene da tempo**, gli esami sono a posto e nessuno ti ha dato una spiegazione convincente? L'**osteopata** è una buona scelta.
 - **Hai un blocco acuto della schiena** e cerchi un intervento rapido sulla colonna? Il **chiropratico** o l'osteopata.
 
-E spesso la risposta è «più di uno». Mi capita di seguire persone in parallelo con un fisioterapista: lui lavora sul recupero della forza, io sulle tensioni e sugli adattamenti del resto del corpo. Funziona bene.
+A volte serve più di una figura. Mi capita di seguire persone in parallelo con un fisioterapista: lui lavora sul recupero della forza, io sulle tensioni e sugli adattamenti del resto del corpo.
 
 ## Un ultimo consiglio
 
-Più della sigla conta la persona. Un buon professionista, qualunque sia il titolo, ti ascolta, ti spiega cosa sta facendo, non promette miracoli e ti dice quando non è lui quello che ti serve.
+Al di là del titolo, un buon professionista, qualunque sia il titolo, ti ascolta, ti spiega cosa sta facendo, non promette risultati che non può garantire e ti dice quando non è lui quello che ti serve.
 
 Se vuoi capire se l'osteopatia è la strada giusta per il tuo caso, [scrivimi](../../chi-sono/): ricevo a Pietrasanta e seguo persone da tutta la Versilia, da Forte dei Marmi a Viareggio.

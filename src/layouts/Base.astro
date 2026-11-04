@@ -80,13 +80,14 @@ const ld = jsonLd ?? personLd;
     <header class="header">
       <div class="wrap">
         <a class="brand" href={href('/')}>
-          {site.name}
-          <small>{site.profession} in {site.area}</small>
+          <strong>{site.name}</strong>
+          <span>{site.profession} in {site.area}</span>
         </a>
         <nav class="nav" aria-label="Principale">
           <a href={href('/')} aria-current={isActive('/') ? 'page' : undefined}>Home</a>
-          <a href={href('/blog/')} aria-current={isActive('/blog') ? 'page' : undefined}>Blog</a>
-          <a href={href('/chi-sono/')} aria-current={isActive('/chi-sono') ? 'page' : undefined}>Chi sono e contatti</a>
+          <a href={href('/articoli/')} aria-current={isActive('/articoli') ? 'page' : undefined}>Articoli</a>
+          <a href={href('/chi-sono/')} aria-current={isActive('/chi-sono') ? 'page' : undefined}>Chi sono</a>
+          <a class="nav-cta" href={href('/chi-sono/#contatti')}>Prenota</a>
         </nav>
       </div>
     </header>
@@ -99,10 +100,16 @@ const ld = jsonLd ?? personLd;
 
     <footer class="footer">
       <div class="wrap">
-        <span>© {new Date().getFullYear()} {site.name} · {site.profession} · {site.contact.city} ({site.contact.province}), {site.area}</span>
-        <span>
-          <a href={href('/chi-sono/')}>Contatti</a> · <a href={href('/rss.xml')}>RSS</a>
-        </span>
+        <div>
+          <strong>{site.name}</strong>
+          {site.profession} · {site.contact.city} ({site.contact.province}), {site.area}
+        </div>
+        <nav aria-label="Footer">
+          <a href={href('/articoli/')}>Articoli</a>
+          <a href={href('/chi-sono/')}>Chi sono</a>
+          <a href={href('/chi-sono/#contatti')}>Contatti</a>
+          <a href={href('/rss.xml')}>RSS</a>
+        </nav>
       </div>
     </footer>
   </body>

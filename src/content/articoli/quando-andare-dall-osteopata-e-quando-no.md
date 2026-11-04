@@ -1,11 +1,11 @@
 ---
 title: "Quando andare dall'osteopata (e quando no)"
-description: "I casi in cui l'osteopatia è una buona scelta, quelli in cui serve prima un medico e i segnali da non ignorare. Una guida onesta per decidere."
+description: "I casi in cui l'osteopatia è una buona scelta, quelli in cui serve prima un medico e i segnali da non ignorare."
 pubDate: 2026-11-04
 tags: [basi]
 ---
 
-Un buon osteopata dovrebbe saper dire anche «questo non è un caso per me». In questo articolo provo a spiegare quando ha senso venire in studio, quando è meglio prima passare dal medico, e quali segnali non vanno mai ignorati. Lo scrivo perché lo ritengo parte del mio lavoro, non un modo per perdere pazienti.
+In questo articolo provo a spiegare quando ha senso venire in studio, quando è meglio prima passare dal medico, e quali segnali non vanno mai ignorati.
 
 ## Quando l'osteopatia è una buona scelta
 
@@ -20,7 +20,7 @@ In generale, l'osteopatia dà il meglio sui problemi **meccanici** del corpo: do
 - **Recupero dopo distorsioni o piccoli traumi**, una volta superata la fase acuta e con il via libera del medico.
 - **Dopo una gravidanza**, per aiutare il corpo a ritrovare un equilibrio.
 
-Il filo comune: un corpo che si è adattato a qualcosa e ora fa fatica. Lì le mani possono fare molto.
+In tutti questi casi il corpo si è adattato a qualcosa e ora fa fatica: è il tipo di problema su cui il trattamento osteopatico funziona meglio.
 
 ## Quando prima serve il medico
 
@@ -35,7 +35,7 @@ Ci sono situazioni in cui l'osteopata non deve essere la prima porta a cui bussi
 - **Bambini con dolore persistente**: sempre prima il pediatra.
 - **Malattie note** che riguardano ossa o articolazioni (osteoporosi grave, tumori, infezioni, artrite reumatoide attiva): l'osteopatia può avere un ruolo, ma dentro un percorso deciso con il medico.
 
-Se arrivi in studio con uno di questi segnali, la prima cosa che faccio è indirizzarti dove devi andare. Non è un modo per scaricarti: è il modo giusto di fare questo lavoro.
+Se arrivi in studio con uno di questi segnali, la prima cosa che faccio è indirizzarti dove devi andare.
 
 ## Quando non serve (o non ancora)
 

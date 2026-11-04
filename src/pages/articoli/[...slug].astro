@@ -5,23 +5,26 @@ import Base from '../../layouts/Base.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Cta from '../../components/Cta.astro';
 import { site, href } from '../../site';
+import { readingTime } from '../../reading-time';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = await getCollection('articoli', ({ data }) => !data.draft);
   return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 
 interface Props {
-  post: CollectionEntry<'blog'>;
+  post: CollectionEntry<'articoli'>;
 }
 const { post } = Astro.props;
 const { Content } = await render(post);
 const { title, description, pubDate, updatedDate } = post.data;
+const minutes = readingTime(post.body);
 
 const url = new URL(Astro.url.pathname, Astro.site).toString();
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
+  timeRequired: `PT${parseInt(minutes)}M`,
   headline: title,
   description,
   datePublished: pubDate.toISOString(),
@@ -41,12 +44,17 @@ const jsonLd = {
 <Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} jsonLd={jsonLd}>
   <article class="article">
     <header>
+      <a class="back" href={href('/articoli/')}>← Articoli</a>
       <h1>{title}</h1>
-      <p class="meta">
+      <p class="lead">{description}</p>
+      <div class="meta">
+        <span>di <a href={href('/chi-sono/')}>{site.name}</a>, osteopata</span>
+        <span class="dot">·</span>
         <FormattedDate date={pubDate} />
-        {updatedDate && <> · aggiornato il <FormattedDate date={updatedDate} /></>}
-        · di <a href={href('/chi-sono/')}>{site.name}</a>, osteopata in {site.area}
-      </p>
+        {updatedDate && <><span class="dot">·</span><span>aggiornato il <FormattedDate date={updatedDate} /></span></>}
+        <span class="dot">·</span>
+        <span>{minutes}</span>
+      </div>
     </header>
     <div class="content">
       <Content />
@@ -58,6 +66,5 @@ const jsonLd = {
       Questo articolo ha uno scopo informativo e non sostituisce una visita medica. In caso di dolore
       forte, improvviso o accompagnato da altri sintomi, rivolgiti prima al tuo medico.
     </p>
-    <p><a href={href('/blog/')}>← Tutti gli articoli</a></p>
   </article>
 </Base>

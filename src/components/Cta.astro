@@ -8,8 +8,8 @@ import { site, href } from '../site';
     Se vivi in {site.area} o sei qui in vacanza e vuoi capire se l'osteopatia può aiutarti,
     scrivimi o chiamami: parliamo del tuo caso senza impegno e, se ha senso, fissiamo una prima visita a {site.contact.city}.
   </p>
-  <p>
-    <a class="btn" href={href('/chi-sono/')}>Contatti e dove ricevo</a>
-    <a class="btn secondary" href={`https://wa.me/${site.contact.whatsapp}`} rel="noopener">Scrivimi su WhatsApp</a>
-  </p>
+  <div class="actions">
+    <a class="btn" href={`https://wa.me/${site.contact.whatsapp}`} rel="noopener">Scrivimi su WhatsApp</a>
+    <a class="btn secondary" href={href('/chi-sono/#contatti')}>Tutti i contatti</a>
+  </div>
 </aside>

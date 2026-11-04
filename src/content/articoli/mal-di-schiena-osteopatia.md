@@ -5,7 +5,7 @@ pubDate: 2026-10-06
 tags: [schiena]
 ---
 
-Il mal di schiena è il motivo numero uno per cui le persone entrano nel mio studio. È anche uno dei disturbi più comuni in assoluto: quasi tutti, prima o poi, ci passano. La buona notizia è che nella grande maggioranza dei casi non c'è nulla di grave e il corpo ha ottime capacità di recupero. La notizia meno buona è che, se non si capisce il perché, tende a tornare.
+Il mal di schiena è il motivo numero uno per cui le persone entrano nel mio studio. È un disturbo molto comune e nella maggior parte dei casi non ha cause gravi. Però, se non si capisce da dove nasce, tende a ripresentarsi.
 
 ## Tre tipi di mal di schiena che vedo spesso
 
@@ -25,7 +25,7 @@ Quasi mai per una sola ragione. Una schiena che fa male di solito ha accumulato 
 - stress e sonno scarso, che abbassano la soglia del dolore;
 - un vecchio infortunio mai del tutto risolto.
 
-Il dolore è l'ultimo anello della catena. Per questo, anche quando la radiografia mostra «un po' di artrosi» o la risonanza «una protrusione», non è detto che sia quella la causa: moltissime persone hanno le stesse immagini e nessun dolore.
+Per questo, anche quando la radiografia mostra «un po' di artrosi» o la risonanza «una protrusione», non è detto che sia quella la causa: moltissime persone hanno le stesse immagini e nessun dolore.
 
 ## Cosa faccio io
 
@@ -52,4 +52,4 @@ Se il mal di schiena arriva con febbre, perdita di peso senza motivo, difficolt�
 
 Per un blocco acuto bastano di solito 2-3 sedute ravvicinate. Per un dolore cronico servono più tempo e qualche cambiamento nelle abitudini, ma il percorso è di solito breve: ne parlo in [Quante sedute servono](../quante-sedute-servono-dall-osteopata/).
 
-Ricevo a Pietrasanta e seguo persone da Camaiore, Forte dei Marmi, Viareggio e da tutta la Versilia. Se la tua schiena ti sta chiedendo attenzione, [contattami](../../chi-sono/).
+Ricevo a Pietrasanta e seguo persone da Camaiore, Forte dei Marmi, Viareggio e da tutta la Versilia. Se vuoi fissare una visita, [qui trovi i contatti](../../chi-sono/).

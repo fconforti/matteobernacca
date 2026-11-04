@@ -6,48 +6,75 @@ import PostList from '../components/PostList.astro';
 import Cta from '../components/Cta.astro';
 import { site, href } from '../site';
 
-const posts = (await getCollection('blog', ({ data }) => !data.draft))
+const posts = (await getCollection('articoli', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 5);
+  .slice(0, 6);
 ---
 
 <Base>
   <section class="hero">
-    <Photo />
     <div>
-      <h1>Osteopata in {site.area}</h1>
-      <p class="lead">
-        Sono Matteo Bernacca, osteopata. Ricevo a {site.contact.city} e seguo persone di
-        {site.towns.slice(0, 4).join(', ')} e di tutta la Versilia, oltre a chi è qui in vacanza e cerca un percorso breve.
-      </p>
+      <span class="eyebrow">Trattamenti osteopatici</span>
+      <h1>Osteopata a {site.contact.city}, <em>in {site.area}</em></h1>
+      <p class="lead">{`Sono Matteo Bernacca, osteopata. Ricevo a ${site.contact.city} e seguo persone di ${site.towns.slice(1, 4).join(', ')} e di tutta la Versilia, oltre a chi è qui in vacanza e cerca un percorso breve.`}</p>
       <div class="actions">
-        <a class="btn" href={href('/chi-sono/')}>Contattami</a>
-        <a class="btn secondary" href={href('/blog/')}>Leggi il blog</a>
+        <a class="btn" href={href('/chi-sono/#contatti')}>Prenota una prima visita</a>
+        <a class="btn secondary" href={href('/articoli/')}>Leggi gli articoli</a>
+      </div>
+    </div>
+    <Photo />
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">Di cosa mi occupo</span>
+    <h2 style="margin-top:0">Un approccio manuale, sul corpo nel suo insieme</h2>
+    <p class="lead" style="max-width:44rem">
+      Valuto e tratto con tecniche manuali, cercando di capire da dove nasce un problema e non solo
+      dove fa male.
+    </p>
+    <div class="features" style="margin-top:2rem">
+      <div class="feature">
+        <span class="num">01</span>
+        <h3>Schiena e collo</h3>
+        <p>Mal di schiena, colpo della strega, cervicale, rigidità al risveglio.</p>
+      </div>
+      <div class="feature">
+        <span class="num">02</span>
+        <h3>Postura e lavoro</h3>
+        <p>Tensioni da scrivania, smart working, ore di guida, mal di testa muscolare.</p>
+      </div>
+      <div class="feature">
+        <span class="num">03</span>
+        <h3>Sport</h3>
+        <p>Fastidi che tornano sempre nello stesso punto, recupero dopo sforzi e piccoli infortuni.</p>
+      </div>
+      <div class="feature">
+        <span class="num">04</span>
+        <h3>In vacanza</h3>
+        <p>Percorsi brevi e concentrati per chi passa una o due settimane in Versilia.</p>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>Che cosa faccio</h2>
-    <p>
-      L'osteopatia è un approccio manuale che lavora sul corpo nel suo insieme: muscoli, articolazioni,
-      e tutto ciò che li collega. Non uso farmaci né macchinari, solo le mani e il tempo necessario per
-      capire da dove nasce un problema, non solo dove fa male.
-    </p>
-    <p>
-      Mi occupo soprattutto di mal di schiena, dolori al collo e alle spalle, mal di testa di origine
-      muscolare, problemi posturali e recupero dopo sforzi o piccoli infortuni. Ogni percorso è diverso:
-      a volte bastano poche sedute, altre volte serve un po' più di tempo.
-    </p>
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Articoli</span>
+        <h2>Capire l'osteopatia</h2>
+      </div>
+      <a href={href('/articoli/')}>Tutti gli articoli →</a>
+    </div>
+    <PostList posts={posts} />
   </section>
 
-  <section>
-    <h2>Ultimi articoli</h2>
-    <p class="muted">
-      Spiego l'osteopatia con parole semplici, per chi vuole capire prima di decidere.
+  <section class="section band">
+    <span class="eyebrow">In vacanza in Versilia?</span>
+    <h2>Un percorso breve, mentre sei qui</h2>
+    <p style="max-width:44rem">
+      Se sei in vacanza a Forte dei Marmi, Marina di Pietrasanta o Lido di Camaiore e hai un dolore
+      che dura da mesi, possiamo organizzare due o tre sedute ravvicinate e un piano da seguire quando torni a casa.
     </p>
-    <PostList posts={posts} heading="h3" />
-    <p style="margin-top:1rem"><a href={href('/blog/')}>Tutti gli articoli →</a></p>
+    <a class="btn secondary" href={href('/articoli/osteopata-in-vacanza-in-versilia/')}>Come funziona</a>
   </section>
 
   <Cta />
