@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { href } from '../site';
-import { readingTime } from '../reading-time';
 import FormattedDate from './FormattedDate.astro';
 
 interface Props {
@@ -16,8 +15,6 @@ const { posts } = Astro.props;
       <a href={href(`/articoli/${post.id}/`)}>
         <div class="meta">
           <FormattedDate date={post.data.pubDate} />
-          <span class="dot">·</span>
-          <span>{readingTime(post.body)}</span>
         </div>
         <h3 class="title">{post.data.title}</h3>
         <p class="desc">{post.data.description}</p>

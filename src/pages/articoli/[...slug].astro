@@ -5,7 +5,6 @@ import Base from '../../layouts/Base.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Cta from '../../components/Cta.astro';
 import { site, href } from '../../site';
-import { readingTime } from '../../reading-time';
 
 export async function getStaticPaths() {
   const posts = await getCollection('articoli', ({ data }) => !data.draft);
@@ -18,13 +17,11 @@ interface Props {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const { title, description, pubDate, updatedDate } = post.data;
-const minutes = readingTime(post.body);
 
 const url = new URL(Astro.url.pathname, Astro.site).toString();
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  timeRequired: `PT${parseInt(minutes)}M`,
   headline: title,
   description,
   datePublished: pubDate.toISOString(),
@@ -48,8 +45,6 @@ const jsonLd = {
       <div class="meta meta-top">
         <FormattedDate date={pubDate} />
         {updatedDate && <><span class="dot">·</span><span>aggiornato il <FormattedDate date={updatedDate} /></span></>}
-        <span class="dot">·</span>
-        <span>{minutes}</span>
       </div>
       <h1>{title}</h1>
       <p class="lead">{description}</p>
