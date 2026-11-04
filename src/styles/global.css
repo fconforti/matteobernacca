@@ -163,17 +163,23 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .card .more { font-weight: 600; font-size: 0.88rem; color: var(--accent); margin-top: 0.9rem; }
 
 /* Article page */
-.article { max-width: var(--narrow); margin: 0 auto; }
+.article-wrap { max-width: calc(var(--narrow) + 9rem); margin: 0 auto; }
+.article {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: clamp(1.5rem, 5vw, 4.5rem);
+}
+.article > * { max-width: var(--narrow); margin-left: auto; margin-right: auto; }
+.article .cta { margin-top: 3.5rem; }
 .article header { margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--line); }
 .article header h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
 .article .meta-top { margin-bottom: 0.9rem; }
 .article header .lead { margin-bottom: 1.2rem; }
-.article .back { display: inline-block; font-size: 0.88rem; font-weight: 600; text-decoration: none; margin-bottom: 1.5rem; }
+.article-wrap .back { display: inline-block; font-size: 0.88rem; font-weight: 600; text-decoration: none; margin-bottom: 1.5rem; }
 .content { font-size: 1.06rem; }
 .content h2 { font-size: 1.65rem; }
 .content strong { font-weight: 650; }
-.content blockquote { margin: 1.5em 0; padding: 0.4em 1.4em; border-left: 3px solid var(--warm); background: var(--surface); border-radius: 0 12px 12px 0; }
-.content table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1.5em 0; background: var(--surface); border-radius: 12px; overflow: hidden; }
+.content blockquote { margin: 1.5em 0; padding: 0.4em 1.4em; border-left: 3px solid var(--warm); background: var(--bg); border-radius: 0 12px 12px 0; }
+.content table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1.5em 0; background: var(--bg); border-radius: 12px; overflow: hidden; }
 .content th, .content td { text-align: left; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 .content thead th { background: var(--accent-soft); font-weight: 600; }
 .table-scroll { overflow-x: auto; }
@@ -208,6 +214,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .footer nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 
 @media (max-width: 600px) {
+  .article-wrap { margin: 0 -0.5rem; }
   .header .wrap { padding-top: 0.7rem; padding-bottom: 0.7rem; row-gap: 0.5rem; }
   .brand strong { font-size: 1.15rem; }
   .nav { gap: 0.1rem; width: 100%; justify-content: space-between; }

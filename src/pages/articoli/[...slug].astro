@@ -39,9 +39,10 @@ const jsonLd = {
 ---
 
 <Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} jsonLd={jsonLd}>
+  <div class="article-wrap">
+  <a class="back" href={href('/articoli/')}>← Articoli</a>
   <article class="article">
     <header>
-      <a class="back" href={href('/articoli/')}>← Articoli</a>
       <div class="meta meta-top">
         <FormattedDate date={pubDate} />
         {updatedDate && <><span class="dot">·</span><span>aggiornato il <FormattedDate date={updatedDate} /></span></>}
@@ -63,4 +64,5 @@ const jsonLd = {
       forte, improvviso o accompagnato da altri sintomi, rivolgiti prima al tuo medico.
     </p>
   </article>
+  </div>
 </Base>
