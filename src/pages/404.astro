@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../site';
+---
+
+<Base title="Pagina non trovata">
+  <h1>Pagina non trovata</h1>
+  <p>La pagina che cercavi non esiste o è stata spostata.</p>
+  <p><a class="btn" href={href('/')}>Torna alla home</a> <a class="btn secondary" href={href('/blog/')}>Vai al blog</a></p>
+</Base>

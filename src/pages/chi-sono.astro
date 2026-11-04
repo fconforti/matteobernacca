@@ -1,0 +1,96 @@
+---
+import Base from '../layouts/Base.astro';
+import Photo from '../components/Photo.astro';
+import { site, href } from '../site';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': ['LocalBusiness', 'HealthAndBeautyBusiness'],
+  name: `${site.name} · ${site.profession}`,
+  description: site.description,
+  url: new URL(href('/'), Astro.site).toString(),
+  telephone: site.contact.phone,
+  email: site.contact.email,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: site.contact.address,
+    addressLocality: site.contact.city,
+    addressRegion: site.contact.province,
+    postalCode: site.contact.postalCode,
+    addressCountry: 'IT',
+  },
+  areaServed: site.towns.map((name) => ({ '@type': 'City', name })),
+  founder: { '@type': 'Person', name: site.name, jobTitle: site.profession },
+};
+---
+
+<Base
+  title="Chi sono e contatti"
+  description={`Matteo Bernacca, osteopata a ${site.contact.city}. Contatti, dove ricevo e come prenotare una prima visita in ${site.area}.`}
+  jsonLd={jsonLd}
+>
+  <section class="hero">
+    <Photo />
+    <div>
+      <h1>Chi sono</h1>
+      <p class="lead">
+        Mi chiamo Matteo Bernacca, sono osteopata e vivo in {site.area}.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <p>
+      Ho scelto l'osteopatia perché mi piace lavorare con le mani e con le persone, una alla volta, senza fretta.
+      In studio la prima cosa che faccio è ascoltare: che cosa senti, da quanto tempo, che cosa lo peggiora e che
+      cosa lo migliora. Solo dopo passo a guardare e a toccare, perché spesso il punto da cui nasce un problema non
+      è quello che fa male.
+    </p>
+    <p>
+      Seguo persone di ogni età: chi lavora tante ore al computer, chi fa sport, chi ha un mestiere fisico, chi
+      ha superato i settanta e vuole continuare a muoversi bene. Negli ultimi anni ho visto anche sempre più
+      persone che vengono in Versilia per le vacanze e vogliono approfittare del tempo libero per occuparsi di
+      un dolore che si trascinano da mesi: per loro organizzo percorsi brevi e concentrati.
+    </p>
+    <p class="muted small">
+      [Placeholder: qui Matteo può aggiungere formazione, titolo di studio, anno di diploma, eventuali
+      specializzazioni e iscrizione all'albo.]
+    </p>
+  </section>
+
+  <section>
+    <h2>Dove ricevo</h2>
+    <p>
+      Lo studio è a <strong>{site.contact.city}</strong>, comodo da raggiungere da
+      {site.towns.filter((t) => t !== site.contact.city).join(', ')} e da tutta la Versilia.
+    </p>
+    <ul class="contact-list">
+      <li><strong>Indirizzo</strong> {site.contact.address}, {site.contact.postalCode} {site.contact.city} ({site.contact.province})</li>
+      <li><strong>Orari</strong> {site.hours}</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contatti</h2>
+    <p>Il modo più semplice per prenotare è un messaggio WhatsApp o una telefonata.</p>
+    <ul class="contact-list">
+      <li><strong>Telefono</strong> <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`}>{site.contact.phoneDisplay}</a></li>
+      <li><strong>WhatsApp</strong> <a href={`https://wa.me/${site.contact.whatsapp}`} rel="noopener">Scrivimi su WhatsApp</a></li>
+      <li><strong>Email</strong> <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a></li>
+    </ul>
+    <p>
+      <a class="btn" href={`https://wa.me/${site.contact.whatsapp}`} rel="noopener">Prenota una prima visita</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Come funziona la prima visita</h2>
+    <ol>
+      <li><strong>Parliamo.</strong> Mi racconti il problema, da quanto tempo c'è e che cosa hai già provato. Se hai esami o referti, portali.</li>
+      <li><strong>Ti osservo e ti valuto.</strong> Guardo come stai in piedi, come ti muovi, dove il movimento è libero e dove no.</li>
+      <li><strong>Trattamento.</strong> Lavoro con le mani: tecniche delicate, mai dolorose, spiegate passo per passo.</li>
+      <li><strong>Piano.</strong> Alla fine ti dico cosa ho trovato, cosa possiamo fare e quante sedute, indicativamente, servono.</li>
+    </ol>
+    <p class="muted small">La prima visita dura circa un'ora. Vieni con abiti comodi.</p>
+  </section>
+</Base>

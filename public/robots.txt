@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fconforti.github.io/matteobernacca/sitemap-index.xml

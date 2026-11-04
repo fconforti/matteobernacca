@@ -1,0 +1,109 @@
+---
+import { site, href } from '../site';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  type?: 'website' | 'article';
+  publishedTime?: Date;
+  modifiedTime?: Date;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = site.description,
+  type = 'website',
+  publishedTime,
+  modifiedTime,
+  jsonLd,
+} = Astro.props;
+
+const fullTitle = title ? `${title} · ${site.name}` : site.title;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const current = Astro.url.pathname;
+const isActive = (path: string) =>
+  path === '/' ? current === href('/') + '/' || current === href('/') : current.startsWith(href(path));
+
+const personLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: site.name,
+  jobTitle: site.profession,
+  url: new URL(href('/'), Astro.site).toString(),
+  email: site.contact.email,
+  telephone: site.contact.phone,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: site.contact.address,
+    addressLocality: site.contact.city,
+    addressRegion: site.contact.province,
+    postalCode: site.contact.postalCode,
+    addressCountry: 'IT',
+  },
+};
+const ld = jsonLd ?? personLd;
+---
+
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={site.author} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={site.title} href={href('/rss.xml')} />
+    <link rel="sitemap" href={href('/sitemap-index.xml')} />
+
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={site.title} />
+    <meta property="og:locale" content={site.locale} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <meta name="geo.region" content="IT-LU" />
+    <meta name="geo.placename" content={`${site.area}, ${site.region}`} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap">
+        <a class="brand" href={href('/')}>
+          {site.name}
+          <small>{site.profession} in {site.area}</small>
+        </a>
+        <nav class="nav" aria-label="Principale">
+          <a href={href('/')} aria-current={isActive('/') ? 'page' : undefined}>Home</a>
+          <a href={href('/blog/')} aria-current={isActive('/blog') ? 'page' : undefined}>Blog</a>
+          <a href={href('/chi-sono/')} aria-current={isActive('/chi-sono') ? 'page' : undefined}>Chi sono e contatti</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <span>© {new Date().getFullYear()} {site.name} · {site.profession} · {site.contact.city} ({site.contact.province}), {site.area}</span>
+        <span>
+          <a href={href('/chi-sono/')}>Contatti</a> · <a href={href('/rss.xml')}>RSS</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

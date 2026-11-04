@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Photo from '../components/Photo.astro';
+import PostList from '../components/PostList.astro';
+import Cta from '../components/Cta.astro';
+import { site, href } from '../site';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+---
+
+<Base>
+  <section class="hero">
+    <Photo />
+    <div>
+      <h1>Osteopata in {site.area}</h1>
+      <p class="lead">
+        Sono Matteo Bernacca, osteopata. Ricevo a {site.contact.city} e seguo persone di
+        {site.towns.slice(0, 4).join(', ')} e di tutta la Versilia, oltre a chi è qui in vacanza e cerca un percorso breve.
+      </p>
+      <div class="actions">
+        <a class="btn" href={href('/chi-sono/')}>Contattami</a>
+        <a class="btn secondary" href={href('/blog/')}>Leggi il blog</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Che cosa faccio</h2>
+    <p>
+      L'osteopatia è un approccio manuale che lavora sul corpo nel suo insieme: muscoli, articolazioni,
+      e tutto ciò che li collega. Non uso farmaci né macchinari, solo le mani e il tempo necessario per
+      capire da dove nasce un problema, non solo dove fa male.
+    </p>
+    <p>
+      Mi occupo soprattutto di mal di schiena, dolori al collo e alle spalle, mal di testa di origine
+      muscolare, problemi posturali e recupero dopo sforzi o piccoli infortuni. Ogni percorso è diverso:
+      a volte bastano poche sedute, altre volte serve un po' più di tempo.
+    </p>
+  </section>
+
+  <section>
+    <h2>Ultimi articoli</h2>
+    <p class="muted">
+      Spiego l'osteopatia con parole semplici, per chi vuole capire prima di decidere.
+    </p>
+    <PostList posts={posts} heading="h3" />
+    <p style="margin-top:1rem"><a href={href('/blog/')}>Tutti gli articoli →</a></p>
+  </section>
+
+  <Cta />
+</Base>
