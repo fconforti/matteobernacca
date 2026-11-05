@@ -49,3 +49,6 @@ export const whatsappUrl = `https://wa.me/${site.contact.whatsapp}?text=${encode
 // Prefisso dei link interni (dipende da `base` in astro.config.mjs).
 export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const href = (path: string) => `${base}${path.startsWith('/') ? path : `/${path}`}`;
+
+// Link a Unsplash con i parametri di referral richiesti dalle loro linee guida.
+export const unsplashRef = (url: string) => `${url}${url.includes('?') ? '&' : '?'}utm_source=matteobertacca&utm_medium=referral`;

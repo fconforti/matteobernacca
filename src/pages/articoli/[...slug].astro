@@ -1,11 +1,12 @@
 ---
 import { getCollection, render } from 'astro:content';
+import { Image, getImage } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Cta from '../../components/Cta.astro';
 import PostList from '../../components/PostList.astro';
-import { site, href } from '../../site';
+import { site, href, unsplashRef } from '../../site';
 import { breadcrumbs, faqFromMarkdown, ids } from '../../schema';
 
 export async function getStaticPaths() {
@@ -32,7 +33,13 @@ interface Props {
 }
 const { post, related } = Astro.props;
 const { Content } = await render(post);
-const { title, description, pubDate, updatedDate } = post.data;
+const { title, description, pubDate, updatedDate, cover } = post.data;
+
+// Copertina in JPEG 1200px per anteprime social e dati strutturati.
+const share = cover ? await getImage({ src: cover.image, width: 1200, format: 'jpg' }) : undefined;
+const ogImage = share && cover
+  ? { url: new URL(share.src, Astro.site).toString(), width: Number(share.attributes.width), height: Number(share.attributes.height), alt: cover.alt }
+  : undefined;
 
 const url = new URL(Astro.url.pathname, Astro.site).toString();
 const id = ids(Astro.site!);
@@ -47,6 +54,7 @@ const jsonLd = [
     inLanguage: site.lang,
     mainEntityOfPage: url,
     keywords: post.data.tags.join(', '),
+    ...(ogImage ? { image: ogImage.url } : {}),
     about: { '@type': 'Thing', name: 'Osteopatia' },
     author: { '@id': id.person },
     publisher: { '@id': id.person },
@@ -66,7 +74,7 @@ const jsonLd = [
 ];
 ---
 
-<Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} jsonLd={jsonLd} markdownPath={`/articoli/${post.id}.md`} bodyClass="page-article">
+<Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} ogImage={ogImage} jsonLd={jsonLd} markdownPath={`/articoli/${post.id}.md`} bodyClass="page-article">
   <div class="article-wrap">
   <article class="article">
     <header>
@@ -80,6 +88,14 @@ const jsonLd = [
         <span>di <a href={href('/#chi-sono')}>{site.name}</a>, osteopata in {site.area}</span>
       </div>
     </header>
+    {cover && (
+      <figure class="cover">
+        <Image src={cover.image} alt={cover.alt} widths={[640, 960, 1360]} sizes="(max-width: 760px) 100vw, 46rem" loading="eager" fetchpriority="high" />
+        <figcaption>
+          Foto di <a href={unsplashRef(cover.authorUrl)} rel="noopener">{cover.author}</a> su <a href={unsplashRef(cover.url)} rel="noopener">Unsplash</a>
+        </figcaption>
+      </figure>
+    )}
     <div class="content">
       <Content />
     </div>

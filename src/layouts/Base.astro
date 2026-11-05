@@ -17,6 +17,8 @@ interface Props {
   /** Versione Markdown della pagina, per agent e LLM. */
   markdownPath?: string;
   bodyClass?: string;
+  /** Immagine per anteprime social (di default la foto di Matteo). */
+  ogImage?: { url: string; width: number; height: number; alt: string };
 }
 
 const {
@@ -28,6 +30,7 @@ const {
   jsonLd = [],
   markdownPath,
   bodyClass,
+  ogImage,
 } = Astro.props;
 
 const fullTitle = title ? `${title} · ${site.name}` : site.title;
@@ -44,6 +47,12 @@ const navItems = [
 // Foto di Matteo in JPEG 1200px: anteprima nei social e immagine nei dati strutturati.
 const shareImage = await getImage({ src: matteo, width: 1200, format: 'jpg' });
 const imageUrl = new URL(shareImage.src, Astro.site).toString();
+const og = ogImage ?? {
+  url: imageUrl,
+  width: Number(shareImage.attributes.width),
+  height: Number(shareImage.attributes.height),
+  alt: `${site.name}, ${site.profession.toLowerCase()}`,
+};
 
 const ld = { '@context': 'https://schema.org', '@graph': [...baseGraph(Astro.site!, imageUrl), ...jsonLd] };
 ---
@@ -72,14 +81,14 @@ const ld = { '@context': 'https://schema.org', '@graph': [...baseGraph(Astro.sit
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={site.title} />
     <meta property="og:locale" content={site.locale} />
-    <meta property="og:image" content={imageUrl} />
-    <meta property="og:image:width" content={String(shareImage.attributes.width)} />
-    <meta property="og:image:height" content={String(shareImage.attributes.height)} />
-    <meta property="og:image:alt" content={`${site.name}, ${site.profession.toLowerCase()}`} />
+    <meta property="og:image" content={og.url} />
+    <meta property="og:image:width" content={String(og.width)} />
+    <meta property="og:image:height" content={String(og.height)} />
+    <meta property="og:image:alt" content={og.alt} />
     {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
     {modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content={imageUrl} />
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:image" content={og.url} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
 

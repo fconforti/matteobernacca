@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
 import { href } from '../site';
 import FormattedDate from './FormattedDate.astro';
 
@@ -14,6 +15,9 @@ const { posts, columns = 4 } = Astro.props;
   {posts.map((post) => (
     <li class="card">
       <a href={href(`/articoli/${post.id}/`)}>
+        {post.data.cover && (
+          <Image class="cover" src={post.data.cover.image} alt="" widths={[400, 640]} sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 25vw" />
+        )}
         <div class="meta">
           <FormattedDate date={post.data.pubDate} />
         </div>
