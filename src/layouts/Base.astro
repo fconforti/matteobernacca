@@ -10,6 +10,7 @@ interface Props {
   publishedTime?: Date;
   modifiedTime?: Date;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  bodyClass?: string;
 }
 
 const {
@@ -19,6 +20,7 @@ const {
   publishedTime,
   modifiedTime,
   jsonLd,
+  bodyClass,
 } = Astro.props;
 
 const fullTitle = title ? `${title} · ${site.name}` : site.title;
@@ -83,7 +85,7 @@ const ld = jsonLd ?? personLd;
 
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />
   </head>
-  <body>
+  <body class={bodyClass}>
     <header class="header">
       <div class="wrap">
         <a class="brand" href={href('/')}>
@@ -101,7 +103,7 @@ const ld = jsonLd ?? personLd;
           </nav>
           <a class="nav-cta" href={whatsappUrl} target="_blank" rel="noopener">
             <WhatsAppIcon />
-            <span><span class="cta-long">Scrivimi su </span>WhatsApp</span>
+            <span>Contattami</span>
           </a>
         </div>
       </div>
