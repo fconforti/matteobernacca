@@ -3,7 +3,7 @@ title: "Osteopatia in gravidanza: mal di schiena, bacino e sciatalgia"
 description: "Osteopatia in gravidanza: come si trattano mal di schiena, dolore al bacino e sciatalgia con tecniche delicate, d'accordo con ginecologo e ostetrica."
 pubDate: 2026-10-11
 tags: [donna, schiena]
-related: [osteopatia-dopo-il-parto, sciatica-osteopatia]
+related: [osteopatia-dopo-il-parto, sciatica-osteopatia, dormire-bene-cuscino-e-materasso, mal-di-schiena-osteopatia]
 ---
 
 Durante la gravidanza il corpo cambia molto in pochi mesi. Il peso aumenta, il baricentro si sposta in avanti, gli ormoni rendono più elastici i legamenti del bacino. È normale che in questo periodo compaiano dolori alla schiena o al bacino, e in studio vedo spesso donne che arrivano nel secondo o nel terzo trimestre perché camminare, dormire o alzarsi dal divano è diventato faticoso.

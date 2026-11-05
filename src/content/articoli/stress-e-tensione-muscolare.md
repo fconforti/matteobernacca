@@ -3,7 +3,7 @@ title: "Stress e tensione muscolare: come l'ansia si sente nel corpo"
 description: "Stress e ansia possono tradursi in tensione muscolare a collo, spalle e diaframma: cosa può fare il trattamento manuale, cosa non può fare e quali abitudini aiutano."
 pubDate: 2026-10-06
 tags: [stress, cervicale]
-related: [mandibola-e-bruxismo, dolore-tra-le-scapole]
+related: [cervicale-e-mal-di-testa, mandibola-e-bruxismo, dormire-bene-cuscino-e-materasso, dolore-tra-le-scapole]
 ---
 
 Molte persone che vengono in studio per il collo rigido o le spalle contratte, a un certo punto della visita mi dicono: «In effetti è un periodo pesante». Un cambio di lavoro, un familiare da seguire, problemi economici, notti dormite male. Lo stress infatti si traduce anche in tensioni muscolari precise, che si possono sentire e spesso anche vedere.

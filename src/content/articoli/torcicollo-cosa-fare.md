@@ -3,7 +3,7 @@ title: "Torcicollo al risveglio: cosa fare nei primi giorni"
 description: "Torcicollo al mattino, collo bloccato e dolore a girare la testa: perché succede, cosa fare nei primi giorni e quando rivolgersi all'osteopata o al medico."
 pubDate: 2026-08-22
 tags: [cervicale, sonno]
-related: [cervicale-e-mal-di-testa, dormire-bene-cuscino-e-materasso]
+related: [cervicale-e-mal-di-testa, dormire-bene-cuscino-e-materasso, dolore-tra-le-scapole, stress-e-tensione-muscolare]
 ---
 
 Ti svegli, provi a girare la testa per guardare la sveglia e senti una fitta sul lato del collo. Riesci a ruotare solo da una parte, e per guardare a destra o a sinistra devi girare tutto il busto. È il torcicollo, uno dei disturbi più frequenti che vedo in studio, soprattutto nei cambi di stagione. Fa male e spaventa un po', ma nella grande maggioranza dei casi passa in pochi giorni.

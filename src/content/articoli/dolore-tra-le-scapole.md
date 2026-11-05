@@ -3,7 +3,7 @@ title: "Dolore tra le scapole: da dove nasce e cosa fare"
 description: "Dolore tra le scapole e parte alta della schiena rigida: il ruolo della postura seduta e della respirazione, cosa fa l'osteopata e cosa puoi fare tu."
 pubDate: 2026-09-26
 tags: [schiena, postura]
-related: [postura-e-lavoro-al-computer, stress-e-tensione-muscolare]
+related: [postura-e-lavoro-al-computer, cervicale-e-mal-di-testa, stress-e-tensione-muscolare, esercizi-per-la-schiena-a-casa]
 ---
 
 Molte persone mi descrivono lo stesso fastidio: un dolore sordo in mezzo alle scapole, a volte un punto preciso che brucia, come se ci fosse un nodo che non si scioglie. Peggiora verso sera, dopo ore alla scrivania o alla guida, e a volte si sente anche respirando a fondo. È un disturbo molto comune e quasi sempre di origine muscolare e articolare, ma ha alcune particolarità che vale la pena conoscere.

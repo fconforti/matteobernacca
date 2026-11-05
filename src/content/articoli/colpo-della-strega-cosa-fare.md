@@ -3,7 +3,7 @@ title: "Colpo della strega: cosa fare nelle prime 48-72 ore"
 description: "Colpo della strega o lombalgia acuta: cosa fare nei primi giorni, cosa evitare, quali segnali richiedono il medico e quando ha senso venire dall'osteopata."
 pubDate: 2026-07-18
 tags: [schiena]
-related: [mal-di-schiena-osteopatia, sciatica-osteopatia]
+related: [mal-di-schiena-osteopatia, sciatica-osteopatia, esercizi-per-la-schiena-a-casa, quando-andare-dall-osteopata-e-quando-no]
 ---
 
 Il colpo della strega di solito arriva in un momento banale: ti chini per allacciare una scarpa, prendi una cassa d'acqua dal bagagliaio, ti giri di scatto. Senti una fitta in fondo alla schiena e da lì in poi ogni movimento è difficile. A volte resti piegato in avanti o storto da un lato e non riesci a raddrizzarti. In questo articolo mi concentro sui primi giorni, perché sono quelli in cui le persone mi scrivono più spesso chiedendo cosa fare.

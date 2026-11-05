@@ -3,7 +3,7 @@ title: "Osteopatia dopo i 65 anni: rigidità, artrosi ed equilibrio"
 description: "Osteopatia over 65: come può aiutare con rigidità, artrosi ed equilibrio, con tecniche delicate e attenzione a osteoporosi, anticoagulanti e altri farmaci."
 pubDate: 2026-10-21
 tags: [eta]
-related: [dolore-anca-osteopatia, dolore-al-ginocchio-osteopatia]
+related: [dolore-anca-osteopatia, dolore-al-ginocchio-osteopatia, esercizi-per-la-schiena-a-casa, quando-andare-dall-osteopata-e-quando-no]
 ---
 
 Una parte importante delle persone che seguo nel mio studio di Pietrasanta ha superato i 65 anni. Spesso arrivano perché un figlio o un'amica le ha mandate, a volte con un po' di diffidenza: pensano che l'osteopatia sia fatta di manovre brusche, adatte ai giovani o agli sportivi. In realtà con le persone più avanti con gli anni lavoro in modo molto delicato, e l'obiettivo è quasi sempre lo stesso: muoversi meglio e con meno dolore, per continuare a fare le cose di tutti i giorni.

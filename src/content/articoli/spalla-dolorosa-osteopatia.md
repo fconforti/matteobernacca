@@ -3,7 +3,7 @@ title: "Spalla dolorosa: il braccio che non si alza e il legame con collo e tora
 description: "Spalla dolorosa o rigida, braccio che non si alza, fatica a dormire sul fianco: cause comuni, quando serve il medico e come lavora l'osteopata su spalla, collo e torace."
 pubDate: 2026-09-01
 tags: [arti, cervicale]
-related: [cervicale-e-mal-di-testa, dolore-tra-le-scapole]
+related: [cervicale-e-mal-di-testa, dolore-tra-le-scapole, osteopatia-e-sport, lavori-fisici-e-dolori]
 ---
 
 La spalla è l'articolazione più mobile del corpo, e proprio per questo è anche una di quelle che si sovraccaricano più facilmente. In studio vedo spesso persone che non riescono più ad alzare il braccio sopra la testa, che sentono una fitta quando si infilano la giacca o che si svegliano di notte perché si sono girate sul lato dolente. In questo articolo ti spiego le situazioni più comuni, quando serve il medico e come lavoro io.

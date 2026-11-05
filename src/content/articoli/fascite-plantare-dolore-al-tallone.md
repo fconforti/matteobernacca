@@ -3,7 +3,7 @@ title: "Fascite plantare: perché il tallone fa male al mattino"
 description: "Fascite plantare e dolore al tallone appena scendi dal letto: cause, legame con polpaccio, caviglia e anca, scarpe giuste e camminate a piedi nudi in spiaggia."
 pubDate: 2026-07-28
 tags: [arti, versilia]
-related: [osteopatia-e-sport, dolore-al-ginocchio-osteopatia]
+related: [dolore-al-ginocchio-osteopatia, escursioni-sulle-apuane, schiena-in-spiaggia, osteopatia-e-sport]
 ---
 
 Ti alzi dal letto, appoggi il piede a terra e senti una fitta sotto il tallone, come se ci fosse un sassolino o un chiodo. I primi passi sono faticosi, poi dopo qualche minuto il dolore cala. Torna magari dopo essere stato seduto a lungo, o la sera dopo una giornata in piedi. È la descrizione tipica della fascite plantare, uno dei disturbi del piede che vedo più spesso in studio, soprattutto all'inizio e alla fine dell'estate.

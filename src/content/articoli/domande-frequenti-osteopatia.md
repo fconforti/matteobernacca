@@ -4,7 +4,7 @@ description: "Le risposte alle domande più comuni prima di una visita osteopati
 pubDate: 2026-11-05
 tags: [basi, prima-visita]
 faq: true
-related: [come-funziona-una-seduta-dall-osteopata, quante-sedute-servono-dall-osteopata]
+related: [come-funziona-una-seduta-dall-osteopata, quante-sedute-servono-dall-osteopata, quando-andare-dall-osteopata-e-quando-no, osteopata-in-vacanza-in-versilia]
 ---
 
 Ci sono domande che mi fanno quasi tutti, al telefono o su WhatsApp, prima di prenotare la prima visita. Le ho raccolte qui con risposte brevi. Per ogni argomento, se vuoi approfondire, trovi il link all'articolo in cui ne parlo in modo più completo.

@@ -3,7 +3,7 @@ title: "Dormire bene senza dolori: posizioni, cuscino e materasso"
 description: "Ti svegli con la schiena rigida o il collo dolorante? Come scegliere cuscino e materasso, quali posizioni aiutano a dormire bene e cosa fare con un letto nuovo."
 pubDate: 2026-08-27
 tags: [sonno, schiena]
-related: [torcicollo-cosa-fare, mal-di-schiena-osteopatia]
+related: [torcicollo-cosa-fare, mal-di-schiena-osteopatia, spalla-dolorosa-osteopatia, stress-e-tensione-muscolare]
 ---
 
 «Vado a letto bene e mi alzo tutto rotto.» Lo sento dire spesso in studio. Passiamo a letto circa un terzo della giornata, e in quelle ore la schiena e il collo restano a lungo nella stessa posizione. Se la posizione, il cuscino o il materasso non vanno bene per te, al mattino te ne accorgi. Allo stesso tempo, non esiste il letto perfetto per tutti, e la rigidità al risveglio non dipende sempre dal letto.

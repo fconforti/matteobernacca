@@ -3,7 +3,7 @@ title: "Dolore al ginocchio senza trauma: scale, discese e il ruolo di anca e pi
 description: "Dolore al ginocchio senza una caduta o una distorsione, che peggiora sulle scale e in discesa: cause comuni, legame con anca e piede e come lavora l'osteopata."
 pubDate: 2026-09-11
 tags: [arti, sport]
-related: [dolore-anca-osteopatia, fascite-plantare-dolore-al-tallone]
+related: [dolore-anca-osteopatia, escursioni-sulle-apuane, osteopatia-e-sport, fascite-plantare-dolore-al-tallone]
 ---
 
 Quando il ginocchio fa male dopo una distorsione o una caduta, la causa è di solito chiara e il primo passo è la visita ortopedica. Molto spesso però le persone arrivano in studio con un ginocchio che fa male senza un motivo preciso: il dolore è comparso piano piano, magari dopo aver ripreso a correre o dopo un periodo di camminate, e peggiora scendendo le scale. In questo articolo parlo soprattutto di questo secondo tipo di dolore.

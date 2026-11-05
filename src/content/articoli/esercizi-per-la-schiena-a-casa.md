@@ -3,7 +3,7 @@ title: "Esercizi per la schiena da fare a casa: 6 movimenti semplici"
 description: "Esercizi per la schiena da fare a casa: sei movimenti semplici e sicuri per la zona lombare e la mobilità, spiegati passo per passo, e quando fermarsi."
 pubDate: 2026-10-26
 tags: [esercizi, schiena]
-related: [mal-di-schiena-osteopatia, colpo-della-strega-cosa-fare]
+related: [mal-di-schiena-osteopatia, colpo-della-strega-cosa-fare, sciatica-osteopatia, dolore-tra-le-scapole]
 ---
 
 Alla fine di quasi ogni seduta lascio alla persona uno o due esercizi da fare a casa. Non sono niente di complicato: servono a mantenere il movimento che abbiamo recuperato e a non far tornare rigida la schiena tra una seduta e l'altra. In questo articolo raccolgo quelli che consiglio più spesso per la zona lombare, spiegati come li spiego in studio.

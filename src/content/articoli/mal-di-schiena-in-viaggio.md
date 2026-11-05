@@ -3,7 +3,7 @@ title: "Mal di schiena in viaggio: come arrivare in Versilia senza schiena e col
 description: "Mal di schiena e collo rigido dopo un lungo viaggio in auto: come sederti alla guida, quando fare le pause e cosa fare all'arrivo in Versilia."
 pubDate: 2026-06-28
 tags: [schiena, vacanza, versilia]
-related: [osteopata-in-vacanza-in-versilia, torcicollo-cosa-fare]
+related: [osteopata-in-vacanza-in-versilia, schiena-in-spiaggia, colpo-della-strega-cosa-fare, torcicollo-cosa-fare]
 ---
 
 D'estate, nella prima settimana di luglio e di agosto, vedo arrivare in studio molte persone appena scese dalla macchina. Vengono da Milano, Torino, Bologna, a volte dalla Germania, e dopo quattro, cinque o sei ore di autostrada hanno la schiena rigida, il collo che gira poco o un fastidio al gluteo che prima non c'era. Quasi sempre non è niente di grave, ma è un peccato iniziare le vacanze così. Qui spiego cosa succede alla schiena in un lungo viaggio e cosa puoi fare prima, durante e dopo.

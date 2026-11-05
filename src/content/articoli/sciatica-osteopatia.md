@@ -3,7 +3,7 @@ title: "Sciatica: quando il dolore scende nella gamba"
 description: "Sciatica e dolore che dalla schiena scende nel gluteo e nella gamba: cause comuni, quando andare prima dal medico, cosa fa l'osteopata e cosa fare nel frattempo."
 pubDate: 2026-08-12
 tags: [schiena]
-related: [mal-di-schiena-osteopatia, colpo-della-strega-cosa-fare]
+related: [mal-di-schiena-osteopatia, colpo-della-strega-cosa-fare, dolore-anca-osteopatia, esercizi-per-la-schiena-a-casa]
 ---
 
 Molte persone arrivano in studio dicendo «ho la sciatica». Di solito intendono un dolore che parte dalla zona lombare o dal gluteo e scende lungo la parte posteriore o laterale della coscia, a volte fino al polpaccio e al piede. Può essere bruciante, elettrico, oppure un dolore sordo accompagnato da formicolio. In questo articolo provo a spiegarti cosa succede, quando serve prima il medico e come lavoro io in questi casi.

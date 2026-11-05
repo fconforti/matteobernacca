@@ -3,7 +3,7 @@ title: "Dolore all'anca: inguine, gluteo e il legame con schiena e ginocchio"
 description: "Dolore all'anca, all'inguine o al gluteo, rigidità al mattino e fatica a mettere le scarpe: cause comuni, segnali da non ignorare e come lavora l'osteopata."
 pubDate: 2026-09-16
 tags: [arti, eta]
-related: [mal-di-schiena-osteopatia, dolore-al-ginocchio-osteopatia]
+related: [dolore-al-ginocchio-osteopatia, sciatica-osteopatia, osteopatia-over-65, escursioni-sulle-apuane]
 ---
 
 Quando una persona mi dice «mi fa male l'anca», la prima cosa che le chiedo è di indicarmi dove. Le risposte sono molto diverse: c'è chi mette la mano sull'inguine, chi sul fianco, chi sul gluteo. Sono tre zone diverse e spesso corrispondono a problemi diversi. In questo articolo ti spiego come ragiono di fronte a un dolore all'anca e perché, quasi sempre, guardo anche schiena e ginocchio.

@@ -3,7 +3,7 @@ title: "Bruxismo e dolore alla mandibola: il legame con collo e mal di testa"
 description: "Bruxismo, mandibola che scrocca o fa male: come l'articolazione temporo-mandibolare si collega a collo e mal di testa e come lavoro insieme al dentista."
 pubDate: 2026-10-01
 tags: [mal-di-testa, cervicale, stress]
-related: [cervicale-e-mal-di-testa, stress-e-tensione-muscolare]
+related: [cervicale-e-mal-di-testa, stress-e-tensione-muscolare, torcicollo-cosa-fare, dormire-bene-cuscino-e-materasso]
 ---
 
 Al mattino ti svegli con la mascella stanca, a volte con un leggero mal di testa alle tempie. Quando mangi o sbadigli senti un clic davanti all'orecchio. Oppure è il dentista a dirti che i denti sono consumati e che probabilmente li stringi di notte. Sono situazioni che vedo spesso in studio, e quasi sempre la persona arriva per un altro motivo: il collo rigido o il mal di testa.

@@ -3,7 +3,7 @@ title: "Escursioni sulle Apuane: ginocchia, schiena e caviglie in salita e in di
 description: "Escursioni sulle Alpi Apuane e sulle colline della Versilia: come proteggere ginocchia in discesa, schiena con lo zaino e caviglie, e come recuperare dopo."
 pubDate: 2026-09-06
 tags: [sport, arti, versilia]
-related: [dolore-al-ginocchio-osteopatia, osteopatia-e-sport]
+related: [dolore-al-ginocchio-osteopatia, osteopatia-e-sport, fascite-plantare-dolore-al-tallone, dolore-anca-osteopatia]
 ---
 
 Una delle cose belle di vivere in Versilia è avere le Apuane alle spalle del mare. In un'ora si passa dalla spiaggia a sentieri seri: la Pania della Croce, il Monte Forato, il Procinto, il Gabberi e il Prana sopra Camaiore, i sentieri che salgono da Seravezza e da Stazzema. Molte persone che vedo in studio camminano in montagna regolarmente, altre ci vanno due o tre volte l'anno, spesso in primavera o in autunno, o in estate quando arrivano gli amici da fuori. I disturbi che seguono un'escursione sono abbastanza ricorrenti, e molti si possono prevenire.

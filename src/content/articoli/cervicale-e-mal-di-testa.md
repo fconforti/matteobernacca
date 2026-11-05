@@ -3,7 +3,7 @@ title: "Cervicale e mal di testa: il legame che spesso non si vede"
 description: "Collo rigido, spalle contratte, mal di testa che parte dalla nuca: perché sono collegati e come l'osteopatia lavora su queste tensioni."
 pubDate: 2026-08-17
 tags: [cervicale, mal-di-testa]
-related: [torcicollo-cosa-fare, mandibola-e-bruxismo]
+related: [torcicollo-cosa-fare, mandibola-e-bruxismo, dolore-tra-le-scapole, postura-e-lavoro-al-computer]
 ---
 
 «Ho la cervicale» è una delle frasi più dette in Italia. In realtà la cervicale ce l'abbiamo tutti: è la parte alta della colonna, le sette vertebre del collo. Quello che la gente intende è il dolore e la rigidità in quella zona, spesso accompagnati da mal di testa, senso di pesantezza, a volte vertigini leggere.

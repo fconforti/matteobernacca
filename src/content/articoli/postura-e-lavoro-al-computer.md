@@ -3,7 +3,7 @@ title: "Postura e lavoro al computer: perché fa male e cosa fare davvero"
 description: "Schiena, collo e spalle dopo otto ore al computer o in smart working: cosa conta davvero nella postura, come sistemare la postazione e cosa può fare l'osteopata."
 pubDate: 2026-09-21
 tags: [postura, lavoro]
-related: [dolore-tra-le-scapole, cervicale-e-mal-di-testa]
+related: [dolore-tra-le-scapole, cervicale-e-mal-di-testa, mal-di-schiena-osteopatia, lavori-fisici-e-dolori]
 ---
 
 Una buona parte delle persone che entrano nel mio studio lavora seduta: uffici, smart working, partite IVA al tavolo della cucina. I sintomi sono sempre gli stessi: collo rigido, spalle contratte, schiena bassa che tira a fine giornata, a volte formicolio alle mani. E molti arrivano convinti di avere «una brutta postura».
