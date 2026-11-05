@@ -1,9 +1,9 @@
 ---
 title: "Osteopata in vacanza in Versilia: un percorso breve mentre sei qui"
 description: "Sei in vacanza a Forte dei Marmi, Pietrasanta, Camaiore o Viareggio e hai un dolore che ti trascini da mesi? Come funziona un percorso osteopatico concentrato in una o due settimane."
-pubDate: 2026-10-24
+pubDate: 2026-06-23
 tags: [versilia, vacanza, percorso]
-related: [quante-sedute-servono-dall-osteopata, osteopatia-e-sport]
+related: [mal-di-schiena-in-viaggio, schiena-in-spiaggia]
 ---
 
 Ogni estate la Versilia si riempie di persone che vengono da Milano, Firenze, Bologna, Torino, e sempre più spesso anche dall'estero. Molti arrivano con una valigia e un dolore: la schiena che li accompagna da mesi, il collo che non gira, la spalla che fa male a nuotare. A casa «non c'è mai tempo». In vacanza, per una volta, il tempo c'è.

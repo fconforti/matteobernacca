@@ -68,3 +68,21 @@ export function breadcrumbs(siteUrl: URL, items: { name: string; path: string }[
     })),
   };
 }
+
+// FAQPage dai titoli ## (domande) e dal testo che li segue (risposte), senza la formattazione Markdown.
+export function faqFromMarkdown(markdown: string) {
+  const plain = (t: string) =>
+    t.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_`]/g, '').replace(/\s+/g, ' ').trim();
+  const sections = markdown.split(/^## /m).slice(1);
+  return {
+    '@type': 'FAQPage',
+    mainEntity: sections.map((section) => {
+      const [question, ...rest] = section.split('\n');
+      return {
+        '@type': 'Question',
+        name: plain(question),
+        acceptedAnswer: { '@type': 'Answer', text: plain(rest.join('\n')) },
+      };
+    }),
+  };
+}

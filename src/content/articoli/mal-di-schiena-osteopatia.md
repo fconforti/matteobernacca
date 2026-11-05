@@ -1,9 +1,9 @@
 ---
 title: "Mal di schiena: come lo affronta l'osteopata"
 description: "Lombalgia, colpo della strega, schiena rigida al mattino: perché la schiena fa male, cosa guarda l'osteopata e cosa puoi fare tu nel frattempo."
-pubDate: 2026-10-06
+pubDate: 2026-07-13
 tags: [schiena]
-related: [postura-e-lavoro-al-computer, quando-andare-dall-osteopata-e-quando-no]
+related: [colpo-della-strega-cosa-fare, sciatica-osteopatia]
 ---
 
 Il mal di schiena è il motivo numero uno per cui le persone entrano nel mio studio. È un disturbo molto comune e nella maggior parte dei casi non ha cause gravi. Però, se non si capisce da dove nasce, tende a ripresentarsi.

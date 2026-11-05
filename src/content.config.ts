@@ -11,6 +11,8 @@ const articoli = defineCollection({
     tags: z.array(z.string()).default([]),
     // Slug di due articoli da mostrare in fondo (se mancano, si usano i tag).
     related: z.array(z.string()).default([]),
+    // Se true, le sezioni ## diventano domande e risposte nei dati strutturati (FAQPage).
+    faq: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),
 });

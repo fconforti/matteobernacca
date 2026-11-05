@@ -1,9 +1,9 @@
 ---
 title: "Quando andare dall'osteopata (e quando no)"
 description: "I casi in cui l'osteopatia è una buona scelta, quelli in cui serve prima un medico e i segnali da non ignorare."
-pubDate: 2026-11-04
+pubDate: 2026-10-31
 tags: [basi]
-related: [che-cos-e-l-osteopatia, quante-sedute-servono-dall-osteopata]
+related: [domande-frequenti-osteopatia, che-cos-e-l-osteopatia]
 ---
 
 In questo articolo provo a spiegare quando ha senso venire in studio, quando è meglio prima passare dal medico, e quali segnali non vanno mai ignorati.

@@ -6,7 +6,7 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Cta from '../../components/Cta.astro';
 import PostList from '../../components/PostList.astro';
 import { site, href } from '../../site';
-import { breadcrumbs, ids } from '../../schema';
+import { breadcrumbs, faqFromMarkdown, ids } from '../../schema';
 
 export async function getStaticPaths() {
   const posts = await getCollection('articoli', ({ data }) => !data.draft);
@@ -62,6 +62,7 @@ const jsonLd = [
     { name: 'Articoli', path: '/articoli/' },
     { name: title, path: `/articoli/${post.id}/` },
   ]),
+  ...(post.data.faq ? [faqFromMarkdown(post.body ?? '')] : []),
 ];
 ---
 

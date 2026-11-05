@@ -1,9 +1,9 @@
 ---
 title: "Osteopatia e sport: corsa, bici, nuoto, padel e tutto quello che si fa in Versilia"
 description: "Come l'osteopatia aiuta chi fa sport, dall'amatore al competitivo: prevenire gli infortuni ricorrenti, recuperare meglio e capire perché un dolore torna sempre nello stesso punto."
-pubDate: 2026-10-28
+pubDate: 2026-07-23
 tags: [sport]
-related: [mal-di-schiena-osteopatia, osteopata-in-vacanza-in-versilia]
+related: [dolore-al-ginocchio-osteopatia, escursioni-sulle-apuane]
 ---
 
 La Versilia è un posto dove ci si muove: si corre sul lungomare da Viareggio a Forte dei Marmi, si pedala sulle colline di Camaiore e verso le Apuane, si nuota, si gioca a padel, beach volley, beach tennis, si fa surf e sup quando il mare lo permette. Risultato: una buona parte delle persone che vedo in studio sono sportivi, amatori o agonisti, con un dolore che gli impedisce di fare quello che amano.
