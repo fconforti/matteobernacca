@@ -23,9 +23,14 @@ export const site = {
     province: 'LU',
     postalCode: '55045',
   },
+  // Campi ancora segnaposto: non finiscono nei dati strutturati né nei file per agent (llms.txt).
+  // Toglili da qui quando inserisci i dati veri.
+  placeholders: ['email', 'address', 'hours'] as string[],
   // Orari indicativi (placeholder)
   hours: 'Lunedì – Venerdì, 9:00 – 19:00. Sabato su appuntamento.',
 };
+
+export const isReal = (field: 'email' | 'address' | 'hours') => !site.placeholders.includes(field);
 
 // Link WhatsApp con un messaggio già scritto.
 export const whatsappUrl = `https://wa.me/${site.contact.whatsapp}?text=${encodeURIComponent(

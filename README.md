@@ -19,4 +19,13 @@ npm run build    # output in dist/
 - **Foto**: metti `public/matteo.jpg` e segui il commento in `src/components/Photo.astro`.
 - **Testo "Chi sono"**: `src/pages/chi-sono.astro`.
 - **Articoli**: un file Markdown in `src/content/articoli/`, con frontmatter `title`, `description`, `pubDate`, `tags`; `related` (due slug di articoli correlati, opzionale); `draft: true` lo nasconde. Il nome del file è lo slug dell'URL.
-- **Dominio personalizzato**: in `astro.config.mjs` imposta `site` al dominio, togli `base`, aggiungi `public/CNAME` e aggiorna `public/robots.txt`.
+- **Dominio personalizzato**: in `astro.config.mjs` imposta `SITE` al dominio, metti `BASE = ''`, aggiungi `public/CNAME` e aggiorna `public/robots.txt`.
+
+## Agent e LLM
+
+- `/llms.txt` (alias `/llm.txt`): indice del sito per agent, secondo https://llmstxt.org. Generato da `src/pages/llms.txt.ts`.
+- `/llms-full.txt`: tutti gli articoli in un unico file Markdown.
+- `/articoli/<slug>.md`: ogni articolo in Markdown, con i link resi assoluti. Le pagine HTML lo indicano con `<link rel="alternate" type="text/markdown">`.
+- JSON-LD (`src/schema.ts`): WebSite, Person e LocalBusiness su ogni pagina, più BlogPosting, CollectionPage, ProfilePage e BreadcrumbList dove servono.
+- `public/robots.txt` consente esplicitamente i crawler AI; la sitemap ha `lastmod` presa dalle date degli articoli.
+- I campi in `site.placeholders` (`src/site.ts`) non finiscono né nel JSON-LD né in llms.txt: quando email, indirizzo e orari sono veri, toglili da lì.

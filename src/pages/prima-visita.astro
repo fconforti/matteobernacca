@@ -2,26 +2,9 @@
 import Base from '../layouts/Base.astro';
 import { site, href, whatsappUrl } from '../site';
 import WhatsAppIcon from '../components/WhatsAppIcon.astro';
+import { breadcrumbs } from '../schema';
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': ['LocalBusiness', 'HealthAndBeautyBusiness'],
-  name: `${site.name} · ${site.profession}`,
-  description: site.description,
-  url: new URL(href('/'), Astro.site).toString(),
-  telephone: site.contact.phone,
-  email: site.contact.email,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: site.contact.address,
-    addressLocality: site.contact.city,
-    addressRegion: site.contact.province,
-    postalCode: site.contact.postalCode,
-    addressCountry: 'IT',
-  },
-  areaServed: site.towns.map((name) => ({ '@type': 'City', name })),
-  founder: { '@type': 'Person', name: site.name, jobTitle: site.profession },
-};
+const jsonLd = [breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: 'Prima visita', path: '/prima-visita/' }])];
 ---
 
 <Base

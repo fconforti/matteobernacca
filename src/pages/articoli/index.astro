@@ -3,13 +3,32 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostList from '../../components/PostList.astro';
 import Cta from '../../components/Cta.astro';
-import { site } from '../../site';
+import { site, href } from '../../site';
+import { breadcrumbs } from '../../schema';
 
 const posts = (await getCollection('articoli', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const jsonLd = [
+  {
+    '@type': 'CollectionPage',
+    name: "Capire l'osteopatia",
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: posts.map((post, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: new URL(href(`/articoli/${post.id}/`), Astro.site).toString(),
+        name: post.data.title,
+      })),
+    },
+  },
+  breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: 'Articoli', path: '/articoli/' }]),
+];
 ---
 
 <Base
+  jsonLd={jsonLd}
   title="Articoli: capire l'osteopatia"
   description={`Articoli semplici e con esempi per capire che cos'è l'osteopatia, quando può aiutare e come funziona un percorso con un osteopata in ${site.area}.`}
 >

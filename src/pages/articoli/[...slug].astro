@@ -6,6 +6,7 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Cta from '../../components/Cta.astro';
 import PostList from '../../components/PostList.astro';
 import { site, href } from '../../site';
+import { breadcrumbs, ids } from '../../schema';
 
 export async function getStaticPaths() {
   const posts = await getCollection('articoli', ({ data }) => !data.draft);
@@ -34,26 +35,37 @@ const { Content } = await render(post);
 const { title, description, pubDate, updatedDate } = post.data;
 
 const url = new URL(Astro.url.pathname, Astro.site).toString();
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
-  headline: title,
-  description,
-  datePublished: pubDate.toISOString(),
-  dateModified: (updatedDate ?? pubDate).toISOString(),
-  inLanguage: site.lang,
-  mainEntityOfPage: url,
-  author: {
-    '@type': 'Person',
-    name: site.name,
-    jobTitle: site.profession,
-    url: new URL(href('/chi-sono/'), Astro.site).toString(),
+const id = ids(Astro.site!);
+const jsonLd = [
+  {
+    '@type': 'BlogPosting',
+    '@id': `${url}#articolo`,
+    headline: title,
+    description,
+    datePublished: pubDate.toISOString(),
+    dateModified: (updatedDate ?? pubDate).toISOString(),
+    inLanguage: site.lang,
+    mainEntityOfPage: url,
+    keywords: post.data.tags.join(', '),
+    about: { '@type': 'Thing', name: 'Osteopatia' },
+    author: { '@id': id.person },
+    publisher: { '@id': id.person },
+    isPartOf: { '@id': id.website },
+    encoding: {
+      '@type': 'MediaObject',
+      encodingFormat: 'text/markdown',
+      contentUrl: new URL(href(`/articoli/${post.id}.md`), Astro.site).toString(),
+    },
   },
-  publisher: { '@type': 'Person', name: site.name },
-};
+  breadcrumbs(Astro.site!, [
+    { name: 'Home', path: '/' },
+    { name: 'Articoli', path: '/articoli/' },
+    { name: title, path: `/articoli/${post.id}/` },
+  ]),
+];
 ---
 
-<Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} jsonLd={jsonLd} bodyClass="page-article">
+<Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} jsonLd={jsonLd} markdownPath={`/articoli/${post.id}.md`} bodyClass="page-article">
   <div class="article-wrap">
   <article class="article">
     <header>

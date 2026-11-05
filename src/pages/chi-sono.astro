@@ -2,11 +2,18 @@
 import Base from '../layouts/Base.astro';
 import Photo from '../components/Photo.astro';
 import { site, href } from '../site';
+import { breadcrumbs, ids } from '../schema';
+
+const jsonLd = [
+  { '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).person } },
+  breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: 'Chi sono', path: '/chi-sono/' }]),
+];
 
 ---
 
 <Base
   title="Chi sono"
+  jsonLd={jsonLd}
   description={`Matteo Bernacca, osteopata a ${site.contact.city}. Chi sono, come lavoro e chi seguo in ${site.area}.`}
 >
   <section class="hero">
