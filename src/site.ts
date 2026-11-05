@@ -1,12 +1,12 @@
 // Dati del sito e del professionista: un solo posto da aggiornare.
 export const site = {
-  name: 'Matteo Bernacca',
-  title: 'Matteo Bernacca · Osteopata in Versilia',
+  name: 'Matteo Bertacca',
+  title: 'Matteo Bertacca · Osteopata in Versilia',
   description:
     'Osteopata in Versilia: trattamenti osteopatici a Camaiore, Pietrasanta, Viareggio, Forte dei Marmi e dintorni. Articoli semplici per capire l’osteopatia e come può aiutarti.',
   locale: 'it_IT',
   lang: 'it',
-  author: 'Matteo Bernacca',
+  author: 'Matteo Bertacca',
   profession: 'Osteopata',
   // Zona servita: usata nei testi e nei dati strutturati per la ricerca locale.
   area: 'Versilia',
@@ -16,7 +16,8 @@ export const site = {
   contact: {
     phone: '+39 340 797 0063',
     phoneDisplay: '340 797 0063',
-    email: 'info@example.com',
+    // Email: Matteo preferisce non pubblicarla (solo WhatsApp e telefono).
+    email: '',
     whatsapp: '393407970063',
     address: 'Via Esempio 1',
     city: 'Camaiore',

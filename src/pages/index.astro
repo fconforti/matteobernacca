@@ -33,7 +33,7 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     <div>
       <span class="eyebrow">Osteopata a {site.contact.city} · {site.area}</span>
       <h1>Un osteopata in Versilia, per chi ci vive <em>e per chi è in vacanza</em></h1>
-      <p class="lead">Sono Matteo Bernacca, osteopata. Ricevo a {site.contact.city} e seguo persone di tutta la {site.area}.</p>
+      <p class="lead">Sono Matteo Bertacca, osteopata. Ricevo a {site.contact.city} e seguo persone di tutta la {site.area}.</p>
       <div class="actions">
         <ContactButton />
         <a class="btn secondary" href={href('/articoli/')}>Leggi i miei articoli</a>
@@ -44,7 +44,7 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
 
   <section class="section" id="chi-sono">
     <span class="eyebrow">Chi sono</span>
-    <h2 style="margin-top:0">Matteo Bernacca, osteopata in {site.area}</h2>
+    <h2 style="margin-top:0">Matteo Bertacca, osteopata in {site.area}</h2>
     <div style="max-width:44rem">
       <p class="lead">
         Lavoro con un approccio manuale e dedico a ogni persona il tempo necessario per capire il suo problema.
@@ -143,10 +143,6 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
       <div class="contact-item">
         <span class="label">WhatsApp e telefono</span>
         <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`}>{site.contact.phoneDisplay}</a>
-      </div>
-      <div class="contact-item">
-        <span class="label">Email</span>
-        <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
       </div>
       <div class="contact-item">
         <span class="label">Studio</span>

@@ -1,6 +1,6 @@
 # matteobernacca
 
-Sito personale di Matteo Bernacca, osteopata in Versilia. Astro, pubblicato su GitHub Pages.
+Sito personale di Matteo Bertacca, osteopata in Versilia. Astro, pubblicato su GitHub Pages.
 
 - Sito: https://fconforti.github.io/matteobernacca/
 - Deploy: ogni push su `main` esegue `.github/workflows/deploy.yml`.

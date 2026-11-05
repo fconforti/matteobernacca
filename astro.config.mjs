@@ -16,7 +16,7 @@ const articleDates = Object.fromEntries(
 const latest = Object.values(articleDates).sort().at(-1);
 
 // GitHub Pages: https://fconforti.github.io/matteobernacca/
-// Con un dominio personalizzato (es. https://matteobernacca.it): cambia `site`,
+// Con un dominio personalizzato (es. https://matteobertacca.it): cambia `site`,
 // rimuovi `base` e aggiungi public/CNAME.
 const SITE = 'https://fconforti.github.io';
 const BASE = '/matteobernacca';
