@@ -13,6 +13,10 @@ Ci sono domande che mi fanno quasi tutti, al telefono o su WhatsApp, prima di pr
 
 No, per prenotare una visita dall'osteopata non serve una prescrizione. Se però hai un problema di salute che ti preoccupa, o un dolore nato senza una ragione chiara, è meglio sentire prima il tuo medico. L'osteopatia lavora insieme alla medicina, non al suo posto, e se nella valutazione trovo qualcosa che richiede un medico o un esame te lo dico e ti indirizzo.
 
+## Quanto costa la prima visita?
+
+La prima visita è gratuita. È il momento in cui mi racconti il problema, faccio la valutazione e ti dico se e come possiamo lavorare insieme. Per le sedute successive ti do tutte le informazioni in studio o quando mi scrivi. Come si svolge la prima visita lo spiego nella [pagina dedicata](../../prima-visita/).
+
 ## Il trattamento fa male?
 
 Non dovrebbe. Su una zona molto tesa può capitare di sentire un po' di fastidio, ma se senti dolore vero me lo dici e cambio tecnica. Le manipolazioni (i movimenti rapidi che a volte fanno il classico «crack») le uso solo quando servono e solo se sei d'accordo: molte persone non le ricevono mai. Nelle 24-48 ore successive è possibile sentirsi un po' indolenziti, come dopo una sessione di ginnastica, e passa da solo.

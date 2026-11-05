@@ -8,13 +8,13 @@ const jsonLd = [breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: '
 ---
 
 <Base
-  title="Prenota una prima visita"
-  description={`Prenota una prima visita osteopatica a ${site.contact.city}, in ${site.area}: WhatsApp, telefono, indirizzo dello studio e come si svolge il primo incontro.`}
+  title="Prenota una visita gratuita"
+  description={`Prenota una prima visita osteopatica gratuita a ${site.contact.city}, in ${site.area}: WhatsApp, telefono, indirizzo dello studio e come si svolge il primo incontro.`}
   jsonLd={jsonLd}
 >
   <section class="section">
     <span class="eyebrow">Contatti</span>
-    <h1>Prenota una prima visita</h1>
+    <h1>Prenota una visita gratuita</h1>
     <p class="lead" style="max-width:40rem">Il modo più semplice è un messaggio WhatsApp: dimmi in due righe cosa senti e da quanto, e ti rispondo con una proposta di orario.</p>
     <div class="actions" style="margin-top:0">
       <a class="btn" href={whatsappUrl} target="_blank" rel="noopener"><WhatsAppIcon />Scrivimi su WhatsApp</a>
@@ -48,6 +48,6 @@ const jsonLd = [breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: '
       <li><strong>Trattamento.</strong> Lavoro con le mani: tecniche delicate, mai dolorose, spiegate passo per passo.</li>
       <li><strong>Piano.</strong> Alla fine ti dico cosa ho trovato, cosa possiamo fare e quante sedute, indicativamente, servono.</li>
     </ol>
-    <p class="muted small" style="margin:1.5rem 0 0">La prima visita dura circa un'ora. Vieni con abiti comodi.</p>
+    <p class="muted small" style="margin:1.5rem 0 0">La prima visita è gratuita e dura circa un'ora. Vieni con abiti comodi.</p>
   </section>
 </Base>

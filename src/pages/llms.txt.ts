@@ -21,7 +21,7 @@ export async function GET({ site: siteUrl }: APIContext) {
     '',
     '## Pagine',
     '',
-    `- [Prenota una prima visita](${abs(u, '/prima-visita/')}): contatti, studio e come si svolge la prima visita`,
+    `- [Prenota una visita gratuita](${abs(u, '/prima-visita/')}): contatti, studio e come si svolge la prima visita (gratuita)`,
     `- [Chi sono](${abs(u, '/chi-sono/')}): chi è ${site.name} e come lavora`,
     `- [Tutti gli articoli](${abs(u, '/articoli/')})`,
     '',
