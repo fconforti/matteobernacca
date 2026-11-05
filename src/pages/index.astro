@@ -9,6 +9,13 @@ import { site, href } from '../site';
 const posts = (await getCollection('articoli', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 8);
+
+const areas = [
+  { label: 'Schiena e collo', title: 'Mal di schiena e cervicale', text: 'Lombalgia, colpo della strega, collo rigido, mal di testa che parte dalla nuca.', slug: 'mal-di-schiena-osteopatia' },
+  { label: 'Postura e lavoro', title: 'Ore al computer o in piedi', text: 'Tensioni da scrivania e smart working, ore di guida, lavori fisici e stagionali.', slug: 'postura-e-lavoro-al-computer' },
+  { label: 'Sport', title: 'Fastidi che tornano', text: 'Dolori che si ripresentano sempre nello stesso punto, recupero dopo sforzi e piccoli infortuni.', slug: 'osteopatia-e-sport' },
+  { label: 'Gravidanza e dopo il parto', title: 'Schiena e bacino', text: 'Tecniche delicate per i dolori della gravidanza e per il recupero nei mesi dopo il parto.', slug: 'osteopatia-in-gravidanza' },
+];
 ---
 
 <Base>
@@ -33,26 +40,14 @@ const posts = (await getCollection('articoli', ({ data }) => !data.draft))
       dove fa male.
     </p>
     <div class="features" style="margin-top:2rem">
-      <div class="feature">
-        <span class="num">01</span>
-        <h3>Schiena e collo</h3>
-        <p>Mal di schiena, colpo della strega, cervicale, rigidità al risveglio.</p>
-      </div>
-      <div class="feature">
-        <span class="num">02</span>
-        <h3>Postura e lavoro</h3>
-        <p>Tensioni da scrivania, smart working, ore di guida, mal di testa muscolare.</p>
-      </div>
-      <div class="feature">
-        <span class="num">03</span>
-        <h3>Sport</h3>
-        <p>Fastidi che tornano sempre nello stesso punto, recupero dopo sforzi e piccoli infortuni.</p>
-      </div>
-      <div class="feature">
-        <span class="num">04</span>
-        <h3>In vacanza</h3>
-        <p>Percorsi brevi e concentrati per chi passa una o due settimane in Versilia.</p>
-      </div>
+      {areas.map((area) => (
+        <div class="feature">
+          <span class="eyebrow">{area.label}</span>
+          <h3>{area.title}</h3>
+          <p>{area.text}</p>
+          <a class="more" href={href(`/articoli/${area.slug}/`)}>Scopri di più →</a>
+        </div>
+      ))}
     </div>
   </section>
 
