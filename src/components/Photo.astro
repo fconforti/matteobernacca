@@ -1,9 +1,9 @@
 ---
-// Foto grande di Matteo (per ora un segnaposto).
-// Per usare la foto vera: metti il file in public/matteo.jpg e sostituisci
-// il blocco <svg> con <img src={href('/matteo.jpg')} alt="Matteo Bernacca, osteopata" />
-// (importa `href` da '../site').
+// Foto grande di Matteo nella home. Per cambiarla sostituisci src/assets/matteo.jpg
+// (verticale o quadrata: nella home è ritagliata quadrata): Astro la ridimensiona e la converte in WebP in fase di build.
+import { Image } from 'astro:assets';
 import { site } from '../site';
+import matteo from '../assets/matteo.jpg';
 
 interface Props {
   badge?: boolean;
@@ -11,11 +11,16 @@ interface Props {
 const { badge = true } = Astro.props;
 ---
 
-<figure class="photo" role="img" aria-label="Foto di Matteo Bernacca, osteopata (segnaposto)" style="margin:0">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <circle cx="12" cy="8" r="4" />
-    <path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" />
-  </svg>
+<figure class="photo" style="margin:0">
+  <Image
+    src={matteo}
+    alt={`${site.name}, ${site.profession.toLowerCase()}, nel suo studio a ${site.contact.city}`}
+    widths={[480, 720, 960, 1200]}
+    sizes="(max-width: 860px) 100vw, 40vw"
+    loading="eager"
+    fetchpriority="high"
+    style="object-position: 50% 30%"
+  />
   {badge && (
     <figcaption class="badge">
       <strong>{site.name}</strong>

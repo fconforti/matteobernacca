@@ -112,7 +112,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .photo {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   border-radius: var(--radius);
   background:
     radial-gradient(120% 80% at 80% 0%, #d9e5df 0%, transparent 60%),

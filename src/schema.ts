@@ -6,7 +6,7 @@ export const ids = (siteUrl: URL) => {
   return { root, website: `${root}#website`, business: `${root}#studio`, person: `${root}#matteo` };
 };
 
-export function baseGraph(siteUrl: URL) {
+export function baseGraph(siteUrl: URL, image?: string) {
   const id = ids(siteUrl);
   const c = site.contact;
   const address = {
@@ -32,6 +32,7 @@ export function baseGraph(siteUrl: URL) {
       name: site.name,
       jobTitle: site.profession,
       knowsAbout: ['Osteopatia', 'Mal di schiena', 'Cervicalgia', 'Postura', 'Trattamento manuale'],
+      ...(image ? { image } : {}),
       worksFor: { '@id': id.business },
       url: new URL(href('/#chi-sono'), siteUrl).toString(),
     },
@@ -41,6 +42,7 @@ export function baseGraph(siteUrl: URL) {
       name: `${site.name} · ${site.profession}`,
       description: site.description,
       url: id.root,
+      ...(image ? { image } : {}),
       telephone: c.phone,
       ...(isReal('email') ? { email: c.email } : {}),
       ...(isReal('hours') ? { openingHours: 'Mo-Fr 09:00-19:00' } : {}),
