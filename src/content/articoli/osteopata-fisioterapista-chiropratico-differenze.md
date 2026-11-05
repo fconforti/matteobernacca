@@ -59,4 +59,4 @@ A volte serve più di una figura. Mi capita di seguire persone in parallelo con 
 
 Al di là del titolo, un buon professionista, qualunque sia il titolo, ti ascolta, ti spiega cosa sta facendo, non promette risultati che non può garantire e ti dice quando non è lui quello che ti serve.
 
-Se vuoi capire se l'osteopatia è la strada giusta per il tuo caso, [scrivimi](../../chi-sono/): ricevo a Pietrasanta e seguo persone da tutta la Versilia, da Forte dei Marmi a Viareggio.
+Se vuoi capire se l'osteopatia è la strada giusta per il tuo caso, [scrivimi](../../prima-visita/): ricevo a Pietrasanta e seguo persone da tutta la Versilia, da Forte dei Marmi a Viareggio.

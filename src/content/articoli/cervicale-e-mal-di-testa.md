@@ -51,4 +51,4 @@ Il trattamento lavora sul collo, certo, ma soprattutto su quello che lo costring
 
 Se il mal di testa è il «peggiore della tua vita», è arrivato all'improvviso come un colpo, si accompagna a febbre, confusione, vomito, disturbi della vista o della parola: pronto soccorso, non osteopata. Sono casi rari.
 
-Per tutto il resto, se vuoi una valutazione, [qui trovi i contatti](../../chi-sono/): ricevo a Pietrasanta, in Versilia.
+Per tutto il resto, se vuoi una valutazione, [qui trovi i contatti](../../prima-visita/): ricevo a Pietrasanta, in Versilia.

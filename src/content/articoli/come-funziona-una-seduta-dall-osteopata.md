@@ -60,4 +60,4 @@ Se qualcosa ti preoccupa, chiamami.
 
 La prima visita dura circa un'ora. Le sedute successive sono più brevi, 40-45 minuti, perché il colloquio iniziale non va rifatto da capo.
 
-Se vuoi capire meglio come si costruisce un percorso e quante sedute servono, ne parlo in [questo articolo](../quante-sedute-servono-dall-osteopata/). Se invece hai già deciso di provare, [qui trovi i contatti](../../chi-sono/).
+Se vuoi capire meglio come si costruisce un percorso e quante sedute servono, ne parlo in [questo articolo](../quante-sedute-servono-dall-osteopata/). Se invece hai già deciso di provare, [qui trovi i contatti](../../prima-visita/).

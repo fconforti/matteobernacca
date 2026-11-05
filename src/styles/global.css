@@ -239,7 +239,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
   body { padding-bottom: calc(4.2rem + env(safe-area-inset-bottom)); }
   .nav {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
     background: rgb(255 255 255 / 0.95); backdrop-filter: blur(8px);
     border-top: 1px solid var(--line);
     padding: 0.35rem 0.5rem calc(0.35rem + env(safe-area-inset-bottom));

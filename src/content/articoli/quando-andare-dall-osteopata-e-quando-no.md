@@ -50,4 +50,4 @@ Ci sono anche casi in cui, semplicemente, l'osteopata non è necessario:
 
 Scrivimi. Un messaggio con due righe su cosa senti e da quanto, e ti rispondo se ha senso vederci o se è meglio sentire prima qualcun altro. Non costa niente e ti risparmia una seduta inutile.
 
-Il percorso, se si parte, è di solito breve: ne parlo in [Quante sedute servono](../quante-sedute-servono-dall-osteopata/). Ricevo a Pietrasanta, in Versilia; [qui i contatti](../../chi-sono/).
+Il percorso, se si parte, è di solito breve: ne parlo in [Quante sedute servono](../quante-sedute-servono-dall-osteopata/). Ricevo a Pietrasanta, in Versilia; [qui i contatti](../../prima-visita/).

@@ -18,7 +18,7 @@ const posts = (await getCollection('articoli', ({ data }) => !data.draft))
       <h1>Un osteopata in Versilia, per chi ci vive <em>e per chi è in vacanza</em></h1>
       <p class="lead">{`Sono Matteo Bernacca, osteopata. Ricevo a ${site.contact.city} e seguo persone di ${site.towns.slice(1, 4).join(', ')} e di tutta la Versilia, oltre a chi è qui in vacanza e cerca un percorso breve.`}</p>
       <div class="actions">
-        <a class="btn" href={href('/chi-sono/#contatti')}>Prenota una prima visita</a>
+        <a class="btn" href={href('/prima-visita/')}>Prenota una prima visita</a>
         <a class="btn secondary" href={href('/articoli/')}>Leggi i miei articoli</a>
       </div>
     </div>

@@ -53,4 +53,4 @@ Se il mal di schiena arriva con febbre, perdita di peso senza motivo, difficolt�
 
 Per un blocco acuto bastano di solito 2-3 sedute ravvicinate. Per un dolore cronico servono più tempo e qualche cambiamento nelle abitudini, ma il percorso è di solito breve: ne parlo in [Quante sedute servono](../quante-sedute-servono-dall-osteopata/).
 
-Ricevo a Pietrasanta e seguo persone da Camaiore, Forte dei Marmi, Viareggio e da tutta la Versilia. Se vuoi fissare una visita, [qui trovi i contatti](../../chi-sono/).
+Ricevo a Pietrasanta e seguo persone da Camaiore, Forte dei Marmi, Viareggio e da tutta la Versilia. Se vuoi fissare una visita, [qui trovi i contatti](../../prima-visita/).
