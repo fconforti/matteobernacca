@@ -50,4 +50,4 @@ Se sei appena rimasto bloccato con la schiena, questi esercizi non sono il primo
 
 Prima di qualsiasi esercizio va sentito il medico se il mal di schiena si accompagna a febbre, perdita di peso senza motivo, difficoltà a controllare vescica o intestino, intorpidimento nella zona tra le gambe, perdita di forza a una gamba, oppure se è arrivato dopo una caduta. Lo stesso vale se hai l'osteoporosi, hai avuto un intervento alla colonna o sei in gravidanza: alcuni di questi esercizi vanno adattati.
 
-Gli esercizi aiutano a mantenere la schiena mobile, ma non dicono perché fa male. Se vuoi capirlo con una valutazione nel mio studio di Pietrasanta, [qui trovi i contatti](../../#contatti).
+Gli esercizi aiutano a mantenere la schiena mobile, ma non dicono perché fa male. Se vuoi capirlo con una valutazione nel mio studio di Camaiore, [qui trovi i contatti](../../#contatti).

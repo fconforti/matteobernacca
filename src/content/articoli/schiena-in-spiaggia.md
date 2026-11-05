@@ -51,4 +51,4 @@ Il collo soffre in spiaggia anche per motivi meno ovvi. Dormire sotto l'ombrello
 
 Se un fastidio dura più di qualche giorno nonostante le accortezze, o ti limita nelle cose che vorresti fare in vacanza, un breve percorso può essere utile. Per chi è in Versilia per una o due settimane organizzo due o tre sedute concentrate nel soggiorno: lo spiego in [Osteopata in vacanza in Versilia](../osteopata-in-vacanza-in-versilia/). Se invece il dolore arriva dopo una caduta, scende nella gamba con formicolio o debolezza, o si accompagna a febbre, la prima cosa da fare è sentire un medico.
 
-Lo studio è a Pietrasanta, comodo da Forte dei Marmi, Marina di Pietrasanta e Lido di Camaiore: per fissare una seduta durante le vacanze puoi [scrivermi](../../#contatti).
+Lo studio è a Camaiore, comodo da Forte dei Marmi, Marina di Pietrasanta e Lido di Camaiore: per fissare una seduta durante le vacanze puoi [scrivermi](../../#contatti).

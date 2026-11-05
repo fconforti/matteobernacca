@@ -63,4 +63,4 @@ Rivolgiti al medico, all'ortopedico o al podologo prima di un trattamento se:
 - soffri di diabete e hai dolore o ferite ai piedi;
 - il dolore è in entrambi i talloni insieme ad altre articolazioni doloranti.
 
-Il medico o il podologo possono anche valutare se ti serve un plantare. Se invece vuoi una valutazione osteopatica nel mio studio di Pietrasanta, [qui trovi come prenotare](../../#contatti).
+Il medico o il podologo possono anche valutare se ti serve un plantare. Se invece vuoi una valutazione osteopatica nel mio studio di Camaiore, [qui trovi come prenotare](../../#contatti).

@@ -3,14 +3,14 @@ export const site = {
   name: 'Matteo Bernacca',
   title: 'Matteo Bernacca · Osteopata in Versilia',
   description:
-    'Osteopata in Versilia: trattamenti osteopatici a Pietrasanta, Camaiore, Forte dei Marmi, Viareggio e dintorni. Articoli semplici per capire l’osteopatia e come può aiutarti.',
+    'Osteopata in Versilia: trattamenti osteopatici a Camaiore, Pietrasanta, Viareggio, Forte dei Marmi e dintorni. Articoli semplici per capire l’osteopatia e come può aiutarti.',
   locale: 'it_IT',
   lang: 'it',
   author: 'Matteo Bernacca',
   profession: 'Osteopata',
   // Zona servita: usata nei testi e nei dati strutturati per la ricerca locale.
   area: 'Versilia',
-  towns: ['Pietrasanta', 'Camaiore', 'Forte dei Marmi', 'Viareggio', 'Lido di Camaiore', 'Marina di Pietrasanta', 'Seravezza', 'Massarosa'],
+  towns: ['Camaiore', 'Lido di Camaiore', 'Pietrasanta', 'Forte dei Marmi', 'Viareggio', 'Marina di Pietrasanta', 'Seravezza', 'Massarosa'],
   region: 'Toscana',
   // Contatti. Telefono e WhatsApp reali; email e indirizzo ancora segnaposto.
   contact: {
@@ -19,9 +19,9 @@ export const site = {
     email: 'info@example.com',
     whatsapp: '393407970063',
     address: 'Via Esempio 1',
-    city: 'Pietrasanta',
+    city: 'Camaiore',
     province: 'LU',
-    postalCode: '55045',
+    postalCode: '55041',
   },
   // Campi ancora segnaposto: non finiscono nei dati strutturati né nei file per agent (llms.txt).
   // Toglili da qui quando inserisci i dati veri.

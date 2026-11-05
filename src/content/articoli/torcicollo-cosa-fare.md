@@ -68,4 +68,4 @@ Chi ha un torcicollo all'anno di solito ha un collo che lavora sempre al limite.
 - controlla il cuscino: se è vecchio, schiacciato o troppo alto, vale la pena cambiarlo;
 - se lo stress ti tiene le spalle alte, cerca dei momenti per scaricare la tensione, anche solo una camminata.
 
-Ricevo a Pietrasanta e vedo spesso persone da tutta la Versilia per questo disturbo. Se il collo non si sblocca o il torcicollo si ripete, puoi [prenotare una prima visita qui](../../#contatti).
+Ricevo a Camaiore e vedo spesso persone da tutta la Versilia per questo disturbo. Se il collo non si sblocca o il torcicollo si ripete, puoi [prenotare una prima visita qui](../../#contatti).

@@ -47,7 +47,7 @@ Una coppia di Milano, in affitto a Marina di Pietrasanta per tre settimane. Lui,
 
 ## Dove ricevo
 
-Lo studio è a **Pietrasanta**, a pochi minuti da Forte dei Marmi, Marina di Pietrasanta, Lido di Camaiore e Camaiore, e a un quarto d'ora da Viareggio. È comodo anche per chi sta a Seravezza, Massarosa o sulle colline.
+Lo studio è a **Camaiore**, a pochi chilometri da Lido di Camaiore, Pietrasanta, Viareggio e Forte dei Marmi. È comodo anche per chi sta a Massarosa, Seravezza o sulle colline.
 
 Nei mesi estivi tengo qualche posto libero ogni settimana per chi è in vacanza, ma conviene scrivere con qualche giorno di anticipo. Un messaggio WhatsApp basta: mi dici quanto stai, qual è il problema e troviamo il modo migliore di usare il tempo che hai.
 

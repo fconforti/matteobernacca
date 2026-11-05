@@ -55,6 +55,6 @@ E non è nemmeno un massaggio. Un massaggio rilassa i tessuti; un trattamento os
 
 ## Dove trovarmi
 
-Ricevo a Pietrasanta e seguo persone di tutta la Versilia: Camaiore, Forte dei Marmi, Viareggio, Lido di Camaiore, Seravezza, Massarosa. Se sei qui in vacanza e hai poco tempo, possiamo organizzare un percorso breve: ne parlo in un [articolo dedicato](../osteopata-in-vacanza-in-versilia/).
+Ricevo a Camaiore e seguo persone di tutta la Versilia: Pietrasanta, Forte dei Marmi, Viareggio, Lido di Camaiore, Seravezza, Massarosa. Se sei qui in vacanza e hai poco tempo, possiamo organizzare un percorso breve: ne parlo in un [articolo dedicato](../osteopata-in-vacanza-in-versilia/).
 
 Nei prossimi articoli entrerò nel dettaglio: come funziona una seduta, le differenze con fisioterapia e chiropratica, quante sedute servono davvero. Se hai una domanda che vorresti vedere trattata, scrivimi.

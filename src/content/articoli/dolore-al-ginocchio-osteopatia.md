@@ -61,4 +61,4 @@ Do quasi sempre qualche esercizio di rinforzo per glutei e cosce, perché i musc
 - **Evita di stare a lungo con le ginocchia molto piegate**; se sei al cinema o in aereo, distendi la gamba ogni tanto.
 - **Controlla le scarpe**, soprattutto quelle da corsa: se sono molto consumate, è il momento di cambiarle.
 
-Se il ginocchio ti dà fastidio da qualche settimana e vuoi una valutazione nello studio di Pietrasanta, [puoi prenotare da qui](../../#contatti).
+Se il ginocchio ti dà fastidio da qualche settimana e vuoi una valutazione nello studio di Camaiore, [puoi prenotare da qui](../../#contatti).

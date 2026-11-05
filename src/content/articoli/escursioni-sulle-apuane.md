@@ -65,4 +65,4 @@ Dopo una caduta con dolore forte, gonfiore rapido o difficoltà a caricare il pe
 
 **Un esempio.** Un uomo di 52 anni, di Seravezza, che sale in Pania da quando era ragazzo. Da un paio d'anni, dopo ogni discesa, aveva male davanti al ginocchio destro per due o tre giorni. Nella valutazione la caviglia destra, distorta più volte in passato, si piegava molto meno della sinistra, e l'anca dello stesso lato era rigida. Abbiamo lavorato su caviglia e anca in tre sedute, gli ho dato due esercizi per le cosce e ha iniziato a usare i bastoncini in discesa. Il fastidio non è sparito del tutto, ma ora dura qualche ora invece di qualche giorno.
 
-Ricevo a Pietrasanta, ai piedi delle Apuane: se dopo le tue escursioni qualcosa continua a dare fastidio, [qui trovi come prenotare una visita](../../#contatti).
+Ricevo a Camaiore, ai piedi delle Apuane: se dopo le tue escursioni qualcosa continua a dare fastidio, [qui trovi come prenotare una visita](../../#contatti).

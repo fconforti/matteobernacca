@@ -53,4 +53,4 @@ Più delle regole sulla postazione, conta questo:
 
 Un'avvocata di Pietrasanta, 38 anni, smart working da tre anni al tavolo della cucina con il portatile. Collo, spalle e mal di testa quotidiano. Parte alta della schiena completamente bloccata. Tre sedute, un supporto per il portatile da venti euro, una tastiera esterna e un timer sul telefono ogni quaranta minuti. Dopo un mese: «Non mi ricordo l'ultimo mal di testa».
 
-Se vuoi fissare una visita, [qui trovi i contatti](../../#contatti): ricevo a Pietrasanta e seguo persone da tutta la Versilia.
+Se vuoi fissare una visita, [qui trovi i contatti](../../#contatti): ricevo a Camaiore e seguo persone da tutta la Versilia.

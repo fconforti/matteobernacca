@@ -53,4 +53,4 @@ Se preferisci aspettare, va bene lo stesso. Un buon momento è quando, dopo due 
 
 Una volta passata la fase acuta, è utile capire perché la schiena si è bloccata proprio in quel momento. Spesso emergono abitudini che si possono cambiare: tante ore seduti senza pause, poco movimento durante la settimana, un modo di sollevare i pesi che carica tutto sulla zona lombare. Lavorare su questi aspetti riduce la probabilità che il blocco si ripresenti.
 
-Ricevo a Pietrasanta e vedo spesso persone da tutta la Versilia con blocchi acuti. Se vuoi prenotare, [trovi i contatti qui](../../#contatti).
+Ricevo a Camaiore e vedo spesso persone da tutta la Versilia con blocchi acuti. Se vuoi prenotare, [trovi i contatti qui](../../#contatti).

@@ -6,7 +6,7 @@ tags: [basi, prima-visita]
 related: [quante-sedute-servono-dall-osteopata, che-cos-e-l-osteopatia, domande-frequenti-osteopatia, quando-andare-dall-osteopata-e-quando-no]
 ---
 
-Molte persone rimandano la prima visita dall'osteopata perché non sanno cosa aspettarsi. Fa male? Devo spogliarmi? Quanto dura? Qui racconto, passo per passo, come si svolge una seduta nel mio studio a Pietrasanta. Altri osteopati possono lavorare in modo un po' diverso, ma la struttura è più o meno questa ovunque.
+Molte persone rimandano la prima visita dall'osteopata perché non sanno cosa aspettarsi. Fa male? Devo spogliarmi? Quanto dura? Qui racconto, passo per passo, come si svolge una seduta nel mio studio a Camaiore. Altri osteopati possono lavorare in modo un po' diverso, ma la struttura è più o meno questa ovunque.
 
 ## Prima di venire
 

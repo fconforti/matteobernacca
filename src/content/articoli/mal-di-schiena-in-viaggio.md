@@ -35,7 +35,7 @@ Per chi viaggia come passeggero vale lo stesso: meglio evitare di dormire con la
 
 ## Le pause: quando e cosa fare
 
-Il consiglio più utile è anche il più semplice: fermati ogni due ore circa, anche solo per dieci minuti. In un viaggio da Milano a Pietrasanta questo vuol dire una o due soste. Durante la pausa:
+Il consiglio più utile è anche il più semplice: fermati ogni due ore circa, anche solo per dieci minuti. In un viaggio da Milano alla Versilia questo vuol dire una o due soste. Durante la pausa:
 
 - cammina, anche solo intorno all'area di servizio, per qualche minuto;
 - porta le mani sui fianchi e inarca piano la schiena all'indietro qualche volta, senza forzare;
@@ -63,4 +63,4 @@ Se dopo due o tre giorni di vacanza la schiena o il collo sono ancora bloccati, 
 
 Ci sono però situazioni in cui la prima cosa da fare è andare dal medico o in pronto soccorso: un dolore che scende nella gamba con formicolio o perdita di forza, difficoltà a controllare vescica o intestino, febbre, oppure dolore dopo un incidente, anche lieve. Ne parlo in [Quando andare dall'osteopata e quando no](../quando-andare-dall-osteopata-e-quando-no/).
 
-Lo studio è a Pietrasanta, a pochi minuti dal casello Versilia dell'autostrada; se vuoi fissare una seduta durante il soggiorno, [qui trovi come contattarmi](../../#contatti).
+Lo studio è a Camaiore, vicino all'uscita Viareggio-Camaiore dell'autostrada; se vuoi fissare una seduta durante il soggiorno, [qui trovi come contattarmi](../../#contatti).
