@@ -12,12 +12,12 @@ export const site = {
   area: 'Versilia',
   towns: ['Pietrasanta', 'Camaiore', 'Forte dei Marmi', 'Viareggio', 'Lido di Camaiore', 'Marina di Pietrasanta', 'Seravezza', 'Massarosa'],
   region: 'Toscana',
-  // Contatti: PLACEHOLDER, da sostituire con quelli reali.
+  // Contatti. Telefono e WhatsApp reali; email e indirizzo ancora segnaposto.
   contact: {
-    phone: '+39 000 000 0000',
-    phoneDisplay: '000 000 0000',
+    phone: '+39 340 797 0063',
+    phoneDisplay: '340 797 0063',
     email: 'info@example.com',
-    whatsapp: '39000000000',
+    whatsapp: '393407970063',
     address: 'Via Esempio 1',
     city: 'Pietrasanta',
     province: 'LU',
@@ -26,6 +26,11 @@ export const site = {
   // Orari indicativi (placeholder)
   hours: 'Lunedì – Venerdì, 9:00 – 19:00. Sabato su appuntamento.',
 };
+
+// Link WhatsApp con un messaggio già scritto.
+export const whatsappUrl = `https://wa.me/${site.contact.whatsapp}?text=${encodeURIComponent(
+  'Ciao Matteo, vorrei qualche informazione per una visita osteopatica.',
+)}`;
 
 // Prefisso dei link interni (dipende da `base` in astro.config.mjs).
 export const base = import.meta.env.BASE_URL.replace(/\/$/, '');

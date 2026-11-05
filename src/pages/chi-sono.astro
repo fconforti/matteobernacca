@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Photo from '../components/Photo.astro';
-import { site, href } from '../site';
+import { site, href, whatsappUrl } from '../site';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -61,7 +61,7 @@ const jsonLd = {
     <div class="contact-grid">
       <div class="contact-item">
         <span class="label">WhatsApp</span>
-        <a href={`https://wa.me/${site.contact.whatsapp}`} rel="noopener">Scrivimi un messaggio →</a>
+        <a href={whatsappUrl} target="_blank" rel="noopener">Scrivimi un messaggio →</a>
       </div>
       <div class="contact-item">
         <span class="label">Telefono</span>

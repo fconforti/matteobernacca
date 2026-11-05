@@ -1,5 +1,6 @@
 ---
-import { site, href } from '../site';
+import { site, href, whatsappUrl } from '../site';
+import WhatsAppIcon from '../components/WhatsAppIcon.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -98,7 +99,10 @@ const ld = jsonLd ?? personLd;
               </a>
             ))}
           </nav>
-          <a class="nav-cta" href={href('/chi-sono/#contatti')}>Prenota</a>
+          <a class="nav-cta" href={whatsappUrl} target="_blank" rel="noopener">
+            <WhatsAppIcon />
+            <span><span class="cta-long">Scrivimi su </span>WhatsApp</span>
+          </a>
         </div>
       </div>
     </header>
