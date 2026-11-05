@@ -46,4 +46,4 @@ Un runner di Lido di Camaiore, 42 anni, preparava la maratona. Da due mesi dolor
 
 Per chi si allena regolarmente, sì. Un controllo ogni due o tre mesi, prima che qualcosa faccia male, permette di trovare le rigidità che si stanno accumulando e di sistemarle in una seduta invece che in cinque. Non è obbligatorio e non lo propongo a tutti, ma per chi ha carichi importanti è un buon investimento.
 
-Ricevo a Pietrasanta, in Versilia. Se hai un fastidio che torna durante lo sport, [scrivimi](../../prima-visita/) e fissiamo una valutazione.
+Ricevo a Pietrasanta, in Versilia. Se hai un fastidio che torna durante lo sport, [scrivimi](../../#contatti) e fissiamo una valutazione.

@@ -54,4 +54,4 @@ Il trattamento dipende da quello che trovo. Sull'anca uso spesso mobilizzazioni 
 
 Per chi ha superato i sessantacinque anni e vuole restare attivo, ho scritto qualche indicazione in più in [Osteopatia dopo i 65 anni](../osteopatia-over-65/).
 
-Lo studio è a Pietrasanta, in Versilia. Se vuoi fissare una prima visita, [qui trovi i contatti](../../prima-visita/).
+Lo studio è a Pietrasanta, in Versilia. Se vuoi fissare una prima visita, [qui trovi i contatti](../../#contatti).

@@ -64,4 +64,4 @@ Fai vedere la situazione al medico o al dentista prima di un trattamento manuale
 - hai dolore alla mandibola durante uno sforzo, insieme a oppressione al petto o fiato corto (va escluso un problema cardiaco, subito);
 - il mal di testa è nuovo, molto forte o diverso dal solito.
 
-Se vuoi una valutazione nello studio di Pietrasanta, [trovi qui come prenotare](../../prima-visita/).
+Se vuoi una valutazione nello studio di Pietrasanta, [trovi qui come prenotare](../../#contatti).

@@ -37,7 +37,7 @@ export function postMarkdown(post: Post, siteUrl: URL): string {
     '---',
     '',
     `Questo articolo ha uno scopo informativo e non sostituisce una visita medica.`,
-    `Per una prima visita gratuita con ${site.name}: ${abs(siteUrl, '/prima-visita/')} · WhatsApp ${site.contact.phone}.`,
+    `Per una prima visita gratuita con ${site.name}: ${abs(siteUrl, '/#contatti')} · WhatsApp ${site.contact.phone}.`,
     '',
   ].join('\n');
 }
@@ -59,6 +59,6 @@ export function aboutMarkdown(siteUrl: URL): string {
     isReal('address') ? `- Studio: ${c.address}, ${c.postalCode} ${c.city} (${c.province})` : `- Studio: ${c.city} (${c.province})`,
     ...(isReal('hours') ? [`- Orari: ${site.hours}`] : []),
     `- La prima visita è gratuita e dura circa un'ora: colloquio, valutazione, trattamento manuale, piano con il numero indicativo di sedute.`,
-    `- Pagina: ${abs(siteUrl, '/prima-visita/')}`,
+    `- Pagina: ${abs(siteUrl, '/#contatti')}`,
   ].join('\n');
 }

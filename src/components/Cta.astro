@@ -1,6 +1,6 @@
 ---
-import { site, whatsappUrl } from '../site';
-import WhatsAppIcon from './WhatsAppIcon.astro';
+import { site } from '../site';
+import ContactButton from './ContactButton.astro';
 ---
 
 <aside class="cta">
@@ -10,6 +10,6 @@ import WhatsAppIcon from './WhatsAppIcon.astro';
     scrivimi o chiamami: parliamo del tuo caso senza impegno e, se ha senso, fissiamo una prima visita gratuita a {site.contact.city}.
   </p>
   <div class="actions">
-    <a class="btn secondary" href={whatsappUrl} target="_blank" rel="noopener"><WhatsAppIcon />Scrivimi su WhatsApp</a>
+    <ContactButton variant="secondary" />
   </div>
 </aside>

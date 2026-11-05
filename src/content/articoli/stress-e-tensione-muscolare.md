@@ -57,4 +57,4 @@ Alcune cose semplici, fatte con costanza, fanno una differenza reale:
 
 Alcuni sintomi che si attribuiscono allo stress possono avere altre cause e vanno valutati dal medico prima di tutto: dolore o oppressione al petto, palpitazioni, fiato corto anche a riposo, vertigini importanti, perdita di peso senza motivo, mal di testa nuovo e forte. Se hai dubbi, parlane prima con il tuo medico di famiglia.
 
-Ricevo a Pietrasanta. Se senti che la tensione si è fermata nel collo o nelle spalle, [qui trovi come fissare una prima visita](../../prima-visita/).
+Ricevo a Pietrasanta. Se senti che la tensione si è fermata nel collo o nelle spalle, [qui trovi come fissare una prima visita](../../#contatti).

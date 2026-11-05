@@ -63,4 +63,4 @@ Qualche indicazione:
 
 Rivolgiti al medico se il dolore ti sveglia di notte e non cambia con la posizione, se la rigidità del mattino dura più di un'ora per settimane, se si accompagna a febbre, perdita di peso senza motivo, gonfiore delle articolazioni, o a formicolii e perdita di forza alle braccia o alle gambe. Anche il russare forte con pause nel respiro e la stanchezza continua durante il giorno meritano una visita medica. Per il mal di schiena in generale ti rimando a [come lo affronta l'osteopata](../mal-di-schiena-osteopatia/).
 
-Se ti svegli spesso con la schiena o il collo rigidi e vuoi una valutazione, [qui trovi i contatti per prenotare](../../prima-visita/).
+Se ti svegli spesso con la schiena o il collo rigidi e vuoi una valutazione, [qui trovi i contatti per prenotare](../../#contatti).

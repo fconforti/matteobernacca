@@ -15,7 +15,7 @@ No, per prenotare una visita dall'osteopata non serve una prescrizione. Se però
 
 ## Quanto costa la prima visita?
 
-La prima visita è gratuita. È il momento in cui mi racconti il problema, faccio la valutazione e ti dico se e come possiamo lavorare insieme. Per le sedute successive ti do tutte le informazioni in studio o quando mi scrivi. Come si svolge la prima visita lo spiego nella [pagina dedicata](../../prima-visita/).
+La prima visita è gratuita. È il momento in cui mi racconti il problema, faccio la valutazione e ti dico se e come possiamo lavorare insieme. Per le sedute successive ti do tutte le informazioni in studio o quando mi scrivi. Come si svolge la prima visita lo spiego [nella home del sito](../../#prima-visita).
 
 ## Il trattamento fa male?
 
@@ -74,4 +74,4 @@ In questi casi l'osteopatia, se ha senso, viene dopo. Ne parlo più a fondo in [
 
 Sono professioni diverse, con formazioni e approcci diversi, e spesso si completano. In breve: l'osteopata lavora con tecniche manuali e guarda il corpo nel suo insieme, cercando le zone che si muovono poco e costringono le altre a compensare. Le differenze le spiego in [Osteopata, fisioterapista e chiropratico](../osteopata-fisioterapista-chiropratico-differenze/).
 
-Se hai una domanda che qui non trovi, puoi farmela direttamente quando mi contatti dalla [pagina per prenotare la prima visita](../../prima-visita/).
+Se hai una domanda che qui non trovi, puoi farmela direttamente quando [mi contatti](../../#contatti).

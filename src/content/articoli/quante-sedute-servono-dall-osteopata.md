@@ -55,4 +55,4 @@ Il dolore che **si sposta** o **cambia carattere** è spesso un buon segno: vuol
 
 Se sei in Versilia per le vacanze e hai una o due settimane, si può fare un percorso concentrato: 2-3 sedute ravvicinate e un piano per quando torni a casa. Ne parlo in [Osteopata in vacanza in Versilia](../osteopata-in-vacanza-in-versilia/).
 
-Per iniziare, [contattami](../../prima-visita/): parliamo del tuo caso e ti dico cosa mi aspetto.
+Per iniziare, [contattami](../../#contatti): parliamo del tuo caso e ti dico cosa mi aspetto.

@@ -1,0 +1,14 @@
+---
+// Pulsante unico di contatto del sito: "Contattami" con logo WhatsApp, apre la chat.
+import { whatsappUrl } from '../site';
+import WhatsAppIcon from './WhatsAppIcon.astro';
+
+interface Props {
+  variant?: 'primary' | 'secondary';
+}
+const { variant = 'primary' } = Astro.props;
+---
+
+<a class:list={['btn', { secondary: variant === 'secondary' }]} href={whatsappUrl} target="_blank" rel="noopener">
+  <WhatsAppIcon />Contattami
+</a>

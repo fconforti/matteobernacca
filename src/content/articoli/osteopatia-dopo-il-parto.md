@@ -58,4 +58,4 @@ Nelle settimane dopo il parto alcuni sintomi vanno segnalati subito al ginecolog
 - formicolio o perdita di forza alle gambe;
 - tristezza, ansia o stanchezza che non passano e ti fanno sentire senza forze. Anche questo è un motivo valido per parlarne con il medico.
 
-Ricevo a Pietrasanta. Quando ti senti pronta e hai fatto il controllo dopo il parto, [qui trovi i contatti per fissare una visita](../../prima-visita/).
+Ricevo a Pietrasanta. Quando ti senti pronta e hai fatto il controllo dopo il parto, [qui trovi i contatti per fissare una visita](../../#contatti).

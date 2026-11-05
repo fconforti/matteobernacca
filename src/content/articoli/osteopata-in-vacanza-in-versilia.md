@@ -51,4 +51,4 @@ Lo studio è a **Pietrasanta**, a pochi minuti da Forte dei Marmi, Marina di Pie
 
 Nei mesi estivi tengo qualche posto libero ogni settimana per chi è in vacanza, ma conviene scrivere con qualche giorno di anticipo. Un messaggio WhatsApp basta: mi dici quanto stai, qual è il problema e troviamo il modo migliore di usare il tempo che hai.
 
-[Qui trovi i contatti](../../prima-visita/).
+[Qui trovi i contatti](../../#contatti).

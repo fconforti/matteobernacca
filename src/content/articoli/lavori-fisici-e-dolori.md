@@ -63,4 +63,4 @@ Ci sono però situazioni in cui serve prima il medico: un infortunio sul lavoro,
 
 **Un esempio.** Un uomo di 44 anni di Querceta, lucidatore in un laboratorio di marmo a Pietrasanta. Da mesi aveva dolore alla spalla destra e al collo, peggiore il venerdì. Teneva la smerigliatrice sempre con la stessa presa e il piano di lavoro gli arrivava sotto la vita. Nella valutazione la parte alta della schiena era molto rigida e la spalla compensava. Dopo quattro sedute in sei settimane, un rialzo sotto il pezzo e due esercizi per le pause, il dolore si è ridotto a un fastidio che compare solo nelle settimane più cariche.
 
-Lo studio è a Pietrasanta e, quando possibile, cerco un orario compatibile con i turni: per fissare una prima visita [trovi i contatti in questa pagina](../../prima-visita/).
+Lo studio è a Pietrasanta e, quando possibile, cerco un orario compatibile con i turni: per fissare una prima visita [trovi qui i contatti](../../#contatti).

@@ -3,8 +3,9 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Photo from '../components/Photo.astro';
 import PostList from '../components/PostList.astro';
-import Cta from '../components/Cta.astro';
+import ContactButton from '../components/ContactButton.astro';
 import { site, href } from '../site';
+import { ids } from '../schema';
 
 const posts = (await getCollection('articoli', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -16,20 +17,53 @@ const areas = [
   { label: 'Sport', title: 'Fastidi che tornano', text: 'Dolori che si ripresentano sempre nello stesso punto, recupero dopo sforzi e piccoli infortuni.', slug: 'osteopatia-e-sport' },
   { label: 'Gravidanza e dopo il parto', title: 'Schiena e bacino', text: 'Tecniche delicate per i dolori della gravidanza e per il recupero nei mesi dopo il parto.', slug: 'osteopatia-in-gravidanza' },
 ];
+
+const steps = [
+  { title: 'Parliamo', text: "Mi racconti il problema, da quanto tempo c'è, cosa lo peggiora e cosa hai già provato." },
+  { title: 'Valutazione', text: 'Osservo come stai in piedi e come ti muovi, e verifico dove il movimento è libero e dove no.' },
+  { title: 'Trattamento', text: 'Uso tecniche manuali delicate e ti spiego cosa sto facendo. Se qualcosa ti dà fastidio, cambio tecnica.' },
+  { title: 'Piano', text: 'Ti dico cosa ho trovato, cosa possiamo fare e quante sedute servono indicativamente.' },
+];
+
+const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).person } }];
 ---
 
-<Base>
+<Base jsonLd={jsonLd}>
   <section class="hero">
     <div>
       <span class="eyebrow">Osteopata a {site.contact.city} · {site.area}</span>
       <h1>Un osteopata in Versilia, per chi ci vive <em>e per chi è in vacanza</em></h1>
       <p class="lead">{`Sono Matteo Bernacca, osteopata. Ricevo a ${site.contact.city} e seguo persone di ${site.towns.slice(1, 4).join(', ')} e di tutta la Versilia, oltre a chi è qui in vacanza e cerca un percorso breve.`}</p>
       <div class="actions">
-        <a class="btn" href={href('/prima-visita/')}>Prenota una visita gratuita</a>
+        <ContactButton />
         <a class="btn secondary" href={href('/articoli/')}>Leggi i miei articoli</a>
       </div>
     </div>
     <Photo />
+  </section>
+
+  <section class="section" id="chi-sono">
+    <span class="eyebrow">Chi sono</span>
+    <h2 style="margin-top:0">Matteo Bernacca, osteopata in {site.area}</h2>
+    <div style="max-width:44rem">
+      <p class="lead">
+        Lavoro con un approccio manuale e dedico a ogni persona il tempo necessario per capire il suo problema.
+      </p>
+      <p>
+        In studio la prima cosa che faccio è ascoltare: che cosa senti, da quanto tempo, che cosa lo peggiora e che
+        cosa lo migliora. Solo dopo passo alla valutazione e al trattamento manuale, perché spesso il punto da cui nasce
+        un problema non è quello che fa male.
+      </p>
+      <p>
+        Seguo persone di ogni età: chi lavora tante ore al computer, chi fa sport, chi ha un mestiere fisico, chi
+        ha superato i settanta e vuole continuare a muoversi bene. E sempre più persone in vacanza in Versilia, che
+        approfittano del tempo libero per occuparsi di un dolore che si trascinano da mesi: per loro organizzo percorsi
+        brevi e concentrati.
+      </p>
+      <p class="muted small">
+        [Placeholder: formazione, titolo di studio, anno di diploma, specializzazioni e iscrizione all'albo.]
+      </p>
+    </div>
   </section>
 
   <section class="section">
@@ -48,6 +82,28 @@ const areas = [
           <a class="more" href={href(`/articoli/${area.slug}/`)}>Scopri di più →</a>
         </div>
       ))}
+    </div>
+  </section>
+
+  <section class="section" id="prima-visita">
+    <span class="eyebrow">Prima visita</span>
+    <h2 style="margin-top:0">Una prima visita gratuita</h2>
+    <p class="lead" style="max-width:44rem">
+      La prima visita è gratuita e senza impegno. Mi racconti il problema, faccio una valutazione e alla fine
+      ti dico cosa ho trovato e se, secondo me, l'osteopatia può aiutarti. Se decidi di non proseguire, va bene così.
+    </p>
+    <p class="muted" style="max-width:44rem">Dura circa un'ora. Vieni con abiti comodi e, se li hai, porta gli esami o i referti che riguardano il problema.</p>
+    <div class="features" style="margin-top:1.5rem">
+      {steps.map((step, i) => (
+        <div class="feature">
+          <span class="step-num">{i + 1}</span>
+          <h3>{step.title}</h3>
+          <p>{step.text}</p>
+        </div>
+      ))}
+    </div>
+    <div class="actions">
+      <ContactButton />
     </div>
   </section>
 
@@ -72,5 +128,29 @@ const areas = [
     <a class="btn secondary" href={href('/articoli/osteopata-in-vacanza-in-versilia/')}>Come funziona</a>
   </section>
 
-  <Cta />
+  <section class="section" id="contatti">
+    <span class="eyebrow">Contatti e orari</span>
+    <h2 style="margin-top:0">Dove trovarmi</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <span class="label">WhatsApp e telefono</span>
+        <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`}>{site.contact.phoneDisplay}</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">Email</span>
+        <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">Studio</span>
+        <span class="value">{site.contact.address}, {site.contact.city} ({site.contact.province})</span>
+      </div>
+      <div class="contact-item">
+        <span class="label">Orari</span>
+        <span class="value">{site.hours}</span>
+      </div>
+    </div>
+    <div class="actions">
+      <ContactButton />
+    </div>
+  </section>
 </Base>

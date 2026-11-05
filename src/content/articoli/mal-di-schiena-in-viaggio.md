@@ -63,4 +63,4 @@ Se dopo due o tre giorni di vacanza la schiena o il collo sono ancora bloccati, 
 
 Ci sono però situazioni in cui la prima cosa da fare è andare dal medico o in pronto soccorso: un dolore che scende nella gamba con formicolio o perdita di forza, difficoltà a controllare vescica o intestino, febbre, oppure dolore dopo un incidente, anche lieve. Ne parlo in [Quando andare dall'osteopata e quando no](../quando-andare-dall-osteopata-e-quando-no/).
 
-Lo studio è a Pietrasanta, a pochi minuti dal casello Versilia dell'autostrada; se vuoi fissare una seduta durante il soggiorno, [qui trovi come contattarmi](../../prima-visita/).
+Lo studio è a Pietrasanta, a pochi minuti dal casello Versilia dell'autostrada; se vuoi fissare una seduta durante il soggiorno, [qui trovi come contattarmi](../../#contatti).

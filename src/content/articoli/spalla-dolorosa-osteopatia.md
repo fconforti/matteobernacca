@@ -54,4 +54,4 @@ Nella spalla congelata il mio ruolo è più limitato: posso aiutare a gestire il
 - **Muovi la parte alta della schiena**: seduto, con le mani dietro la nuca, apri i gomiti e porta leggermente indietro il petto, poi torna. Dieci volte, più volte al giorno.
 - **Fai pause** se lavori al computer: le spalle tendono a salire e a chiudersi in avanti.
 
-Ricevo a Pietrasanta e vedo spesso spalle doloranti di persone che lavorano con le braccia, in tutta la Versilia. Per prenotare una visita, [qui trovi tutte le informazioni](../../prima-visita/).
+Ricevo a Pietrasanta e vedo spesso spalle doloranti di persone che lavorano con le braccia, in tutta la Versilia. Per prenotare una visita, [qui trovi tutte le informazioni](../../#contatti).

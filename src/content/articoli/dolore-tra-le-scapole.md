@@ -58,4 +58,4 @@ Il dolore tra le scapole è quasi sempre muscolare, ma in alcuni casi può esser
 - c'è stato un trauma, come una caduta sulla schiena;
 - il dolore è presente anche di notte a riposo, senza posizioni che lo allevino, o c'è perdita di peso senza motivo.
 
-Ricevo nello studio di Pietrasanta. Se il dolore tra le scapole ti accompagna da tempo, [qui puoi fissare una prima visita](../../prima-visita/).
+Ricevo nello studio di Pietrasanta. Se il dolore tra le scapole ti accompagna da tempo, [qui puoi fissare una prima visita](../../#contatti).

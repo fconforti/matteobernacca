@@ -66,4 +66,4 @@ Alcuni sintomi vanno valutati dal medico prima di qualsiasi trattamento:
 
 Ne parlo in modo più generale in [Quando andare dall'osteopata e quando no](../quando-andare-dall-osteopata-e-quando-no/).
 
-Se vuoi fissare una prima visita, per te o per un tuo familiare, [qui trovi i contatti](../../prima-visita/).
+Se vuoi fissare una prima visita, per te o per un tuo familiare, [qui trovi i contatti](../../#contatti).

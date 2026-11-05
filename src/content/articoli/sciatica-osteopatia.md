@@ -61,4 +61,4 @@ Quando la fase più acuta è passata, qualche esercizio semplice aiuta a ritrova
 
 La sciatica tende a migliorare nel giro di alcune settimane, ma i tempi variano molto da persona a persona. Il dolore in gamba di solito è l'ultimo a scomparire del tutto, e un leggero formicolio può restare più a lungo. In studio, a Pietrasanta, preferisco sedute ravvicinate all'inizio e poi più distanziate, controllando ogni volta come stanno andando forza e sensibilità.
 
-Se vuoi una valutazione per un dolore che scende nella gamba, [qui trovi come prenotare](../../prima-visita/).
+Se vuoi una valutazione per un dolore che scende nella gamba, [qui trovi come prenotare](../../#contatti).

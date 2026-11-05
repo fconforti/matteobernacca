@@ -33,7 +33,7 @@ export function baseGraph(siteUrl: URL) {
       jobTitle: site.profession,
       knowsAbout: ['Osteopatia', 'Mal di schiena', 'Cervicalgia', 'Postura', 'Trattamento manuale'],
       worksFor: { '@id': id.business },
-      url: new URL(href('/chi-sono/'), siteUrl).toString(),
+      url: new URL(href('/#chi-sono'), siteUrl).toString(),
     },
     {
       '@type': ['LocalBusiness', 'HealthAndBeautyBusiness'],

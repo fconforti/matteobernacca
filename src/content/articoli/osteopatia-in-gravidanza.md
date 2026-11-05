@@ -61,4 +61,4 @@ In questi casi non si va dall'osteopata: prima va capito cosa sta succedendo.
 
 Il corpo continua a cambiare anche dopo la nascita, e molte donne che ho seguito in gravidanza tornano qualche settimana dopo il parto per la schiena e le spalle. Ne parlo in [Osteopatia dopo il parto](../osteopatia-dopo-il-parto/).
 
-Ricevo nel mio studio a Pietrasanta. Se sei in gravidanza e vuoi una valutazione, [qui trovi come prenotarla](../../prima-visita/).
+Ricevo nel mio studio a Pietrasanta. Se sei in gravidanza e vuoi una valutazione, [qui trovi come prenotarla](../../#contatti).
