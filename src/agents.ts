@@ -53,7 +53,7 @@ export function aboutMarkdown(siteUrl: URL): string {
     '',
     '## Prima visita e contatti',
     '',
-    `- Prenotazione: il modo più semplice è un messaggio WhatsApp (${whatsappUrl.split('?')[0]})`,
+    `- Prenotazione: messaggio WhatsApp (${whatsappUrl.split('?')[0]})`,
     `- Telefono: ${c.phone}`,
     ...(isReal('email') ? [`- Email: ${c.email}`] : []),
     isReal('address') ? `- Studio: ${c.address}, ${c.postalCode} ${c.city} (${c.province})` : `- Studio: ${c.city} (${c.province})`,
