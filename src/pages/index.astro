@@ -33,7 +33,7 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     <div>
       <span class="eyebrow">Osteopata a {site.contact.city} · {site.area}</span>
       <h1>Un osteopata in Versilia, per chi ci vive <em>e per chi è in vacanza</em></h1>
-      <p class="lead">{`Sono Matteo Bernacca, osteopata. Ricevo a ${site.contact.city} e seguo persone di ${site.towns.slice(1, 4).join(', ')} e di tutta la Versilia.`}</p>
+      <p class="lead">Sono Matteo Bernacca, osteopata. Ricevo a {site.contact.city} e seguo persone di tutta la {site.area}.</p>
       <div class="actions">
         <ContactButton />
         <a class="btn secondary" href={href('/articoli/')}>Leggi i miei articoli</a>
