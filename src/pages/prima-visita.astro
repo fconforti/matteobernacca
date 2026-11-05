@@ -4,6 +4,13 @@ import { site, href, whatsappUrl } from '../site';
 import WhatsAppIcon from '../components/WhatsAppIcon.astro';
 import { breadcrumbs } from '../schema';
 
+const steps = [
+  { title: 'Parliamo', text: "Mi racconti il problema, da quanto tempo c'è, cosa lo peggiora e cosa hai già provato." },
+  { title: 'Valutazione', text: 'Osservo come stai in piedi e come ti muovi, e verifico dove il movimento è libero e dove no.' },
+  { title: 'Trattamento', text: 'Uso tecniche manuali delicate e ti spiego cosa sto facendo. Se qualcosa ti dà fastidio, cambio tecnica.' },
+  { title: 'Piano', text: 'Ti dico cosa ho trovato, cosa possiamo fare e quante sedute servono indicativamente.' },
+];
+
 const jsonLd = [breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: 'Prima visita', path: '/prima-visita/' }])];
 ---
 
@@ -13,15 +20,42 @@ const jsonLd = [breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: '
   jsonLd={jsonLd}
 >
   <section class="section">
-    <span class="eyebrow">Contatti</span>
+    <span class="eyebrow">Prima visita</span>
     <h1>Prenota una visita gratuita</h1>
-    <p class="lead" style="max-width:40rem">Il modo più semplice è un messaggio WhatsApp: dimmi in due righe cosa senti e da quanto, e ti rispondo con una proposta di orario.</p>
-    <div class="actions" style="margin-top:0">
+    <p class="lead" style="max-width:42rem">
+      La prima visita è gratuita e senza impegno. Mi racconti il problema, faccio una valutazione e alla fine
+      ti dico cosa ho trovato e se, secondo me, l'osteopatia può aiutarti. Se decidi di non proseguire, va bene così.
+    </p>
+    <p style="max-width:42rem">
+      Il modo più semplice per prenotare è un messaggio WhatsApp: scrivimi in due righe cosa senti e da quanto,
+      e ti rispondo con una proposta di orario. Se sei in vacanza in Versilia, dimmi anche fino a quando resti.
+    </p>
+    <div class="actions">
       <a class="btn" href={whatsappUrl} target="_blank" rel="noopener"><WhatsAppIcon />Scrivimi su WhatsApp</a>
     </div>
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">Cosa aspettarsi</span>
+    <h2 style="margin-top:0">Come si svolge la prima visita</h2>
+    <p class="muted" style="max-width:42rem">Dura circa un'ora. Vieni con abiti comodi e, se li hai, porta gli esami o i referti che riguardano il problema.</p>
+    <div class="features" style="margin-top:1.5rem">
+      {steps.map((step, i) => (
+        <div class="feature">
+          <span class="step-num">{i + 1}</span>
+          <h3>{step.title}</h3>
+          <p>{step.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">Contatti e orari</span>
+    <h2 style="margin-top:0">Dove trovarmi</h2>
     <div class="contact-grid">
       <div class="contact-item">
-        <span class="label">Telefono</span>
+        <span class="label">WhatsApp e telefono</span>
         <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`}>{site.contact.phoneDisplay}</a>
       </div>
       <div class="contact-item">
@@ -32,22 +66,13 @@ const jsonLd = [breadcrumbs(Astro.site!, [{ name: 'Home', path: '/' }, { name: '
         <span class="label">Studio</span>
         <span class="value">{site.contact.address}, {site.contact.city} ({site.contact.province})</span>
       </div>
+      <div class="contact-item">
+        <span class="label">Orari</span>
+        <span class="value">{site.hours}</span>
+      </div>
     </div>
     <p class="muted">
-      <strong>Orari:</strong> {site.hours}<br />
-      Comodo da {site.towns.filter((t) => t !== site.contact.city).join(', ')} e da tutta la Versilia.
+      Lo studio è comodo da {site.towns.filter((t) => t !== site.contact.city).join(', ')} e da tutta la Versilia.
     </p>
-  </section>
-
-  <section class="section band">
-    <span class="eyebrow">Cosa aspettarsi</span>
-    <h2>Come funziona</h2>
-    <ol class="steps">
-      <li><strong>Parliamo.</strong> Mi racconti il problema, da quanto tempo c'è e che cosa hai già provato. Se hai esami o referti, portali.</li>
-      <li><strong>Ti osservo e ti valuto.</strong> Guardo come stai in piedi, come ti muovi, dove il movimento è libero e dove no.</li>
-      <li><strong>Trattamento.</strong> Lavoro con le mani: tecniche delicate, mai dolorose, spiegate passo per passo.</li>
-      <li><strong>Piano.</strong> Alla fine ti dico cosa ho trovato, cosa possiamo fare e quante sedute, indicativamente, servono.</li>
-    </ol>
-    <p class="muted small" style="margin:1.5rem 0 0">La prima visita è gratuita e dura circa un'ora. Vieni con abiti comodi.</p>
   </section>
 </Base>

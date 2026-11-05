@@ -1,7 +1,6 @@
 ---
-import { site, href, whatsappUrl } from '../site';
+import { site, href } from '../site';
 import { baseGraph } from '../schema';
-import WhatsAppIcon from '../components/WhatsAppIcon.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -95,10 +94,6 @@ const ld = { '@context': 'https://schema.org', '@graph': [...baseGraph(Astro.sit
               </a>
             ))}
           </nav>
-          <a class="nav-cta" href={whatsappUrl} target="_blank" rel="noopener">
-            <WhatsAppIcon />
-            <span>Contattami</span>
-          </a>
         </div>
       </div>
     </header>
