@@ -6,10 +6,10 @@ tags: [arti, versilia]
 related: [dolore-al-ginocchio-osteopatia, escursioni-sulle-apuane, schiena-in-spiaggia, osteopatia-e-sport]
 cover:
   image: ./covers/fascite-plantare-dolore-al-tallone.jpg
-  alt: "Piede nudo appoggiato sul pavimento"
-  author: "Alicia Christin Gerald"
-  authorUrl: https://unsplash.com/@allysphotos
-  url: https://unsplash.com/photos/a-bare-foot-resting-on-a-wooden-floor-Zw4tbB4UfWI
+  alt: "Impronte di piedi nudi sulla sabbia"
+  author: "Sunil Tanaji Shinde"
+  authorUrl: https://unsplash.com/@suniladt
+  url: https://unsplash.com/photos/two-footprints-in-the-sand-C4ZIJT6hLkg
 ---
 
 Ti alzi dal letto, appoggi il piede a terra e senti una fitta sotto il tallone, come se ci fosse un sassolino o un chiodo. I primi passi sono faticosi, poi dopo qualche minuto il dolore cala. Torna magari dopo essere stato seduto a lungo, o la sera dopo una giornata in piedi. È la descrizione tipica della fascite plantare, uno dei disturbi del piede che vedo più spesso in studio, soprattutto all'inizio e alla fine dell'estate.

@@ -6,10 +6,10 @@ tags: [mal-di-testa, cervicale, stress]
 related: [cervicale-e-mal-di-testa, stress-e-tensione-muscolare, torcicollo-cosa-fare, dormire-bene-cuscino-e-materasso]
 cover:
   image: ./covers/mandibola-e-bruxismo.jpg
-  alt: "Primo piano di una donna con le dita vicino alla bocca"
-  author: "Alexander Krivitskiy"
-  authorUrl: https://unsplash.com/@krivitskiy
-  url: https://unsplash.com/photos/grayscale-photo-of-woman-with-her-hand-on-her-chin-rc7e2lc8Q7E
+  alt: "Donna seduta in cucina con la mano sulla guancia e sulla mandibola"
+  author: "Evie Martinez"
+  authorUrl: https://unsplash.com/@xicanayork93
+  url: https://unsplash.com/photos/a-woman-standing-in-a-kitchen-talking-on-a-cell-phone-lmMKdUGOknM
 ---
 
 Al mattino ti svegli con la mascella stanca, a volte con un leggero mal di testa alle tempie. Quando mangi o sbadigli senti un clic davanti all'orecchio. Oppure è il dentista a dirti che i denti sono consumati e che probabilmente li stringi di notte. Sono situazioni che vedo spesso in studio, e quasi sempre la persona arriva per un altro motivo: il collo rigido o il mal di testa.
