@@ -4,6 +4,12 @@ description: "Ti svegli con la schiena rigida o il collo dolorante? Come sceglie
 pubDate: 2026-08-27
 tags: [sonno, schiena]
 related: [torcicollo-cosa-fare, mal-di-schiena-osteopatia, spalla-dolorosa-osteopatia, stress-e-tensione-muscolare]
+cover:
+  image: ./covers/dormire-bene-cuscino-e-materasso.jpg
+  alt: "Letto con cuscini bianchi alla luce del mattino"
+  author: "Hiroshi Kimura"
+  authorUrl: https://unsplash.com/@muukii
+  url: https://unsplash.com/photos/white-bed-linen-beside-brown-wooden-nightstand-PXPleXh2m7s
 ---
 
 «Vado a letto bene e mi alzo tutto rotto.» Lo sento dire spesso in studio. Passiamo a letto circa un terzo della giornata, e in quelle ore la schiena e il collo restano a lungo nella stessa posizione. Se la posizione, il cuscino o il materasso non vanno bene per te, al mattino te ne accorgi. Allo stesso tempo, non esiste il letto perfetto per tutti, e la rigidità al risveglio non dipende sempre dal letto.

@@ -4,6 +4,12 @@ description: "Dolore al ginocchio senza una caduta o una distorsione, che peggio
 pubDate: 2026-09-11
 tags: [arti, sport]
 related: [dolore-anca-osteopatia, escursioni-sulle-apuane, osteopatia-e-sport, fascite-plantare-dolore-al-tallone]
+cover:
+  image: ./covers/dolore-al-ginocchio-osteopatia.jpg
+  alt: "Persone che scendono una scalinata di pietra"
+  author: "Zélia Mota"
+  authorUrl: https://unsplash.com/@zeliabranquinho61
+  url: https://unsplash.com/photos/people-walking-down-stairs-in-porto-m4mNfEBnuUU
 ---
 
 Quando il ginocchio fa male dopo una distorsione o una caduta, la causa è di solito chiara e il primo passo è la visita ortopedica. Molto spesso però le persone arrivano in studio con un ginocchio che fa male senza un motivo preciso: il dolore è comparso piano piano, magari dopo aver ripreso a correre o dopo un periodo di camminate, e peggiora scendendo le scale. In questo articolo parlo soprattutto di questo secondo tipo di dolore.

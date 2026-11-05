@@ -4,6 +4,12 @@ description: "Una, tre, dieci? Quante sedute osteopatiche servono davvero, a che
 pubDate: 2026-08-02
 tags: [basi, percorso]
 related: [come-funziona-una-seduta-dall-osteopata, osteopata-in-vacanza-in-versilia, domande-frequenti-osteopatia, esercizi-per-la-schiena-a-casa]
+cover:
+  image: ./covers/quante-sedute-servono-dall-osteopata.jpg
+  alt: "Calendario da tavolo accanto a una pianta"
+  author: "Blessing Ri"
+  authorUrl: https://unsplash.com/@blessingeffect
+  url: https://unsplash.com/photos/white-braille-paper-on-brown-wooden-table-mBRtqyC_Iq0
 ---
 
 È una delle domande più frequenti alla fine della prima visita. La risposta dipende da diversi fattori, ma si possono dare dei numeri indicativi.

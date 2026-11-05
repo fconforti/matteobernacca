@@ -4,6 +4,12 @@ description: "Mal di schiena e collo rigido in spiaggia: lettino, sdraio, lettur
 pubDate: 2026-07-03
 tags: [schiena, versilia, vacanza]
 related: [osteopata-in-vacanza-in-versilia, mal-di-schiena-in-viaggio, colpo-della-strega-cosa-fare, fascite-plantare-dolore-al-tallone]
+cover:
+  image: ./covers/schiena-in-spiaggia.jpg
+  alt: "Spiaggia con file di ombrelloni gialli chiusi"
+  author: "MorticiA MissFit"
+  authorUrl: https://unsplash.com/@missfit
+  url: https://unsplash.com/photos/yellow-umbrellas-JZuzIeHPktU
 ---
 
 In estate cambia il tipo di persone che vedo in studio, e cambiano anche i motivi per cui vengono. Meno dolori da scrivania, più schiene bloccate dopo aver piantato l'ombrellone, colli rigidi dopo un pomeriggio a leggere sul lettino, spalle infiammate dal primo giorno di paddle. Sono quasi sempre disturbi banali, ma possono rovinare qualche giorno di vacanza. Qui raccolgo le situazioni più comuni in spiaggia e cosa puoi fare per evitarle.

@@ -4,6 +4,12 @@ description: "Dolore tra le scapole e parte alta della schiena rigida: il ruolo 
 pubDate: 2026-09-26
 tags: [schiena, postura]
 related: [postura-e-lavoro-al-computer, cervicale-e-mal-di-testa, stress-e-tensione-muscolare, esercizi-per-la-schiena-a-casa]
+cover:
+  image: ./covers/dolore-tra-le-scapole.jpg
+  alt: "Donna di spalle con le braccia alzate, in controluce"
+  author: "Becca Matimba"
+  authorUrl: https://unsplash.com/@bmatimbaphoto
+  url: https://unsplash.com/photos/woman-doing-pull-up-exercise-xzu52UX-1jc
 ---
 
 Molte persone mi descrivono lo stesso fastidio: un dolore sordo in mezzo alle scapole, a volte un punto preciso che brucia, come se ci fosse un nodo che non si scioglie. Peggiora verso sera, dopo ore alla scrivania o alla guida, e a volte si sente anche respirando a fondo. È un disturbo molto comune e quasi sempre di origine muscolare e articolare, ma ha alcune particolarità che vale la pena conoscere.

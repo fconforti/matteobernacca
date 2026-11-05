@@ -4,6 +4,12 @@ description: "Sei in vacanza a Forte dei Marmi, Pietrasanta, Camaiore o Viareggi
 pubDate: 2026-06-23
 tags: [versilia, vacanza, percorso]
 related: [mal-di-schiena-in-viaggio, schiena-in-spiaggia, quante-sedute-servono-dall-osteopata, escursioni-sulle-apuane]
+cover:
+  image: ./covers/osteopata-in-vacanza-in-versilia.jpg
+  alt: "Spiaggia con passerella di legno e un pattino rosso da salvataggio"
+  author: "antonio molinari"
+  authorUrl: https://unsplash.com/@amolinari
+  url: https://unsplash.com/photos/red-boat-on-beach-shore-during-daytime-XWQCWIWcaw8
 ---
 
 Ogni estate la Versilia si riempie di persone che vengono da Milano, Firenze, Bologna, Torino, e sempre più spesso anche dall'estero. Molti arrivano con una valigia e un dolore: la schiena che li accompagna da mesi, il collo che non gira, la spalla che fa male a nuotare. A casa «non c'è mai tempo». In vacanza, per una volta, il tempo c'è.

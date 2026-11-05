@@ -4,6 +4,12 @@ description: "I casi in cui l'osteopatia è una buona scelta, quelli in cui serv
 pubDate: 2026-10-31
 tags: [basi]
 related: [domande-frequenti-osteopatia, che-cos-e-l-osteopatia, come-funziona-una-seduta-dall-osteopata, quante-sedute-servono-dall-osteopata]
+cover:
+  image: ./covers/quando-andare-dall-osteopata-e-quando-no.jpg
+  alt: "Medico che scrive una nota con lo stetoscopio sul tavolo"
+  author: "Frederick Medina"
+  authorUrl: https://unsplash.com/@frederickjmedina
+  url: https://unsplash.com/photos/a-person-writing-on-a-piece-of-paper-with-a-stethoscope-ai5uaJfRFxc
 ---
 
 In questo articolo provo a spiegare quando ha senso venire in studio, quando è meglio prima passare dal medico, e quali segnali non vanno mai ignorati.

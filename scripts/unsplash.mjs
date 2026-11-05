@@ -1,10 +1,11 @@
 // Copertine degli articoli da Unsplash (API ufficiale).
 // Serve UNSPLASH_ACCESS_KEY (in ~/.secrets/matteobernacca.env, caricato da .envrc).
 //
-//   node scripts/unsplash.mjs search <slug> [query] [cartella]  → scarica 9 anteprime e un provino numerato
-//   node scripts/unsplash.mjs pick <slug> <photoId> "<alt>"     → salva la copertina e aggiorna il frontmatter
+//   node scripts/unsplash.mjs search <slug> [query]   → scarica 9 anteprime e un provino numerato
+//   node scripts/unsplash.mjs pick <slug> <n|photoId> "<alt>"  → salva la copertina e aggiorna il frontmatter
 //
-// La query di default per ogni articolo è in scripts/covers.json.
+// La query di default per ogni articolo è in scripts/covers.json. Provini e risultati vanno in
+// $COVER_DIR/<slug>/ (default /tmp/unsplash): pick li riusa e così fa una sola chiamata API.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import sharp from 'sharp';
 
@@ -23,7 +24,7 @@ const [cmd, slug, ...rest] = process.argv.slice(2);
 
 if (cmd === 'search') {
   const query = rest[0] || JSON.parse(readFileSync('scripts/covers.json', 'utf8'))[slug];
-  const dir = rest[1] || `/tmp/unsplash/${slug}`;
+  const dir = `${process.env.COVER_DIR || '/tmp/unsplash'}/${slug}`;
   mkdirSync(dir, { recursive: true });
   const { results } = await api(
     `/search/photos?query=${encodeURIComponent(query)}&per_page=9&orientation=landscape&content_filter=high`,
@@ -37,15 +38,20 @@ if (cmd === 'search') {
   await sharp({ create: { width: W * 3, height: H * 3, channels: 3, background: '#fff' } })
     .composite(tiles).jpeg({ quality: 80 }).toFile(`${dir}/sheet.jpg`);
   writeFileSync(`${dir}/results.json`, JSON.stringify(results.map((p, i) => ({
-    n: i + 1, id: p.id, author: p.user.name, alt: p.alt_description, size: `${p.width}x${p.height}`,
+    n: i + 1, id: p.id, alt: p.alt_description, size: `${p.width}x${p.height}`,
+    user: { name: p.user.name, links: { html: p.user.links.html } },
+    links: { html: p.links.html, download_location: p.links.download_location },
+    urls: { raw: p.urls.raw },
   })), null, 2));
   console.log(`query: ${query}\nprovino: ${dir}/sheet.jpg`);
   results.forEach((p, i) => console.log(`${i + 1}. ${p.id} · ${p.user.name} · ${p.alt_description ?? ''}`));
 }
 
 if (cmd === 'pick') {
-  const [id, alt] = rest;
-  const p = await api(`/photos/${id}`);
+  const [ref, alt] = rest;
+  let cached = [];
+  try { cached = JSON.parse(readFileSync(`${process.env.COVER_DIR || '/tmp/unsplash'}/${slug}/results.json`, 'utf8')); } catch {}
+  const p = cached.find((c) => String(c.n) === ref || c.id === ref) ?? (await api(`/photos/${ref}`));
   await api(new URL(p.links.download_location).pathname + new URL(p.links.download_location).search); // richiesto dalle linee guida
   const file = `src/content/articoli/covers/${slug}.jpg`;
   mkdirSync('src/content/articoli/covers', { recursive: true });

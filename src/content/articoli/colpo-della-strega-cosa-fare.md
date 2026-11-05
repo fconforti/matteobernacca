@@ -4,6 +4,12 @@ description: "Colpo della strega o lombalgia acuta: cosa fare nei primi giorni, 
 pubDate: 2026-07-18
 tags: [schiena]
 related: [mal-di-schiena-osteopatia, sciatica-osteopatia, esercizi-per-la-schiena-a-casa, quando-andare-dall-osteopata-e-quando-no]
+cover:
+  image: ./covers/colpo-della-strega-cosa-fare.jpg
+  alt: "Uomo in un parco con la mano sulla parte bassa della schiena"
+  author: "Tom Wheatley"
+  authorUrl: https://unsplash.com/@mikeballet
+  url: https://unsplash.com/photos/selective-focus-photography-of-man-standing-near-trees-Taq3RmOqxJQ
 ---
 
 Il colpo della strega di solito arriva in un momento banale: ti chini per allacciare una scarpa, prendi una cassa d'acqua dal bagagliaio, ti giri di scatto. Senti una fitta in fondo alla schiena e da lì in poi ogni movimento è difficile. A volte resti piegato in avanti o storto da un lato e non riesci a raddrizzarti. In questo articolo mi concentro sui primi giorni, perché sono quelli in cui le persone mi scrivono più spesso chiedendo cosa fare.

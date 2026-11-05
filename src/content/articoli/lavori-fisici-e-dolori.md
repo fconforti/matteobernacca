@@ -4,6 +4,12 @@ description: "Dolori da lavoro fisico in Versilia: laboratori del marmo, cantier
 pubDate: 2026-08-07
 tags: [lavoro, schiena]
 related: [spalla-dolorosa-osteopatia, mal-di-schiena-osteopatia, postura-e-lavoro-al-computer, fascite-plantare-dolore-al-tallone]
+cover:
+  image: ./covers/lavori-fisici-e-dolori.jpg
+  alt: "Cava di marmo con blocchi squadrati e una ruspa"
+  author: "Mariana Proença"
+  authorUrl: https://unsplash.com/@marianaproenca
+  url: https://unsplash.com/photos/white-boxes-_WgnXndHmQ4
 ---
 
 Quando si parla di dolori legati al lavoro si pensa subito alla scrivania e al computer. In Versilia però molte persone fanno lavori fisici: nei laboratori del marmo di Pietrasanta e Querceta, nelle cave sopra Seravezza, nei cantieri, nelle cucine e nelle sale dei ristoranti, negli stabilimenti balneari durante la stagione. In studio vedo spesso queste persone, di solito quando il dolore dura già da un po' e ha iniziato a pesare sul lavoro. Qui spiego cosa succede al corpo in questi mestieri e cosa si può fare per reggere meglio, senza pretendere di cambiare il lavoro.

@@ -4,6 +4,12 @@ description: "Dolore all'anca, all'inguine o al gluteo, rigidità al mattino e f
 pubDate: 2026-09-16
 tags: [arti, eta]
 related: [dolore-al-ginocchio-osteopatia, sciatica-osteopatia, osteopatia-over-65, escursioni-sulle-apuane]
+cover:
+  image: ./covers/dolore-anca-osteopatia.jpg
+  alt: "Donna che cammina su un sentiero di campagna verso il mare"
+  author: "Vasyl S"
+  authorUrl: https://unsplash.com/@vasslobodian
+  url: https://unsplash.com/photos/woman-walking-between-green-grasss-SFEy6_At-_0
 ---
 
 Quando una persona mi dice «mi fa male l'anca», la prima cosa che le chiedo è di indicarmi dove. Le risposte sono molto diverse: c'è chi mette la mano sull'inguine, chi sul fianco, chi sul gluteo. Sono tre zone diverse e spesso corrispondono a problemi diversi. In questo articolo ti spiego come ragiono di fronte a un dolore all'anca e perché, quasi sempre, guardo anche schiena e ginocchio.

@@ -4,6 +4,12 @@ description: "L'osteopatia spiegata a chi non la conosce: cosa fa l'osteopata, s
 pubDate: 2026-06-13
 tags: [basi]
 related: [come-funziona-una-seduta-dall-osteopata, osteopata-fisioterapista-chiropratico-differenze, quando-andare-dall-osteopata-e-quando-no, domande-frequenti-osteopatia]
+cover:
+  image: ./covers/che-cos-e-l-osteopatia.jpg
+  alt: "Modello anatomico della colonna lombare e del sacro"
+  author: "CHUTTERSNAP"
+  authorUrl: https://unsplash.com/@chuttersnap
+  url: https://unsplash.com/photos/white-pasta-on-white-paper-OijVdM3Zx4I
 ---
 
 Quando dico che sono osteopata, la domanda che mi fanno più spesso è: «Quindi sei una specie di fisioterapista?». No, sono due professioni diverse, anche se spesso lavorano insieme. In questo articolo spiego che cosa fa l'osteopata.

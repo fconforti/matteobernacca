@@ -4,6 +4,12 @@ description: "Dal colloquio al trattamento: cosa succede davvero durante una pri
 pubDate: 2026-06-18
 tags: [basi, prima-visita]
 related: [quante-sedute-servono-dall-osteopata, che-cos-e-l-osteopatia, domande-frequenti-osteopatia, quando-andare-dall-osteopata-e-quando-no]
+cover:
+  image: ./covers/come-funziona-una-seduta-dall-osteopata.jpg
+  alt: "Disegno anatomico della colonna vertebrale su una cartellina"
+  author: "Joyce Hankins"
+  authorUrl: https://unsplash.com/@moonshadowpress
+  url: https://unsplash.com/photos/brown-and-black-clipboard-with-white-spinal-cord-print-manual-IG96K_HiDk0
 ---
 
 Molte persone rimandano la prima visita dall'osteopata perché non sanno cosa aspettarsi. Fa male? Devo spogliarmi? Quanto dura? Qui racconto, passo per passo, come si svolge una seduta nel mio studio a Camaiore. Altri osteopati possono lavorare in modo un po' diverso, ma la struttura è più o meno questa ovunque.

@@ -4,6 +4,12 @@ description: "Osteopatia over 65: come può aiutare con rigidità, artrosi ed eq
 pubDate: 2026-10-21
 tags: [eta]
 related: [dolore-anca-osteopatia, dolore-al-ginocchio-osteopatia, esercizi-per-la-schiena-a-casa, quando-andare-dall-osteopata-e-quando-no]
+cover:
+  image: ./covers/osteopatia-over-65.jpg
+  alt: "Coppia di anziani che cammina mano nella mano su una passerella di legno"
+  author: "Richard Sagredo"
+  authorUrl: https://unsplash.com/@sagredophotography
+  url: https://unsplash.com/photos/a-couple-of-people-that-are-walking-across-a-bridge-IzIERuIwJWo
 ---
 
 Una parte importante delle persone che seguo nel mio studio di Camaiore ha superato i 65 anni. Spesso arrivano perché un figlio o un'amica le ha mandate, a volte con un po' di diffidenza: pensano che l'osteopatia sia fatta di manovre brusche, adatte ai giovani o agli sportivi. In realtà con le persone più avanti con gli anni lavoro in modo molto delicato, e l'obiettivo è quasi sempre lo stesso: muoversi meglio e con meno dolore, per continuare a fare le cose di tutti i giorni.

@@ -4,6 +4,12 @@ description: "Osteopatia dopo il parto: quando iniziare, come aiuta schiena, bac
 pubDate: 2026-10-16
 tags: [donna, schiena]
 related: [osteopatia-in-gravidanza, dolore-tra-le-scapole, cervicale-e-mal-di-testa, esercizi-per-la-schiena-a-casa]
+cover:
+  image: ./covers/osteopatia-dopo-il-parto.jpg
+  alt: "Mamma che tiene in braccio il suo neonato"
+  author: "Isaac Quesada"
+  authorUrl: https://unsplash.com/@isaacquesada
+  url: https://unsplash.com/photos/woman-in-white-crew-neck-t-shirt-carrying-baby-DMcNqigMn1c
 ---
 
 Nei mesi dopo il parto l'attenzione va tutta al bambino, ed è giusto così. Però il corpo della mamma ha appena attraversato nove mesi di cambiamenti e un parto, e subito dopo si trova a fare cose nuove per molte ore al giorno: allattare, cullare, sollevare la carrozzina, cambiare il pannolino su un fasciatoio troppo basso. In studio vedo spesso donne che arrivano due o tre mesi dopo il parto dicendo che pensavano fosse normale avere sempre male alla schiena o al collo.

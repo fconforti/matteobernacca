@@ -4,6 +4,12 @@ description: "Osteopatia in gravidanza: come si trattano mal di schiena, dolore 
 pubDate: 2026-10-11
 tags: [donna, schiena]
 related: [osteopatia-dopo-il-parto, sciatica-osteopatia, dormire-bene-cuscino-e-materasso, mal-di-schiena-osteopatia]
+cover:
+  image: ./covers/osteopatia-in-gravidanza.jpg
+  alt: "Donna in gravidanza con le mani sulla pancia"
+  author: "Tim Kraaijvanger"
+  authorUrl: https://unsplash.com/@timkraaijvanger
+  url: https://unsplash.com/photos/a-pregnant-woman-holding-her-belly-in-her-hands-6rXLhbMHMXU
 ---
 
 Durante la gravidanza il corpo cambia molto in pochi mesi. Il peso aumenta, il baricentro si sposta in avanti, gli ormoni rendono più elastici i legamenti del bacino. È normale che in questo periodo compaiano dolori alla schiena o al bacino, e in studio vedo spesso donne che arrivano nel secondo o nel terzo trimestre perché camminare, dormire o alzarsi dal divano è diventato faticoso.

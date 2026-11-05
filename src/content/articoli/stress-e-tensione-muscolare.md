@@ -4,6 +4,12 @@ description: "Stress e ansia possono tradursi in tensione muscolare a collo, spa
 pubDate: 2026-10-06
 tags: [stress, cervicale]
 related: [cervicale-e-mal-di-testa, mandibola-e-bruxismo, dormire-bene-cuscino-e-materasso, dolore-tra-le-scapole]
+cover:
+  image: ./covers/stress-e-tensione-muscolare.jpg
+  alt: "Donna seduta sul davanzale che guarda fuori dalla finestra"
+  author: "Kelly Sikkema"
+  authorUrl: https://unsplash.com/@kellysikkema
+  url: https://unsplash.com/photos/a-woman-sitting-on-a-window-sill-LZ03UAy1SMc
 ---
 
 Molte persone che vengono in studio per il collo rigido o le spalle contratte, a un certo punto della visita mi dicono: «In effetti è un periodo pesante». Un cambio di lavoro, un familiare da seguire, problemi economici, notti dormite male. Lo stress infatti si traduce anche in tensioni muscolari precise, che si possono sentire e spesso anche vedere.

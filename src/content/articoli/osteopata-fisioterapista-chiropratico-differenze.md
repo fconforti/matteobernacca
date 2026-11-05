@@ -4,6 +4,12 @@ description: "Tre professioni che si confondono spesso. Cosa fa ciascuna, quando
 pubDate: 2026-07-08
 tags: [basi]
 related: [che-cos-e-l-osteopatia, quando-andare-dall-osteopata-e-quando-no, come-funziona-una-seduta-dall-osteopata, domande-frequenti-osteopatia]
+cover:
+  image: ./covers/osteopata-fisioterapista-chiropratico-differenze.jpg
+  alt: "Esercizio di riabilitazione della spalla con un elastico"
+  author: "Sincerely Media"
+  authorUrl: https://unsplash.com/@sincerelymedia
+  url: https://unsplash.com/photos/a-person-holding-a-green-object-in-their-hand-mvHuY-t4QII
 ---
 
 «Ho mal di schiena: vado dall'osteopata, dal fisioterapista o dal chiropratico?» È una domanda che sento ogni settimana, e la confusione è comprensibile: tutte e tre le figure lavorano con le mani su muscoli e articolazioni. Ma partono da idee diverse e, nella pratica, fanno cose diverse.

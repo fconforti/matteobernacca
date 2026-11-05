@@ -4,6 +4,12 @@ description: "Collo rigido, spalle contratte, mal di testa che parte dalla nuca:
 pubDate: 2026-08-17
 tags: [cervicale, mal-di-testa]
 related: [torcicollo-cosa-fare, mandibola-e-bruxismo, dolore-tra-le-scapole, postura-e-lavoro-al-computer]
+cover:
+  image: ./covers/cervicale-e-mal-di-testa.jpg
+  alt: "Donna seduta al tavolo che si massaggia il collo"
+  author: "Keenan Constance"
+  authorUrl: https://unsplash.com/@keenangrams
+  url: https://unsplash.com/photos/woman-in-gray-top-sitting-beside-gray-tea-pot-and-cup-on-brown-wooden-table-nfmoJh9n4PM
 ---
 
 «Ho la cervicale» è una delle frasi più dette in Italia. In realtà la cervicale ce l'abbiamo tutti: è la parte alta della colonna, le sette vertebre del collo. Quello che la gente intende è il dolore e la rigidità in quella zona, spesso accompagnati da mal di testa, senso di pesantezza, a volte vertigini leggere.

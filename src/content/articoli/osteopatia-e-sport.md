@@ -4,6 +4,12 @@ description: "Come l'osteopatia aiuta chi fa sport, dall'amatore al competitivo:
 pubDate: 2026-07-23
 tags: [sport]
 related: [dolore-al-ginocchio-osteopatia, escursioni-sulle-apuane, spalla-dolorosa-osteopatia, fascite-plantare-dolore-al-tallone]
+cover:
+  image: ./covers/osteopatia-e-sport.jpg
+  alt: "Uomo che corre sul lungomare"
+  author: "Yanay bolbachan"
+  authorUrl: https://unsplash.com/@photosbyan
+  url: https://unsplash.com/photos/a-person-runs-past-parasols-and-the-ocean-PpSZ8NUSzBg
 ---
 
 La Versilia è un posto dove ci si muove: si corre sul lungomare da Viareggio a Forte dei Marmi, si pedala sulle colline di Camaiore e verso le Apuane, si nuota, si gioca a padel, beach volley, beach tennis, si fa surf e sup quando il mare lo permette. Risultato: una buona parte delle persone che vedo in studio sono sportivi, amatori o agonisti, con un dolore che gli impedisce di fare quello che amano.

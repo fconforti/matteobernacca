@@ -4,6 +4,12 @@ description: "Schiena, collo e spalle dopo otto ore al computer o in smart worki
 pubDate: 2026-09-21
 tags: [postura, lavoro]
 related: [dolore-tra-le-scapole, cervicale-e-mal-di-testa, mal-di-schiena-osteopatia, lavori-fisici-e-dolori]
+cover:
+  image: ./covers/postura-e-lavoro-al-computer.jpg
+  alt: "Portatile su una scrivania vicino alla finestra"
+  author: "Mikey Harris"
+  authorUrl: https://unsplash.com/@mikeyharris
+  url: https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-kw0z6RyvC0s
 ---
 
 Una buona parte delle persone che entrano nel mio studio lavora seduta: uffici, smart working, partite IVA al tavolo della cucina. I sintomi sono sempre gli stessi: collo rigido, spalle contratte, schiena bassa che tira a fine giornata, a volte formicolio alle mani. E molti arrivano convinti di avere «una brutta postura».

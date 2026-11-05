@@ -4,6 +4,12 @@ description: "Escursioni sulle Alpi Apuane e sulle colline della Versilia: come 
 pubDate: 2026-09-06
 tags: [sport, arti, versilia]
 related: [dolore-al-ginocchio-osteopatia, osteopatia-e-sport, fascite-plantare-dolore-al-tallone, dolore-anca-osteopatia]
+cover:
+  image: ./covers/escursioni-sulle-apuane.jpg
+  alt: "Escursionista su una cresta innevata in montagna"
+  author: "Giacomo Berardi"
+  authorUrl: https://unsplash.com/@giacbrd
+  url: https://unsplash.com/photos/man-at-a-snowy-mountain-kTDbmyJ-mTs
 ---
 
 Una delle cose belle di vivere in Versilia è avere le Apuane alle spalle del mare. In un'ora si passa dalla spiaggia a sentieri seri: la Pania della Croce, il Monte Forato, il Procinto, il Gabberi e il Prana sopra Camaiore, i sentieri che salgono da Seravezza e da Stazzema. Molte persone che vedo in studio camminano in montagna regolarmente, altre ci vanno due o tre volte l'anno, spesso in primavera o in autunno, o in estate quando arrivano gli amici da fuori. I disturbi che seguono un'escursione sono abbastanza ricorrenti, e molti si possono prevenire.
