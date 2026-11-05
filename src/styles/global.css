@@ -70,6 +70,9 @@ img { max-width: 100%; height: auto; display: block; }
 .lead { font-size: 1.15rem; color: var(--muted); line-height: 1.65; }
 .muted { color: var(--muted); }
 .small { font-size: 0.9rem; }
+.education { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; }
+.education li { padding-left: 1rem; border-left: 2px solid var(--line, #d8cfbf); }
+.education strong { font-weight: 600; }
 
 /* Header */
 .header { position: sticky; top: 0; z-index: 10; background: rgb(247 244 238 / 0.9); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }

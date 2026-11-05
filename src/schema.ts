@@ -31,7 +31,16 @@ export function baseGraph(siteUrl: URL, image?: string) {
       '@id': id.person,
       name: site.name,
       jobTitle: site.profession,
-      knowsAbout: ['Osteopatia', 'Mal di schiena', 'Cervicalgia', 'Postura', 'Trattamento manuale'],
+      knowsAbout: ['Osteopatia', 'Mal di schiena', 'Cervicalgia', 'Postura', 'Trattamento manuale', 'Preparazione atletica'],
+      alumniOf: [
+        { '@type': 'EducationalOrganization', name: 'SOFI Tirrenica' },
+        { '@type': 'CollegeOrUniversity', name: 'Università di Pisa' },
+      ],
+      hasCredential: site.education.slice(0, 3).map((e) => ({
+        '@type': 'EducationalOccupationalCredential',
+        name: e.title,
+        recognizedBy: { '@type': 'Organization', name: e.school.replace(/, Pisa$/, '') },
+      })),
       ...(image ? { image } : {}),
       worksFor: { '@id': id.business },
       url: new URL(href('/#chi-sono'), siteUrl).toString(),

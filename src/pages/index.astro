@@ -60,9 +60,17 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
         approfittano del tempo libero per occuparsi di un dolore che si trascinano da mesi: per loro organizzo percorsi
         brevi e concentrati.
       </p>
-      <p class="muted small">
-        [Placeholder: formazione, titolo di studio, anno di diploma, specializzazioni e iscrizione all'albo.]
+      <p>
+        Prima di diventare osteopata ho lavorato per anni come personal trainer e preparatore atletico, in palestra
+        e con squadre di tennis e di calcio in Versilia. Per questo conosco da vicino i problemi di chi fa sport e di
+        chi vuole tornare ad allenarsi dopo un dolore.
       </p>
+      <h3>Formazione</h3>
+      <ul class="education">
+        {site.education.map((e) => (
+          <li><strong>{e.title}</strong><span class="muted"> · {e.school}, {e.years}</span></li>
+        ))}
+      </ul>
     </div>
   </section>
 
