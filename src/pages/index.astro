@@ -45,12 +45,14 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
 
   <section class="section" id="chi-sono">
     <div class="split about">
-    <div>
-      <span class="eyebrow">Chi sono</span>
-      <h2>Da oltre dieci anni lavoro con il corpo e con il movimento</h2>
-      <p class="lead">
-        Lavoro con un approccio manuale e dedico a ogni persona il tempo necessario per capire il suo problema.
-      </p>
+      <div>
+        <span class="eyebrow">Chi sono</span>
+        <h2>Da oltre dieci anni lavoro con il corpo e con il movimento</h2>
+        <p class="lead">
+          Lavoro con un approccio manuale e dedico a ogni persona il tempo necessario per capire il suo problema.
+        </p>
+      </div>
+      <div>
       <p>
         In studio la prima cosa che faccio è ascoltare: che cosa senti, da quanto tempo, che cosa lo peggiora e che
         cosa lo migliora. Solo dopo passo alla valutazione e al trattamento manuale, perché spesso il punto da cui nasce
@@ -67,18 +69,7 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
         e con squadre di tennis e di calcio in Versilia. Per questo conosco da vicino i problemi di chi fa sport e di
         chi vuole tornare ad allenarsi dopo un dolore.
       </p>
-    </div>
-    <aside class="education-card" aria-labelledby="formazione">
-      <h3 id="formazione">Formazione</h3>
-      <ol class="education">
-        {site.education.map((e) => (
-          <li>
-            <span class="year">{e.years.split('–').at(-1)}</span>
-            <span class="what"><strong>{e.short}</strong><span>{e.school}</span></span>
-          </li>
-        ))}
-      </ol>
-    </aside>
+      </div>
     </div>
   </section>
 
