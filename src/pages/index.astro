@@ -142,26 +142,4 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     </p>
     <a class="btn secondary" href={href('/articoli/osteopata-in-vacanza-in-versilia/')}>Come funziona</a>
   </section>
-
-  <section class="section" id="contatti">
-    <span class="eyebrow">Contatti e orari</span>
-    <h2>Dove trovarmi</h2>
-    <div class="contact-grid">
-      <div class="contact-item">
-        <span class="label">WhatsApp e telefono</span>
-        <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`}>{site.contact.phoneDisplay}</a>
-      </div>
-      <div class="contact-item">
-        <span class="label">Studio</span>
-        <span class="value">{site.contact.address}, {site.contact.city} ({site.contact.province})</span>
-      </div>
-      <div class="contact-item">
-        <span class="label">Orari</span>
-        <span class="value">{site.hours}</span>
-      </div>
-    </div>
-    <div class="actions">
-      <ContactButton />
-    </div>
-  </section>
 </Base>

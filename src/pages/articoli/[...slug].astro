@@ -4,7 +4,6 @@ import { Image, getImage } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
-import Cta from '../../components/Cta.astro';
 import PostList from '../../components/PostList.astro';
 import { site, href, unsplashRef } from '../../site';
 import { breadcrumbs, faqFromMarkdown, ids } from '../../schema';
@@ -110,7 +109,5 @@ const jsonLd = [
     <h2>Potrebbero interessarti</h2>
     <PostList posts={related} />
   </section>
-
-  <Cta />
   </div>
 </Base>

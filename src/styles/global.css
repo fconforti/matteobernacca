@@ -235,9 +235,10 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .table-scroll { overflow-x: auto; }
 
 /* CTA */
-.cta { margin-top: 4rem; padding: var(--pad-lg); background: var(--accent); color: #eaf1ee; border-radius: var(--radius); }
+.wrap > .section:last-of-type { margin-bottom: 0; }
+.cta { margin-top: 5rem; padding: var(--pad-lg); background: var(--accent); color: #eaf1ee; border-radius: var(--radius); }
 .cta h2 { margin-top: 0; color: #fff; }
-.cta p { max-width: 38rem; }
+.cta p { max-width: none; }
 .cta .btn { background: #fff; color: var(--accent-dark); border-color: #fff; }
 .cta .btn:hover { background: var(--sand); border-color: var(--sand); }
 .cta .btn.secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / 0.5); }

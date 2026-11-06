@@ -1,6 +1,7 @@
 ---
 import { site, href, whatsappUrl } from '../site';
 import WhatsAppIcon from '../components/WhatsAppIcon.astro';
+import Cta from '../components/Cta.astro';
 import { getImage } from 'astro:assets';
 import { baseGraph } from '../schema';
 import matteo from '../assets/matteo.jpg';
@@ -124,6 +125,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [...baseGraph(Astro.sit
     <main>
       <div class="wrap">
         <slot />
+        <Cta />
       </div>
     </main>
 

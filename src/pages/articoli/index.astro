@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostList from '../../components/PostList.astro';
-import Cta from '../../components/Cta.astro';
 import { site, href } from '../../site';
 import { breadcrumbs } from '../../schema';
 
@@ -39,5 +38,4 @@ const jsonLd = [
     aggiungo esempi presi dalla vita di tutti i giorni.
   </p>
   <PostList posts={posts} />
-  <Cta />
 </Base>
