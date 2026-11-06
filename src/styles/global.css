@@ -84,6 +84,8 @@ img { max-width: 100%; height: auto; display: block; }
 .split { display: grid; gap: var(--col-gap); align-items: start; }
 @media (min-width: 860px) { .split { grid-template-columns: 1fr 1fr; } }
 .split > div > :first-child { margin-top: 0; }
+/* Chi sono: su desktop formazione a sinistra (ferma mentre si scorre), testo a destra */
+@media (min-width: 860px) { .about .education-card { order: -1; position: sticky; top: 6rem; } }
 .education-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--pad); }
 .education-card h3 { margin: 0 0 1.1rem; font-size: 1.05rem; }
 .education { list-style: none; padding: 0; margin: 0; position: relative; }
