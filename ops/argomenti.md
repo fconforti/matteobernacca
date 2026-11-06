@@ -4,7 +4,7 @@ Il job settimanale (`ops/articolo-settimanale.sh`) prende il primo argomento non
 e lo spunta aggiungendo lo slug. Puoi riordinare, aggiungere o togliere righe quando vuoi: conta l'ordine.
 Se la lista è vuota, il job sceglie da solo un argomento nuovo, adatto alla stagione, e lo aggiunge qui.
 
-- [ ] Mal di schiena e freddo: perché d'inverno la schiena si blocca più spesso (Schiena)
+- [x] Mal di schiena e freddo: perché d'inverno la schiena si blocca più spesso (Schiena) → mal-di-schiena-freddo-inverno
 - [ ] Colpo di frusta dopo un tamponamento: cosa fare nelle settimane successive (Collo e testa)
 - [ ] Gomito del tennista e del padel: dolore all'esterno del gomito (Spalle e articolazioni)
 - [ ] Mal di schiena nei bambini e negli adolescenti: zaino, crescita, sport (Donna e età)

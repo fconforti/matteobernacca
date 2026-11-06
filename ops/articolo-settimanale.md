@@ -37,6 +37,9 @@ Il testo:
 - Il tono è sobrio e naturale, con esempi concreti. Niente frasi a effetto, slogan o domande retoriche a
   inizio paragrafo: Filippo le ha rifiutate perché «si capisce che sono scritte da un AI». Non usare la parola
   «toccare». Niente promesse di guarigione: l'osteopatia può aiutare, non cura tutto.
+- Se fai un esempio, descrivi un caso tipico («Chi…», «Spesso vedo…»), non un paziente preciso con città
+  ed età: sarebbe un caso inventato presentato come vero. Matteo è osteopata dal 2026, quindi non scrivere di
+  pazienti seguiti per anni né di «tanti anni di studio».
 - Includi sempre una sezione «Quando andare prima dal medico» con i segnali d'allarme veri dell'argomento,
   come negli altri articoli.
 - Cita la Versilia in modo naturale (Camaiore, Lido di Camaiore, Viareggio, Pietrasanta, Forte dei Marmi,
