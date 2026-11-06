@@ -87,8 +87,8 @@ img { max-width: 100%; height: auto; display: block; }
 /* Chi sono: su desktop titolo e sottotitolo a sinistra (fermi mentre si scorre), testo a destra.
    La scheda .education-card qui sotto è messa da parte: non è usata nella home per ora. */
 .about { row-gap: 0; }
-/* Chi sono su fascia bianca a tutta larghezza, per staccarla dalla hero */
-#chi-sono { background: var(--surface); box-shadow: 0 0 0 100vmax var(--surface); clip-path: inset(0 -100vmax); padding: 4.5rem 0; }
+/* Sezioni su fascia bianca a tutta larghezza (Chi sono, Prima visita) */
+.section-white { background: var(--surface); box-shadow: 0 0 0 100vmax var(--surface); clip-path: inset(0 -100vmax); padding: 4.5rem 0; }
 .about h2 { font-size: clamp(1.4rem, 2.2vw, 1.65rem); line-height: 1.25; }
 @media (min-width: 860px) { .about > div:first-child { position: sticky; top: 6rem; } }
 .education-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--pad); }
