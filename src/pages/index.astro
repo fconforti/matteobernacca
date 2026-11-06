@@ -42,10 +42,10 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     <Photo />
   </section>
 
-  <section class="section" id="chi-sono">
-    <span class="eyebrow">Chi sono</span>
-    <h2 style="margin-top:0">Matteo Bertacca, osteopata in {site.area}</h2>
-    <div style="max-width:44rem">
+  <section class="section about" id="chi-sono">
+    <div>
+      <span class="eyebrow">Chi sono</span>
+      <h2 style="margin-top:0">Matteo Bertacca, osteopata in {site.area}</h2>
       <p class="lead">
         Lavoro con un approccio manuale e dedico a ogni persona il tempo necessario per capire il suo problema.
       </p>
@@ -65,13 +65,18 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
         e con squadre di tennis e di calcio in Versilia. Per questo conosco da vicino i problemi di chi fa sport e di
         chi vuole tornare ad allenarsi dopo un dolore.
       </p>
-      <h3>Formazione</h3>
-      <ul class="education">
-        {site.education.map((e) => (
-          <li><strong>{e.title}</strong><span class="muted"> · {e.school}, {e.years}</span></li>
-        ))}
-      </ul>
     </div>
+    <aside class="education-card" aria-labelledby="formazione">
+      <h3 id="formazione">Formazione</h3>
+      <ol class="education">
+        {site.education.map((e) => (
+          <li>
+            <span class="year">{e.years.split('–').at(-1)}</span>
+            <span class="what"><strong>{e.short}</strong><span>{e.school}</span></span>
+          </li>
+        ))}
+      </ol>
+    </aside>
   </section>
 
   <section class="section">

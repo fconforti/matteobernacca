@@ -27,13 +27,13 @@ export const site = {
   // Campi ancora segnaposto: non finiscono nei dati strutturati né nei file per agent (llms.txt).
   // Toglili da qui quando inserisci i dati veri.
   placeholders: ['email', 'address', 'hours'] as string[],
-  // Formazione (dal curriculum di Matteo).
+  // Formazione (dal curriculum di Matteo). `short` è la versione breve mostrata nella home.
   education: [
-    { title: 'Diploma in Osteopatia (D.O.)', school: 'SOFI Tirrenica, Pisa', years: '2020–2025' },
-    { title: "Laurea magistrale in Scienze e tecniche dell'attività motoria preventiva e adattata", school: 'Università di Pisa', years: '2018–2020' },
-    { title: 'Laurea triennale in Scienze motorie', school: 'Università di Pisa', years: '2015–2018' },
-    { title: 'Corsi di massaggio sportivo (CSEN) e di taping elastico (ATS)', school: 'Pisa', years: '2016–2017' },
-    { title: 'Certified Personal Fitness Trainer', school: 'ISSA', years: '2015' },
+    { short: 'Diploma in Osteopatia (D.O.)', title: 'Diploma in Osteopatia (D.O.)', school: 'SOFI Tirrenica, Pisa', years: '2020–2025' },
+    { short: 'Laurea magistrale in Scienze motorie preventive e adattate', title: "Laurea magistrale in Scienze e tecniche dell'attività motoria preventiva e adattata", school: 'Università di Pisa', years: '2018–2020' },
+    { short: 'Laurea in Scienze motorie', title: 'Laurea triennale in Scienze motorie', school: 'Università di Pisa', years: '2015–2018' },
+    { short: 'Massaggio sportivo e taping elastico', title: 'Corsi di massaggio sportivo (CSEN) e di taping elastico (ATS)', school: 'Pisa', years: '2016–2017' },
+    { short: 'Personal trainer certificato', title: 'Certified Personal Fitness Trainer', school: 'ISSA', years: '2015' },
   ],
   // Orari indicativi (placeholder)
   hours: 'Lunedì – Venerdì, 9:00 – 19:00. Sabato su appuntamento.',
