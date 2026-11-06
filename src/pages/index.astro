@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import Photo from '../components/Photo.astro';
 import PostList from '../components/PostList.astro';
 import ContactButton from '../components/ContactButton.astro';
+import Reviews from '../components/Reviews.astro';
 import { site, href } from '../site';
 import { ids } from '../schema';
 
@@ -142,4 +143,6 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     </p>
     <a class="btn secondary" href={href('/articoli/osteopata-in-vacanza-in-versilia/')}>Come funziona</a>
   </section>
+
+  <Reviews />
 </Base>

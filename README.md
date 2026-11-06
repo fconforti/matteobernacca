@@ -18,6 +18,7 @@ npm run build    # output in dist/
 - **Contatti, orari, indirizzo, città servite**: `src/site.ts` (i contatti attuali sono segnaposto).
 - **Foto**: sostituisci `src/assets/matteo.jpg` (verticale o quadrata; nella home viene ritagliata quadrata). Astro genera le versioni WebP per la pagina e un JPEG per anteprime social e dati strutturati.
 - **Copertine degli articoli** (Unsplash): `node scripts/unsplash.mjs search <slug>` crea un provino con 9 foto, `node scripts/unsplash.mjs pick <slug> <numero> "<testo alternativo>"` salva la scelta in `src/content/articoli/covers/` e scrive autore e link nel frontmatter (`cover`). Serve `UNSPLASH_ACCESS_KEY` (in `~/.secrets/matteobernacca.env`); in modalità demo Unsplash concede 50 richieste all’ora.
+- **Recensioni** ("Dicono di me" nella home): aggiungile in `src/reviews.ts`. Solo recensioni vere e con il consenso della persona; finché la lista è vuota la sezione non compare.
 - **Home (chi sono, prima visita, contatti)**: `src/pages/index.astro`. Il pulsante "Contattami" (WhatsApp) è `src/components/ContactButton.astro`.
 - **Articoli**: un file Markdown in `src/content/articoli/`, con frontmatter `title`, `description`, `pubDate`, `tags`; `related` (quattro slug di articoli correlati, mostrati in fondo; se mancano si usano i tag); `faq: true` per gli articoli di domande e risposte; `draft: true` lo nasconde. Il nome del file è lo slug dell'URL.
 - **Dominio personalizzato**: in `astro.config.mjs` imposta `SITE` al dominio, metti `BASE = ''`, aggiungi `public/CNAME` e aggiorna `public/robots.txt`.

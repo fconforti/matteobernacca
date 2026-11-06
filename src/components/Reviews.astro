@@ -1,0 +1,18 @@
+---
+import { reviews } from '../reviews';
+---
+
+{reviews.length > 0 && (
+  <section class="section" id="recensioni">
+    <span class="eyebrow">Recensioni</span>
+    <h2>Dicono di me</h2>
+    <ul class="reviews">
+      {reviews.map((r) => (
+        <li class="review">
+          <blockquote>{r.text}</blockquote>
+          <p class="who"><strong>{r.name}</strong>{r.detail && <span> · {r.detail}</span>}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

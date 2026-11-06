@@ -236,6 +236,15 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .content thead th { background: var(--accent-soft); font-weight: 600; }
 .table-scroll { overflow-x: auto; }
 
+/* Recensioni */
+.reviews { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: var(--gap); grid-template-columns: 1fr; }
+@media (min-width: 640px) { .reviews { grid-template-columns: repeat(2, 1fr); } }
+.review { margin: 0; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--pad); }
+.review blockquote { margin: 0 0 1rem; flex: 1; font-size: 1rem; line-height: 1.6; }
+.review blockquote::before { content: '“'; display: block; font-family: var(--heading); font-size: 2.4rem; line-height: 1; color: var(--accent); margin-bottom: 0.2rem; }
+.review .who { margin: 0; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
+.review .who strong { color: var(--text); font-weight: 650; }
+
 /* CTA */
 .wrap > .section:last-of-type { margin-bottom: 0; }
 .cta { margin-top: 5rem; padding: var(--pad-lg); background: var(--accent); color: #eaf1ee; border-radius: var(--radius); }
