@@ -8,6 +8,8 @@ const articoli = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
+    // Categoria mostrata sopra il titolo dell'articolo (eyebrow).
+    category: z.enum(['Le basi', 'Schiena', 'Collo e testa', 'Spalle e articolazioni', 'Sport e lavoro', 'Donna e età', 'In vacanza in Versilia']),
     tags: z.array(z.string()).default([]),
     // Slug di quattro articoli da mostrare in fondo (se mancano, si usano i tag).
     related: z.array(z.string()).default([]),

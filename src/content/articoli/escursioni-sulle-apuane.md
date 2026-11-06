@@ -2,6 +2,7 @@
 title: "Escursioni sulle Apuane: ginocchia, schiena e caviglie in salita e in discesa"
 description: "Escursioni sulle Alpi Apuane e sulle colline della Versilia: come proteggere ginocchia in discesa, schiena con lo zaino e caviglie, e come recuperare dopo."
 pubDate: 2026-09-06
+category: "Sport e lavoro"
 tags: [sport, arti, versilia]
 related: [dolore-al-ginocchio-osteopatia, osteopatia-e-sport, fascite-plantare-dolore-al-tallone, dolore-anca-osteopatia]
 cover:

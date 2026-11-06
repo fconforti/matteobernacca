@@ -2,6 +2,7 @@
 title: "Fascite plantare: perché il tallone fa male al mattino"
 description: "Fascite plantare e dolore al tallone appena scendi dal letto: cause, legame con polpaccio, caviglia e anca, scarpe giuste e camminate a piedi nudi in spiaggia."
 pubDate: 2026-07-28
+category: "Spalle e articolazioni"
 tags: [arti, versilia]
 related: [dolore-al-ginocchio-osteopatia, escursioni-sulle-apuane, schiena-in-spiaggia, osteopatia-e-sport]
 cover:

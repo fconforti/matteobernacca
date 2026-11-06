@@ -2,6 +2,7 @@
 title: "Sciatica: quando il dolore scende nella gamba"
 description: "Sciatica e dolore che dalla schiena scende nel gluteo e nella gamba: cause comuni, quando andare prima dal medico, cosa fa l'osteopata e cosa fare nel frattempo."
 pubDate: 2026-08-12
+category: "Schiena"
 tags: [schiena]
 related: [mal-di-schiena-osteopatia, colpo-della-strega-cosa-fare, dolore-anca-osteopatia, esercizi-per-la-schiena-a-casa]
 cover:

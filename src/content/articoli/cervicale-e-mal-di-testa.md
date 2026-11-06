@@ -2,6 +2,7 @@
 title: "Cervicale e mal di testa: il legame che spesso non si vede"
 description: "Collo rigido, spalle contratte, mal di testa che parte dalla nuca: perché sono collegati e come l'osteopatia lavora su queste tensioni."
 pubDate: 2026-08-17
+category: "Collo e testa"
 tags: [cervicale, mal-di-testa]
 related: [torcicollo-cosa-fare, mandibola-e-bruxismo, dolore-tra-le-scapole, postura-e-lavoro-al-computer]
 cover:

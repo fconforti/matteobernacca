@@ -2,6 +2,7 @@
 title: "Postura e lavoro al computer: perché fa male e cosa fare davvero"
 description: "Schiena, collo e spalle dopo otto ore al computer o in smart working: cosa conta davvero nella postura, come sistemare la postazione e cosa può fare l'osteopata."
 pubDate: 2026-09-21
+category: "Sport e lavoro"
 tags: [postura, lavoro]
 related: [dolore-tra-le-scapole, cervicale-e-mal-di-testa, mal-di-schiena-osteopatia, lavori-fisici-e-dolori]
 cover:

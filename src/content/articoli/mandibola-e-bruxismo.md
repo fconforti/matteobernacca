@@ -2,6 +2,7 @@
 title: "Bruxismo e dolore alla mandibola: il legame con collo e mal di testa"
 description: "Bruxismo, mandibola che scrocca o fa male: come l'articolazione temporo-mandibolare si collega a collo e mal di testa e come lavoro insieme al dentista."
 pubDate: 2026-10-01
+category: "Collo e testa"
 tags: [mal-di-testa, cervicale, stress]
 related: [cervicale-e-mal-di-testa, stress-e-tensione-muscolare, torcicollo-cosa-fare, dormire-bene-cuscino-e-materasso]
 cover:

@@ -2,6 +2,7 @@
 title: "Che cos'è l'osteopatia, spiegata con parole semplici"
 description: "L'osteopatia spiegata a chi non la conosce: cosa fa l'osteopata, su cosa lavora, per quali problemi ha senso e cosa aspettarsi dalla prima seduta."
 pubDate: 2026-06-13
+category: "Le basi"
 tags: [basi]
 related: [come-funziona-una-seduta-dall-osteopata, osteopata-fisioterapista-chiropratico-differenze, quando-andare-dall-osteopata-e-quando-no, domande-frequenti-osteopatia]
 cover:

@@ -2,6 +2,7 @@
 title: "Osteopatia in gravidanza: mal di schiena, bacino e sciatalgia"
 description: "Osteopatia in gravidanza: come si trattano mal di schiena, dolore al bacino e sciatalgia con tecniche delicate, d'accordo con ginecologo e ostetrica."
 pubDate: 2026-10-11
+category: "Donna e età"
 tags: [donna, schiena]
 related: [osteopatia-dopo-il-parto, sciatica-osteopatia, dormire-bene-cuscino-e-materasso, mal-di-schiena-osteopatia]
 cover:

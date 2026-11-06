@@ -2,6 +2,7 @@
 title: "Colpo della strega: cosa fare nelle prime 48-72 ore"
 description: "Colpo della strega o lombalgia acuta: cosa fare nei primi giorni, cosa evitare, quali segnali richiedono il medico e quando ha senso venire dall'osteopata."
 pubDate: 2026-07-18
+category: "Schiena"
 tags: [schiena]
 related: [mal-di-schiena-osteopatia, sciatica-osteopatia, esercizi-per-la-schiena-a-casa, quando-andare-dall-osteopata-e-quando-no]
 cover:

@@ -2,6 +2,7 @@
 title: "Dolore al ginocchio senza trauma: scale, discese e il ruolo di anca e piede"
 description: "Dolore al ginocchio senza una caduta o una distorsione, che peggiora sulle scale e in discesa: cause comuni, legame con anca e piede e come lavora l'osteopata."
 pubDate: 2026-09-11
+category: "Spalle e articolazioni"
 tags: [arti, sport]
 related: [dolore-anca-osteopatia, escursioni-sulle-apuane, osteopatia-e-sport, fascite-plantare-dolore-al-tallone]
 cover:

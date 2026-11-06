@@ -2,6 +2,7 @@
 title: "Dolore all'anca: inguine, gluteo e il legame con schiena e ginocchio"
 description: "Dolore all'anca, all'inguine o al gluteo, rigidità al mattino e fatica a mettere le scarpe: cause comuni, segnali da non ignorare e come lavora l'osteopata."
 pubDate: 2026-09-16
+category: "Spalle e articolazioni"
 tags: [arti, eta]
 related: [dolore-al-ginocchio-osteopatia, sciatica-osteopatia, osteopatia-over-65, escursioni-sulle-apuane]
 cover:

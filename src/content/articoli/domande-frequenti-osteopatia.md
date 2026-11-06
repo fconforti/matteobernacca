@@ -2,6 +2,7 @@
 title: "Domande frequenti sull'osteopatia"
 description: "Le risposte alle domande più comuni prima di una visita osteopatica: prescrizione, dolore, abbigliamento, sedute, gravidanza, bambini, anziani e vacanze in Versilia."
 pubDate: 2026-11-05
+category: "Le basi"
 tags: [basi, prima-visita]
 faq: true
 related: [come-funziona-una-seduta-dall-osteopata, quante-sedute-servono-dall-osteopata, quando-andare-dall-osteopata-e-quando-no, osteopata-in-vacanza-in-versilia]

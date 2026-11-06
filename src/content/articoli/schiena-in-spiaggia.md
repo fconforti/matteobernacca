@@ -2,6 +2,7 @@
 title: "Schiena e collo in spiaggia: consigli pratici per l'estate in Versilia"
 description: "Mal di schiena e collo rigido in spiaggia: lettino, sdraio, lettura a pancia in giù, bambini in braccio, ombrellone e sport estivi. Consigli pratici per l'estate in Versilia."
 pubDate: 2026-07-03
+category: "In vacanza in Versilia"
 tags: [schiena, versilia, vacanza]
 related: [osteopata-in-vacanza-in-versilia, mal-di-schiena-in-viaggio, colpo-della-strega-cosa-fare, fascite-plantare-dolore-al-tallone]
 cover:

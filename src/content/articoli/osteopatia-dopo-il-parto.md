@@ -2,6 +2,7 @@
 title: "Osteopatia dopo il parto: schiena, bacino, collo e spalle"
 description: "Osteopatia dopo il parto: quando iniziare, come aiuta schiena, bacino, collo e spalle affaticati da allattamento e bambino in braccio, insieme all'ostetrica."
 pubDate: 2026-10-16
+category: "Donna e età"
 tags: [donna, schiena]
 related: [osteopatia-in-gravidanza, dolore-tra-le-scapole, cervicale-e-mal-di-testa, esercizi-per-la-schiena-a-casa]
 cover:

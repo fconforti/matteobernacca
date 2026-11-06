@@ -2,6 +2,7 @@
 title: "Osteopatia e sport: corsa, bici, nuoto, padel e tutto quello che si fa in Versilia"
 description: "Come l'osteopatia aiuta chi fa sport, dall'amatore al competitivo: prevenire gli infortuni ricorrenti, recuperare meglio e capire perché un dolore torna sempre nello stesso punto."
 pubDate: 2026-07-23
+category: "Sport e lavoro"
 tags: [sport]
 related: [dolore-al-ginocchio-osteopatia, escursioni-sulle-apuane, spalla-dolorosa-osteopatia, fascite-plantare-dolore-al-tallone]
 cover:

@@ -2,6 +2,7 @@
 title: "Spalla dolorosa: il braccio che non si alza e il legame con collo e torace"
 description: "Spalla dolorosa o rigida, braccio che non si alza, fatica a dormire sul fianco: cause comuni, quando serve il medico e come lavora l'osteopata su spalla, collo e torace."
 pubDate: 2026-09-01
+category: "Spalle e articolazioni"
 tags: [arti, cervicale]
 related: [cervicale-e-mal-di-testa, dolore-tra-le-scapole, osteopatia-e-sport, lavori-fisici-e-dolori]
 cover:

@@ -2,6 +2,7 @@
 title: "Torcicollo al risveglio: cosa fare nei primi giorni"
 description: "Torcicollo al mattino, collo bloccato e dolore a girare la testa: perché succede, cosa fare nei primi giorni e quando rivolgersi all'osteopata o al medico."
 pubDate: 2026-08-22
+category: "Collo e testa"
 tags: [cervicale, sonno]
 related: [cervicale-e-mal-di-testa, dormire-bene-cuscino-e-materasso, dolore-tra-le-scapole, stress-e-tensione-muscolare]
 cover:

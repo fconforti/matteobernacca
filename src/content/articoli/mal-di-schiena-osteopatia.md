@@ -2,6 +2,7 @@
 title: "Mal di schiena: come lo affronta l'osteopata"
 description: "Lombalgia, colpo della strega, schiena rigida al mattino: perché la schiena fa male, cosa guarda l'osteopata e cosa puoi fare tu nel frattempo."
 pubDate: 2026-07-13
+category: "Schiena"
 tags: [schiena]
 related: [colpo-della-strega-cosa-fare, sciatica-osteopatia, esercizi-per-la-schiena-a-casa, postura-e-lavoro-al-computer]
 cover:

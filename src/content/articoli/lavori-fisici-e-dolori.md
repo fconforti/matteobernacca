@@ -2,6 +2,7 @@
 title: "Lavori fisici e dolori: marmo, edilizia, ristorazione e stagione balneare"
 description: "Dolori da lavoro fisico in Versilia: laboratori del marmo, cantieri, cucine, sale e stabilimenti balneari. Carichi, gesti ripetuti e come recuperare tra un turno e l'altro."
 pubDate: 2026-08-07
+category: "Sport e lavoro"
 tags: [lavoro, schiena]
 related: [spalla-dolorosa-osteopatia, mal-di-schiena-osteopatia, postura-e-lavoro-al-computer, fascite-plantare-dolore-al-tallone]
 cover:
