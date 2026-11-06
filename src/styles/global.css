@@ -180,6 +180,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .feature .more { font-weight: 600; font-size: 0.92rem; text-decoration: none; }
 .feature .more:hover { text-decoration: underline; }
 
+.features-white .feature { background: var(--surface); border: 1px solid var(--line); }
 .band { background: var(--sand); border-radius: var(--radius); padding: var(--pad-lg); }
 .band h2 { margin-top: 0; }
 .eyebrow + h1, .eyebrow + h2 { margin-top: 0; }
