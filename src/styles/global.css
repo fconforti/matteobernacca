@@ -176,7 +176,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .card a:hover .more { text-decoration: underline; }
 .card .card-body { display: flex; flex-direction: column; flex: 1; padding: 1.4rem; }
 .card .cover { order: -1; display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
-/* Schede orizzontali (articoli suggeriti): testo a sinistra, immagine a destra, 2 per riga */
+/* Schede orizzontali (tutte le liste di articoli): testo a sinistra, immagine a destra, 2 per riga */
 @media (min-width: 640px) { .cards.cards-h { grid-template-columns: repeat(2, 1fr); } }
 .cards-h .card a { flex-direction: row; }
 .cards-h .card .cover { order: 0; width: 38%; flex-shrink: 0; aspect-ratio: auto; height: auto; min-height: 100%; }

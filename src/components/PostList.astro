@@ -6,10 +6,10 @@ import FormattedDate from './FormattedDate.astro';
 
 interface Props {
   posts: CollectionEntry<'articoli'>[];
-  /** vertical: immagine sopra (4 per riga); horizontal: immagine a destra (2 per riga). */
+  /** horizontal (default): immagine a destra, 2 per riga; vertical: immagine sopra, 4 per riga. */
   layout?: 'vertical' | 'horizontal';
 }
-const { posts, layout = 'vertical' } = Astro.props;
+const { posts, layout = 'horizontal' } = Astro.props;
 const horizontal = layout === 'horizontal';
 const sizes = horizontal
   ? '(max-width: 640px) 40vw, 20rem'
