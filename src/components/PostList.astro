@@ -6,24 +6,31 @@ import FormattedDate from './FormattedDate.astro';
 
 interface Props {
   posts: CollectionEntry<'articoli'>[];
-  columns?: 2 | 4;
+  /** vertical: immagine sopra (4 per riga); horizontal: immagine a destra (2 per riga). */
+  layout?: 'vertical' | 'horizontal';
 }
-const { posts, columns = 4 } = Astro.props;
+const { posts, layout = 'vertical' } = Astro.props;
+const horizontal = layout === 'horizontal';
+const sizes = horizontal
+  ? '(max-width: 640px) 40vw, 20rem'
+  : '(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 25vw';
 ---
 
-<ul class:list={['cards', { 'cards-2': columns === 2 }]}>
+<ul class:list={['cards', { 'cards-h': horizontal }]}>
   {posts.map((post) => (
     <li class="card">
       <a href={href(`/articoli/${post.id}/`)}>
-        {post.data.cover && (
-          <Image class="cover" src={post.data.cover.image} alt="" widths={[400, 640]} sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 25vw" />
-        )}
-        <div class="meta">
-          <FormattedDate date={post.data.pubDate} />
+        <div class="card-body">
+          <div class="meta">
+            <FormattedDate date={post.data.pubDate} />
+          </div>
+          <h3 class="title">{post.data.title}</h3>
+          <p class="desc">{post.data.description}</p>
+          <span class="more">Leggi articolo →</span>
         </div>
-        <h3 class="title">{post.data.title}</h3>
-        <p class="desc">{post.data.description}</p>
-        <span class="more">Leggi articolo →</span>
+        {post.data.cover && (
+          <Image class="cover" src={post.data.cover.image} alt="" widths={[400, 640]} sizes={sizes} />
+        )}
       </a>
     </li>
   ))}

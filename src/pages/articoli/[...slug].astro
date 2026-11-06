@@ -105,14 +105,12 @@ const jsonLd = [
     </p>
 
   </article>
-  </div>
 
   <section class="related" id="correlati">
     <h2>Potrebbero interessarti</h2>
-    <PostList posts={related} />
+    <PostList posts={related} layout="horizontal" />
   </section>
 
-  <div class="article-wrap">
-    <Cta />
+  <Cta />
   </div>
 </Base>
