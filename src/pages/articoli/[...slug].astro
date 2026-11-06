@@ -76,6 +76,7 @@ const jsonLd = [
 <Base title={title} description={description} type="article" publishedTime={pubDate} modifiedTime={updatedDate} ogImage={ogImage} jsonLd={jsonLd} markdownPath={`/articoli/${post.id}.md`} bodyClass="page-article">
   <div class="article-wrap">
   <article class="article">
+    <div class="article-top">
     <header>
       <div class="meta meta-top">
         <FormattedDate date={pubDate} />
@@ -95,6 +96,8 @@ const jsonLd = [
         </figcaption>
       </figure>
     )}
+    </div>
+    <div class="article-body">
     <div class="content">
       <Content />
     </div>
@@ -102,7 +105,7 @@ const jsonLd = [
       Questo articolo ha uno scopo informativo e non sostituisce una visita medica. In caso di dolore
       forte, improvviso o accompagnato da altri sintomi, rivolgiti prima al tuo medico.
     </p>
-
+    </div>
   </article>
 
   <section class="related" id="correlati">

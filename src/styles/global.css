@@ -218,7 +218,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .cards-h .card .title { font-size: 1.05rem; }
 .cards-h .card .desc { flex: 0 0 auto; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .cards-h .card .more { margin-top: auto; padding-top: 1rem; }
-.article .cover { margin-top: 0; margin-bottom: 2.5rem; }
+.article .cover { margin-top: 0; margin-bottom: 0; }
 .article .cover img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
 .article .cover figcaption { font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem; }
 .article .cover figcaption a { color: inherit; }
@@ -226,10 +226,13 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 /* Article page */
 .article-wrap { max-width: calc(var(--narrow) + 9rem); margin: 0 auto; }
 .article {
-  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: clamp(1.5rem, 5vw, 4.5rem);
+  --article-pad: clamp(1.5rem, 5vw, 4.5rem);
+  background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
 }
-.article > * { max-width: var(--narrow); margin-left: auto; margin-right: auto; }
+/* Intestazione e copertina su beige, testo su bianco */
+.article-top { background: var(--surface); padding: var(--article-pad) var(--article-pad) 2.5rem; }
+.article-body { padding: 2.5rem var(--article-pad) var(--article-pad); }
+.article-top > *, .article-body > * { max-width: var(--narrow); margin-left: auto; margin-right: auto; }
 .article-wrap .cta { margin-top: 2.5rem; }
 .article header { margin-bottom: 2rem; }
 .article header h1 { font-size: clamp(1.8rem, 3.6vw, 2.4rem); line-height: 1.2; }
@@ -288,9 +291,11 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
   .btn { display: flex; justify-content: center; width: 100%; }
   .actions { flex-direction: column; }
   /* Articolo singolo: niente scheda, pagina bianca */
-  .page-article main { padding-top: 1.5rem; }
   .article-wrap { margin: 0; }
-  .article { border: 0; border-radius: 0; padding: 0; background: transparent; }
+  .article { border: 0; border-radius: 0; background: transparent; overflow: visible; }
+  .article-top { padding: 1.5rem 0 2rem; box-shadow: 0 0 0 100vmax var(--surface); clip-path: inset(0 -100vmax); }
+  .article-body { padding: 2rem 0 0; }
+  .page-article main { padding-top: 0; }
   .header .wrap { padding-top: 0.7rem; padding-bottom: 0.7rem; flex-wrap: nowrap; }
   .wrap { padding: 0 1rem; }
   .header .wrap { gap: 0.5rem; }
