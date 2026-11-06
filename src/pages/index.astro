@@ -42,10 +42,11 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     <Photo />
   </section>
 
-  <section class="section about" id="chi-sono">
+  <section class="section" id="chi-sono">
+    <span class="eyebrow">Chi sono</span>
+    <h2>Matteo Bertacca, osteopata in {site.area}</h2>
+    <div class="split">
     <div>
-      <span class="eyebrow">Chi sono</span>
-      <h2 style="margin-top:0">Matteo Bertacca, osteopata in {site.area}</h2>
       <p class="lead">
         Lavoro con un approccio manuale e dedico a ogni persona il tempo necessario per capire il suo problema.
       </p>
@@ -77,16 +78,17 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
         ))}
       </ol>
     </aside>
+    </div>
   </section>
 
   <section class="section">
     <span class="eyebrow">Di cosa mi occupo</span>
-    <h2 style="margin-top:0">Un approccio manuale, sul corpo nel suo insieme</h2>
-    <p class="lead" style="max-width:44rem">
+    <h2>Un approccio manuale, sul corpo nel suo insieme</h2>
+    <p class="lead">
       Valuto e tratto con tecniche manuali, cercando di capire da dove nasce un problema e non solo
       dove fa male.
     </p>
-    <div class="features" style="margin-top:2rem">
+    <div class="features">
       {areas.map((area) => (
         <div class="feature">
           <span class="eyebrow">{area.label}</span>
@@ -100,13 +102,13 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
 
   <section class="section" id="prima-visita">
     <span class="eyebrow">Prima visita</span>
-    <h2 style="margin-top:0">Una prima visita gratuita</h2>
-    <p class="lead" style="max-width:44rem">
+    <h2>Una prima visita gratuita</h2>
+    <p class="lead">
       La prima visita è gratuita e senza impegno. Mi racconti il problema, faccio una valutazione e alla fine
       ti dico cosa ho trovato e se, secondo me, l'osteopatia può aiutarti. Se decidi di non proseguire, va bene così.
     </p>
-    <p class="muted" style="max-width:44rem">Dura circa un'ora. Vieni con abiti comodi e, se li hai, porta gli esami o i referti che riguardano il problema.</p>
-    <div class="features" style="margin-top:1.5rem">
+    <p class="muted">Dura circa un'ora. Vieni con abiti comodi e, se li hai, porta gli esami o i referti che riguardano il problema.</p>
+    <div class="features">
       {steps.map((step, i) => (
         <div class="feature">
           <span class="step-num">{i + 1}</span>
@@ -134,7 +136,7 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
   <section class="section band">
     <span class="eyebrow">In vacanza in Versilia?</span>
     <h2>Un percorso breve, mentre sei qui</h2>
-    <p style="max-width:44rem">
+    <p>
       Se sei in vacanza a Forte dei Marmi, Marina di Pietrasanta o Lido di Camaiore e hai un dolore
       che dura da mesi, possiamo organizzare due o tre sedute ravvicinate e un piano da seguire quando torni a casa.
     </p>
@@ -143,7 +145,7 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
 
   <section class="section" id="contatti">
     <span class="eyebrow">Contatti e orari</span>
-    <h2 style="margin-top:0">Dove trovarmi</h2>
+    <h2>Dove trovarmi</h2>
     <div class="contact-grid">
       <div class="contact-item">
         <span class="label">WhatsApp e telefono</span>
