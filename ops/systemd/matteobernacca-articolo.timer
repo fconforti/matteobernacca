@@ -1,0 +1,11 @@
+[Unit]
+Description=matteobernacca: articolo della settimana, il venerdì mattina
+
+[Timer]
+OnCalendar=Fri 09:00 Europe/Rome
+Persistent=true
+RandomizedDelaySec=600
+Unit=matteobernacca-articolo.service
+
+[Install]
+WantedBy=timers.target
