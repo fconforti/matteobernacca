@@ -16,5 +16,5 @@ User-agent: Applebot-Extended
 User-agent: CCBot
 Allow: /
 
-# Indice per LLM: https://fconforti.github.io/matteobertacca/llms.txt
-Sitemap: https://fconforti.github.io/matteobertacca/sitemap-index.xml
+# Indice per LLM: https://matteobertacca.com/llms.txt
+Sitemap: https://matteobertacca.com/sitemap-index.xml

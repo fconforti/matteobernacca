@@ -15,17 +15,16 @@ const articleDates = Object.fromEntries(
 );
 const latest = Object.values(articleDates).sort().at(-1);
 
-// GitHub Pages: https://fconforti.github.io/matteobertacca/
-// Con un dominio personalizzato (es. https://matteobertacca.it): cambia `site`,
-// rimuovi `base` e aggiungi public/CNAME.
-const SITE = 'https://fconforti.github.io';
-const BASE = '/matteobertacca';
+// Dominio personalizzato su GitHub Pages: impostato in Settings → Pages del repo (con il deploy da
+// GitHub Actions non serve il file public/CNAME). fconforti.github.io/matteobertacca/ reindirizza qui.
+const SITE = 'https://matteobertacca.com';
+const BASE = '';
 // Home e indice articoli prendono la data dell'articolo più recente.
 const listing = new Set([`${SITE}${BASE}/`, `${SITE}${BASE}/articoli/`]);
 
 export default defineConfig({
   site: SITE,
-  base: BASE,
+  base: BASE || '/',
   trailingSlash: 'always',
   integrations: [
     sitemap({

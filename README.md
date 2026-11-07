@@ -2,14 +2,14 @@
 
 Sito personale di Matteo Bertacca, osteopata in Versilia. Astro, pubblicato su GitHub Pages.
 
-- Sito: https://fconforti.github.io/matteobertacca/
+- Sito: https://matteobertacca.com/ (dominio su GitHub Pages)
 - Deploy: ogni push su `main` esegue `.github/workflows/deploy.yml`.
 
 ## Sviluppo
 
 ```sh
 npm install
-npm run dev      # http://localhost:4321/matteobertacca/
+npm run dev      # http://localhost:4321/
 npm run build    # output in dist/
 ```
 
