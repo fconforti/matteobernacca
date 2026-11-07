@@ -183,6 +183,27 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 
 .features-white .feature { background: var(--surface); border: 1px solid var(--line); }
 .section-alt .feature { background: var(--bg); }
+
+/* Prima visita: passi in fila su una linea sottile, senza schede. */
+.timeline { list-style: none; padding: 0; margin: 2.5rem 0 2rem; display: grid; gap: 2rem var(--gap); grid-template-columns: 1fr; }
+@media (min-width: 640px) { .timeline { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .timeline { grid-template-columns: repeat(4, 1fr); } }
+.timeline li { position: relative; margin: 0; }
+.timeline li::before { content: ''; position: absolute; top: 1.1rem; left: 2.2rem; right: calc(-1 * var(--gap)); height: 1px; background: var(--line); }
+.timeline li:last-child::before { display: none; }
+@media (max-width: 959px) { .timeline li::before { display: none; } }
+.timeline .step-num { position: relative; width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--accent-soft); color: var(--accent-dark); font-family: var(--heading); font-weight: 600; display: grid; place-items: center; margin-bottom: 1rem; }
+.timeline h3 { margin: 0 0 0.4rem; font-size: 1.15rem; }
+.timeline p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+/* Formazione: elenco a righe con gli anni a sinistra. */
+.cv { list-style: none; padding: 0; margin: 0; }
+.cv li { display: grid; grid-template-columns: 6.5rem 1fr; gap: var(--gap); padding: 1rem 0; border-top: 1px solid var(--line); margin: 0; }
+.cv li:last-child { border-bottom: 1px solid var(--line); }
+@media (max-width: 639px) { .cv li { grid-template-columns: 5rem 1fr; } }
+.cv-years { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--accent-dark); padding-top: 0.15rem; }
+.cv strong { display: block; font-family: var(--heading); font-weight: 600; line-height: 1.35; }
+.cv li span:not(.cv-years) { display: block; color: var(--muted); font-size: 0.92rem; margin-top: 0.2rem; }
 .band { background: var(--sand); border-radius: var(--radius); padding: var(--pad-lg); }
 .band h2 { margin-top: 0; }
 .eyebrow + h1, .eyebrow + h2 { margin-top: 0; }

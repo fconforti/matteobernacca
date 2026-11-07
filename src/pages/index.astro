@@ -92,23 +92,44 @@ const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@id': ids(Astro.site!).
     </div>
   </section>
 
-  <section class="section section-alt" id="prima-visita">
-    <span class="eyebrow">Prima visita</span>
-    <h2>Una prima visita gratuita</h2>
+  <section class="section section-alt" id="formazione">
+    <div class="split about">
+      <div>
+        <span class="eyebrow">Formazione</span>
+        <h2>Dalle scienze motorie all'osteopatia</h2>
+        <p class="lead">Prima la laurea e il lavoro in palestra e con le squadre, poi cinque anni di studio per diventare osteopata.</p>
+      </div>
+      <ol class="cv">
+        {site.education.map((e) => (
+          <li>
+            <span class="cv-years">{e.years}</span>
+            <div>
+              <strong>{e.title}</strong>
+              <span>{e.school}</span>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="prima-visita">
+    <span class="eyebrow">Visita gratuita</span>
+    <h2>Come si svolge la prima visita</h2>
     <p class="lead">
       La prima visita è gratuita e senza impegno. Mi racconti il problema, faccio una valutazione e alla fine
       ti dico cosa ho trovato e se, secondo me, l'osteopatia può aiutarti. Se decidi di non proseguire, va bene così.
     </p>
     <p class="muted">Dura circa un'ora. Vieni con abiti comodi e, se li hai, porta gli esami o i referti che riguardano il problema.</p>
-    <div class="features">
+    <ol class="timeline">
       {steps.map((step, i) => (
-        <div class="feature">
+        <li>
           <span class="step-num">{i + 1}</span>
           <h3>{step.title}</h3>
           <p>{step.text}</p>
-        </div>
+        </li>
       ))}
-    </div>
+    </ol>
     <div class="actions">
       <ContactButton />
     </div>

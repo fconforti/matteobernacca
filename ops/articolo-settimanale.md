@@ -48,7 +48,8 @@ Il testo:
 - Chiudi con un paragrafo che ricorda che Matteo riceve a Camaiore e con il link
   `[prenotare una prima visita qui](../../#contatti)`.
 - Non scrivere l'email di Matteo, il suo indirizzo, i suoi orari, prezzi o titoli che non sono in
-  `src/site.ts`. La prima visita non va descritta come gratuita.
+  `src/site.ts`. La prima visita è gratuita: puoi dirlo nel
+  paragrafo finale.
 
 Rileggi tutto l'articolo una volta prima di andare avanti e togli le frasi che suonano artificiali.
 

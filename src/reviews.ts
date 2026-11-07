@@ -10,13 +10,5 @@ export interface Review {
   detail?: string; // paese, oppure "in vacanza da Milano", ecc.
 }
 
-export const reviews: Review[] = [
-  {
-    text: 'Mi sono trovato molto bene con Matteo. Ascolta con attenzione, spiega con parole semplici cosa sta facendo e perché, e alla fine lascia indicazioni chiare su cosa fare a casa. Lo consiglio.',
-    name: 'Filippo',
-  },
-  {
-    text: 'Matteo è gentile e professionale. Fin dalla prima visita si è preso il tempo per capire il problema, senza fretta. Mi sono trovata benissimo.',
-    name: 'Erika',
-  },
-];
+// Le recensioni di Filippo ed Erika sono state tolte il 2026-11-07 (restano nella storia git).
+export const reviews: Review[] = [];
