@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Articolo della settimana: lancia Claude in modalità headless con ops/articolo-settimanale.md,
 # controlla che abbia toccato solo i file previsti, rifà la build, poi commit e push (il push avvia il deploy).
-# Lo lancia il timer systemd matteobernacca-articolo.timer (vedi ops/systemd/); a mano: ops/articolo-settimanale.sh [--prova]
+# Lo lancia il timer systemd matteobertacca-articolo.timer (vedi ops/systemd/); a mano: ops/articolo-settimanale.sh [--prova]
 set -euo pipefail
 PROVA=0; [[ "${1:-}" == "--prova" ]] && PROVA=1   # --prova: tutto tranne commit e push
 

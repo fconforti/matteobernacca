@@ -15,11 +15,11 @@ const articleDates = Object.fromEntries(
 );
 const latest = Object.values(articleDates).sort().at(-1);
 
-// GitHub Pages: https://fconforti.github.io/matteobernacca/
+// GitHub Pages: https://fconforti.github.io/matteobertacca/
 // Con un dominio personalizzato (es. https://matteobertacca.it): cambia `site`,
 // rimuovi `base` e aggiungi public/CNAME.
 const SITE = 'https://fconforti.github.io';
-const BASE = '/matteobernacca';
+const BASE = '/matteobertacca';
 // Home e indice articoli prendono la data dell'articolo più recente.
 const listing = new Set([`${SITE}${BASE}/`, `${SITE}${BASE}/articoli/`]);
 

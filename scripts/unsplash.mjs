@@ -1,5 +1,5 @@
 // Copertine degli articoli da Unsplash (API ufficiale).
-// Serve UNSPLASH_ACCESS_KEY (in ~/.secrets/matteobernacca.env, caricato da .envrc).
+// Serve UNSPLASH_ACCESS_KEY (in ~/.secrets/matteobertacca.env, caricato da .envrc).
 //
 //   node scripts/unsplash.mjs search <slug> [query]   → scarica 9 anteprime e un provino numerato
 //   node scripts/unsplash.mjs pick <slug> <n|photoId> "<alt>"  → salva la copertina e aggiorna il frontmatter

@@ -1,0 +1,14 @@
+[Unit]
+Description=matteobertacca: articolo della settimana
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/personal/matteobertacca
+# GH_TOKEN per il push e UNSPLASH_ACCESS_KEY per la copertina (erin secret set matteobertacca ...).
+EnvironmentFile=%h/.secrets/matteobertacca.env
+Environment=HOME=%h
+ExecStart=%h/personal/matteobertacca/ops/articolo-settimanale.sh
+TimeoutStartSec=1h
+Nice=10
