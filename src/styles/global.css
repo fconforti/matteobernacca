@@ -170,8 +170,9 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .section-head h2 { margin: 0; }
 .section-head > div { flex: 1 1 28rem; }
 .section-head .lead { margin: 1rem 0 0; max-width: 40rem; }
-.section-head > a { font-family: var(--sans); font-weight: 600; font-size: 0.92rem; text-decoration: none; }
-.section-head > a:hover { text-decoration: underline; }
+.list-more { margin: 1.75rem 0 0; }
+.list-more a { font-family: var(--sans); font-weight: 600; font-size: 0.92rem; text-decoration: none; }
+.list-more a:hover { text-decoration: underline; }
 
 .features { display: grid; gap: var(--gap); grid-template-columns: 1fr; margin-top: 2rem; }
 @media (min-width: 640px) { .features { grid-template-columns: repeat(2, 1fr); } }
