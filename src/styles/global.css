@@ -168,6 +168,8 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .section { margin-bottom: 5rem; }
 .section-head { display: flex; justify-content: space-between; align-items: end; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; }
 .section-head h2 { margin: 0; }
+.section-head > div { flex: 1 1 28rem; }
+.section-head .lead { margin: 1rem 0 0; max-width: 40rem; }
 .section-head > a { font-family: var(--sans); font-weight: 600; font-size: 0.92rem; text-decoration: none; }
 .section-head > a:hover { text-decoration: underline; }
 
