@@ -83,10 +83,10 @@ const jsonLd = [
       <h1>{title}</h1>
       <p class="lead">{description}</p>
       <div class="meta">
+        <a href={href('/')}>{site.name}</a>
+        <span class="dot">·</span>
         <FormattedDate date={pubDate} />
         {updatedDate && <><span class="dot">·</span><span>aggiornato il <FormattedDate date={updatedDate} /></span></>}
-        <span class="dot">·</span>
-        <span>di <a href={href('/')}>{site.name}</a></span>
       </div>
     </header>
     {cover && (
