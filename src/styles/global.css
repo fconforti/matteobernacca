@@ -258,6 +258,8 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
 .article-body { padding: 2.5rem var(--article-pad) var(--article-pad); }
 .article-top > *, .article-body > * { max-width: var(--narrow); margin-left: auto; margin-right: auto; }
 .article-wrap .cta { margin-top: 2.5rem; }
+.back { display: inline-block; margin-bottom: 1rem; font-family: var(--sans); font-weight: 600; font-size: 0.92rem; text-decoration: none; }
+.back:hover { text-decoration: underline; }
 .article header { margin-bottom: 2rem; }
 .article header h1 { font-size: clamp(1.8rem, 3.6vw, 2.4rem); line-height: 1.2; }
 .article header .eyebrow { margin-bottom: 0.6rem; }
@@ -320,6 +322,7 @@ main { flex: 1; padding: 3.5rem 0 5rem; }
   .article-top { padding: 1.5rem 0 2rem; box-shadow: 0 0 0 100vmax var(--surface); clip-path: inset(0 -100vmax); }
   .article-body { padding: 2rem 0 0; }
   .page-article main { padding-top: 0; }
+  .back { margin: 1rem 0; }
   .header .wrap { padding-top: 0.7rem; padding-bottom: 0.7rem; flex-wrap: nowrap; }
   .wrap { padding: 0 1rem; }
   .header .wrap { gap: 0.5rem; }
